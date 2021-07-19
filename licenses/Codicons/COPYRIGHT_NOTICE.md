@@ -1,5 +1,5 @@
-The PNG files in this directory are adapted material, derived from Microsoft's [Codicons](https://github.com/microsoft/vscode-codicons), which are released unter the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode).
-They were converted from SVG to PNG.
+The PNG files in the *kind_icons* and *status_icons* directories are adapted material, derived from Microsoft's [Codicons](https://github.com/microsoft/vscode-codicons), which are released unter the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode).
+They were converted from SVG to PNG, and a few icons were slightly adjusted.
 
 The following legal notices apply to the original "Codicons" repository:
 
