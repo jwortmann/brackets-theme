@@ -1,6 +1,3 @@
-| :information_source: This theme is work in progress and not finished yet. Currently, most textures are provided only at "normal" DPI - poor quality can be expected on high DPI displays. |
-| --- |
-
 # Brackets Theme for Sublime Text
 
 [![License](https://img.shields.io/github/license/jwortmann/brackets-theme)](https://github.com/jwortmann/brackets-theme/blob/master/LICENSE)
@@ -8,12 +5,12 @@
 A theme for Sublime Text inspired by Adobe Brackets.
 
 This package only controlls the look of the UI in Sublime Text.
-For the according syntax highlighting schemes also see [Brackets Color Scheme](https://github.com/jwortmann/brackets-color-scheme), which can be installed separately.
+For the according syntax highlighting schemes also see my [Brackets Color Scheme](https://github.com/jwortmann/brackets-color-scheme), which can be installed separately.
 
 ## Installation
 
-This theme requires Sublime Text build 4107 or newer.
-At this time, the theme can be manually installed by copying all files from this repository into a folder named *Theme - Brackets* under the *Packages* directory (*Preferences > Browse Packages* from the menu).
+The package requires Sublime Text build 4107 or newer.
+At this time, it can be manually installed by copying all files from this repository into a folder named *Theme - Brackets* under the *Packages* directory (*Preferences > Browse Packages* from the menu).
 
 ## Preview
 
@@ -23,7 +20,7 @@ At this time, the theme can be manually installed by copying all files from this
 
 ## Customization
 
-Various theme-related settings defined by Sublime Text, as well as a custom setting specific to this theme are supported to configure the appearance.
+Various default theme-related settings defined by Sublime Text, as well as a few custom settings specific to this theme are supported to configure the appearance.
 All settings should be modified in the *Preferences.sublime-settings* file.
 
 | Setting | Default | Description |
