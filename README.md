@@ -5,12 +5,13 @@
 A theme for Sublime Text inspired by Adobe Brackets.
 
 This package only controlls the look of the user interface in Sublime Text.
-For the according syntax highlighting schemes also see my [Brackets Color Scheme](https://github.com/jwortmann/brackets-color-scheme), which can be installed separately.
+For the according syntax highlighting schemes also see my [Brackets Color Scheme](https://github.com/jwortmann/brackets-color-scheme), which can be installed independently.
 
 ## Installation
 
-The package requires Sublime Text build 4107 or newer.
-At this time, it can be manually installed by copying all files from this repository into a folder named *Theme - Brackets* under the *Packages* directory (*Preferences > Browse Packages* from the menu).
+The theme requires Sublime Text build 4107 or newer.
+It can be installed with Sublime Text's package manager [Package Control](https://packagecontrol.io/installation).
+From the command palette select *Package Control: Install Package* and search for *Theme - Brackets*.
 
 ## Preview
 
