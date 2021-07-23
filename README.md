@@ -4,7 +4,7 @@
 
 A theme for Sublime Text inspired by Adobe Brackets.
 
-This package only controlls the look of the UI in Sublime Text.
+This package only controlls the look of the user interface in Sublime Text.
 For the according syntax highlighting schemes also see my [Brackets Color Scheme](https://github.com/jwortmann/brackets-color-scheme), which can be installed separately.
 
 ## Installation
@@ -20,14 +20,25 @@ At this time, it can be manually installed by copying all files from this reposi
 
 ## Customization
 
-Various default theme-related settings defined by Sublime Text, as well as a few custom settings specific to this theme are supported to configure the appearance.
+Various default theme-related settings defined by Sublime Text, as well as a few custom settings specific to this theme are supported to tweak the appearance.
 All settings should be modified in the *Preferences.sublime-settings* file.
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
-| "kind_letters" | `false` | Use the default style with colored kind letters instead of icons in autocompletion popups and the *Goto Symbol…* panel. |
-| "sidebar_status_colors" | `false` | Highlight filenames in the sidebar for files with Git status "new" or "modified" in green and orange. Files with status "ignored" are always dimmed. |
-| "hide_sidebar_status_icons" | `false` | Hide the Git status icons in the sidebar. |
+| "kind_letters" | false | Use the default style with colored kind letters instead of icons in autocompletion popups and the *Goto Symbol…* panel. |
+| "sidebar_status_colors" | false | Highlight filenames in the sidebar for files with Git status "new" or "modified" in green and orange. Regardless of this setting, files with status "ignored" are always dimmed. |
+| "hide_sidebar_status_icons" | false | Hide the Git status icons in the sidebar. |
+
+Some interesting standard settings are:
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| "themed_title_bar" | true | Controls if a custom or default title bar is used. |
+| "file_tab_style" | "rounded" | Controls the style of file tabs. Options: "rounded", "square", "angled". |
+| "inactive_sheet_dimming" | true | If inactive sheets should have their background slightly modified to make input focus more obvious. |
+| "highlight_modified_tabs" | false | Makes tabs with modified files more visible. |
+| "overlay_scroll_bars" | "system" | Valid values are "system", "enabled" and "disabled". |
+| "hide_tab_scrolling_buttons" | false | Hides the buttons for scrolling tabs left/right, requiring use of a trackpad or mouse scroll wheel. |
 
 ## Attributions
 
