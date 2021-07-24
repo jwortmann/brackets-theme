@@ -15,9 +15,9 @@ From the command palette select *Package Control: Install Package* and search fo
 
 ## Preview
 
-![Preview dark](/img/preview_dark.png)
+![Preview Dark](img/preview_dark.png)
 
-![Preview light](/img/preview_light.png)
+![Preview Light](img/preview_light.png)
 
 ## Customization
 
