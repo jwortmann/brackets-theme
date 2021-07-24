@@ -963,13 +963,19 @@
         {
             "class": "kind_container",
             "parents": [{"class": "quick_panel"}],
-            "content_margin": [5, 0, 7, 0],
+            "content_margin": [5, 0, 6, 0],
             "layer0.opacity": 0.15
         },
         {
             "class": "kind_container",
             "parents": [{"class": "overlay_control kind_info"}, {"class": "quick_panel"}],
-            "content_margin": [7, 5, 7, 5]
+            "content_margin": [5, 2, 6, 4]
+        },
+        {
+            "class": "kind_container",
+            "parents": [{"class": "overlay_control kind_info"}, {"class": "quick_panel"}],
+            "platforms": ["linux"],
+            "content_margin": [5, 3, 6, 5]
         },
         {
             "class": "kind_container",
@@ -1180,9 +1186,15 @@
         {
             "class": "kind_container",
             "parents": [{"class": "auto_complete"}],
-            "content_margin": [6, 1, 5, 5],
+            "content_margin": [5, 2, 6, 4],
             "layer0.opacity": 0.15,
             "layer0.tint": "var(autocomplete_background_dark)"
+        },
+        {
+            "class": "kind_container",
+            "parents": [{"class": "auto_complete"}],
+            "platforms": ["linux"],
+            "content_margin": [5, 3, 6, 5]
         },
         {
             "class": "kind_container",
@@ -1331,8 +1343,19 @@
         },
         {
             "class": "kind_label",
+            "font.face": "system",
             "font.bold": true,
             "font.italic": true
+        },
+        {
+            "class": "kind_label",
+            "platforms": ["windows", "linux"],
+            "font.size": 15
+        },
+        {
+            "class": "kind_label",
+            "platforms": ["osx"],
+            "font.size": 16
         },
         {
             "class": "kind_label",
@@ -1377,8 +1400,7 @@
         {
             "class": "kind_label",
             "settings": ["!kind_letters"],
-            "color": "transparent",
-            "font.size": 15
+            "color": "transparent"
         },
         {
             "class": "kind_label",
