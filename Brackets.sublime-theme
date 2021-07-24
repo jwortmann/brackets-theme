@@ -1377,7 +1377,8 @@
         {
             "class": "kind_label",
             "settings": ["!kind_letters"],
-            "color": "transparent"
+            "color": "transparent",
+            "font.size": 15
         },
         {
             "class": "kind_label",
