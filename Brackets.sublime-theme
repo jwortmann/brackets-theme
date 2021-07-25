@@ -153,8 +153,9 @@
         {
             "class": "sidebar_tree",
             "row_padding": [12, 4],
-            "indent": 9,
-            "indent_top_level": true,
+            "indent": 10,
+            "indent_offset": 14,
+            "indent_top_level": false,
             "spacer_rows": true
         },
         {
@@ -243,17 +244,23 @@
         },
         {
             "class": "close_button",
-            "parents": [{"class": "tree_row", "attributes": ["hover"]}],
             "layer0.texture": "Theme - Brackets/assets/close.png",
             "layer0.tint": "white",
-            "layer0.opacity": {"target": 0.5, "speed": 5.0, "interpolation": "smoothstep"},
+            "layer0.opacity": {"target": 0.0, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.inner_margin": [11, 11, 0, 0],
             "content_margin": [8, 6]
         },
         {
             "class": "close_button",
-            "parents": [{"class": "tree_row", "attributes": ["!hover"]}],
-            "layer0.opacity": {"target": 0.0, "speed": 5.0, "interpolation": "smoothstep"}
+            "attributes": ["dirty"],
+            "layer0.texture": "Theme - Brackets/assets/tab_dirty.png",
+            "layer0.opacity": 0.5
+        },
+        {
+            "class": "close_button",
+            "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+            "layer0.texture": "Theme - Brackets/assets/close.png",
+            "layer0.opacity": {"target": 0.5, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
             "class": "close_button",
