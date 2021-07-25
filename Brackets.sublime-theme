@@ -974,6 +974,12 @@
         {
             "class": "kind_container",
             "parents": [{"class": "overlay_control kind_info"}, {"class": "quick_panel"}],
+            "platforms": ["osx"],
+            "content_margin": [5, 3, 6, 4]
+        },
+        {
+            "class": "kind_container",
+            "parents": [{"class": "overlay_control kind_info"}, {"class": "quick_panel"}],
             "platforms": ["linux"],
             "content_margin": [5, 3, 6, 5]
         },
@@ -982,7 +988,7 @@
             "parents": [{"class": "quick_panel"}],
             "settings": ["!kind_letters"],
             "layer0.opacity": 1.0,
-            "layer0.inner_margin": [25, 25, 0, 0]
+            "layer0.inner_margin": [22, 0, 0, 22]
         },
         {
             "class": "quick_panel_label",
@@ -1193,6 +1199,12 @@
         {
             "class": "kind_container",
             "parents": [{"class": "auto_complete"}],
+            "platforms": ["osx"],
+            "content_margin": [5, 3, 6, 4]
+        },
+        {
+            "class": "kind_container",
+            "parents": [{"class": "auto_complete"}],
             "platforms": ["linux"],
             "content_margin": [5, 3, 6, 5]
         },
@@ -1206,7 +1218,7 @@
             "parents": [{"class": "auto_complete"}],
             "settings": ["!kind_letters"],
             "layer0.opacity": 1.0,
-            "layer0.inner_margin": [25, 25, 0, 0]
+            "layer0.inner_margin": [22, 0, 0, 22]
         },
         {
             "class": "kind_container kind_ambiguous",
@@ -1344,18 +1356,9 @@
         {
             "class": "kind_label",
             "font.face": "system",
+            "font.size": 15,
             "font.bold": true,
             "font.italic": true
-        },
-        {
-            "class": "kind_label",
-            "platforms": ["windows", "linux"],
-            "font.size": 15
-        },
-        {
-            "class": "kind_label",
-            "platforms": ["osx"],
-            "font.size": 16
         },
         {
             "class": "kind_label",
