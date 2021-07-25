@@ -782,8 +782,8 @@
             "layer0.texture": "Theme - Brackets/assets/tab_scroll_left.png",
             "layer0.opacity": {"target": 0.3, "speed": 4.0, "interpolation": "smoothstep"},
             "layer0.tint": "white",
-            "layer0.inner_margin": [1, 0, 7, 0],
-            "content_margin": [10, 15, 10, 0]
+            "layer0.inner_margin": [0, 0, 8, 0],
+            "content_margin": [10, 16, 10, 0]
         },
         {
             "class": "scroll_tabs_left_button",
@@ -800,8 +800,8 @@
             "layer0.texture": "Theme - Brackets/assets/tab_scroll_right.png",
             "layer0.opacity": {"target": 0.3, "speed": 4.0, "interpolation": "smoothstep"},
             "layer0.tint": "white",
-            "layer0.inner_margin": [7, 0, 1, 0],
-            "content_margin": [10, 15, 5, 0]
+            "layer0.inner_margin": [8, 0, 0, 0],
+            "content_margin": [10, 16, 5, 0]
         },
         {
             "class": "scroll_tabs_right_button",
