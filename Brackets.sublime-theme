@@ -2,6 +2,7 @@
     "author": "Janos Wortmann",
     "variables": {
         "font_face": "system",
+        "kind_font_face": "system",
         "text_link_dark": "#6bbeff", // @dark-bc-text-link
         "text_link_light": "#0083e8", // @bc-text-link
         "titlebar_fg": "#d7d8d9",
@@ -1355,7 +1356,7 @@
         },
         {
             "class": "kind_label",
-            "font.face": "system",
+            "font.face": "var(kind_font_face)",
             "font.size": 15,
             "font.bold": true,
             "font.italic": true
