@@ -1144,6 +1144,10 @@
             "attributes": ["expanded"],
             "layer0.texture": "Theme - Brackets/assets/fold_opened.png"
         },
+        {
+            "class": "annotation_close_button",
+            "layer0.texture": "Theme - Brackets/assets/annotation_close.png"
+        },
 ////////[ Auto Complete ]///////////////////////////////////////////////////////
         {
             "class": "popup_control auto_complete_popup",
