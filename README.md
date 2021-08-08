@@ -1,6 +1,7 @@
 # Brackets Theme for Sublime Text
 
 [![License](https://img.shields.io/github/license/jwortmann/brackets-theme)](https://github.com/jwortmann/brackets-theme/blob/master/LICENSE)
+[![Version](https://img.shields.io/github/v/release/jwortmann/brackets-theme?label=version)](https://github.com/jwortmann/brackets-theme/releases)
 
 A theme for Sublime Text inspired by Adobe Brackets.
 
