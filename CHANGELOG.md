@@ -1,6 +1,13 @@
 Brackets Theme Changelog
 ========================
 
+v1.0.2 (2021-08-08)
+-------------------
+
+  * Use custom close icon in annotations.
+
+  * Changed font style for keybindings in the command palette to non-italic.
+
 v1.0.1 (2021-07-25)
 -------------------
 
