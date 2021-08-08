@@ -22,8 +22,10 @@ From the command palette select *Package Control: Install Package* and search fo
 
 ## Customization
 
-Various default theme-related settings defined by Sublime Text, as well as a few custom settings specific to this theme are supported to tweak the appearance.
+Various theme-related settings defined by Sublime Text, as well as a few custom settings specific to this theme are supported to tweak the appearance.
 All settings should be modified in the *Preferences.sublime-settings* file.
+
+__Custom settings:__
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -31,7 +33,7 @@ All settings should be modified in the *Preferences.sublime-settings* file.
 | "sidebar_status_colors" | false | Highlight filenames in the sidebar for files with Git status "new" or "modified" in green and orange. Regardless of this setting, files with status "ignored" are always dimmed. |
 | "hide_sidebar_status_icons" | false | Hide the Git status icons in the sidebar. |
 
-Some interesting standard settings are:
+__Relevant standard settings:__
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
