@@ -1037,8 +1037,7 @@
             "fg": "var(quickpanel_hint_dark)",
             "selected_fg": "var(quickpanel_hint_selected_dark)",
             "font.face": "var(font_face)",
-            "font.size": 13,
-            "font.italic": true
+            "font.size": 13
         },
         {
             "class": "quick_panel_label key_binding",
