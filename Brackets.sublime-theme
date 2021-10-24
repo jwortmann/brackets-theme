@@ -1238,7 +1238,7 @@
         {
             "class": "kind_container kind_ambiguous",
             "parents": [{"class": "auto_complete"}],
-            "settings": ["!kind_letters"],
+            "settings": ["!kind_letters", "kind_icon_ambiguous"],
             "layer0.tint": "var(kind_ambiguous_color)",
             "layer0.texture": "Theme - Brackets/kind_icons/kind_ambiguous.png"
         },

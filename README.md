@@ -23,13 +23,14 @@ From the command palette select *Package Control: Install Package* and search fo
 ## Customization
 
 Various theme-related settings defined by Sublime Text, as well as a few custom settings specific to this theme are supported to tweak the appearance.
-All settings should be modified in the *Preferences.sublime-settings* file.
+All settings should be modified in the *Preferences.sublime-settings* file, which can be opened via *Preferences > Settings* from the menu.
 
 __Custom settings:__
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
 | "kind_letters" | false | Use the default style with colored kind letters instead of icons in autocompletion popups and the *Goto Symbol…* panel. |
+| "kind_icon_ambiguous" | false | Whether to show the icon for the *ambiguous* kind in autocompletion popups (usually used for word-completions from the buffer). This setting does *not* apply if "kind_letters" is set to *true*. |
 | "sidebar_status_colors" | false | Highlight filenames in the sidebar for files with Git status "new" or "modified" in green and orange. Regardless of this setting, files with status "ignored" are always dimmed. |
 | "hide_sidebar_status_icons" | false | Hide the Git status icons in the sidebar. |
 
