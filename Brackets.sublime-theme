@@ -1935,7 +1935,8 @@
             "layer1.inner_margin": 4,
             "layer1.draw_center": false,
             "layer1.opacity": 1.0,
-            "content_margin": 5
+            "tint_index": 0,
+            "content_margin": 4
         },
         {
             "class": "text_line_control",
@@ -1968,7 +1969,7 @@
         {
             "class": "text_line_control",
             "parents": [{"class": "panel_control"}],
-            "content_margin": [5, 5, 0, 3]
+            "content_margin": [4, 5, 4, 3]
         },
         {
             "class": "text_line_control",
@@ -1977,18 +1978,21 @@
             "layer0.inner_margin": [8, 4],
             "layer1.texture": "Theme - Brackets/assets/console_input_border.png",
             "layer1.inner_margin": [8, 4],
-            "content_margin": [9, 5, 0, 3]
+            "content_margin": [8, 5, 8, 3]
         },
         {
             "class": "text_line_control",
             "parents": [{"class": "overlay_control"}],
-            "content_margin": [3, 5, 5, 5],
             "layer0.texture": "Theme - Brackets/assets/background_2px.png",
-            "layer1.texture": "Theme - Brackets/assets/border_2px.png"
+            "layer1.texture": "Theme - Brackets/assets/border_2px.png",
+            "font.face": "system",
+            "font.size": 13
         },
         {
             "class": "text_line_control",
             "parents": [{"class": "switch_project_window"}],
+            "font.face": "system",
+            "font.size": 13,
             "content_margin": 5
         },
         {
