@@ -722,6 +722,11 @@
             "layer3.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
+            "class": "tab_control",
+            "attributes": ["deleted"],
+            "layer2.tint": "var(--redish)",
+        },
+        {
             "class": "tab_label",
             "font.face": "var(font_face)"
         },
@@ -784,6 +789,27 @@
             "attributes": ["hover"],
             "parents": [{"class": "tab_control", "attributes": ["!selected"]}],
             "layer0.opacity": {"target": 0.7, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_close_button",
+            "settings": ["!highlight_modified_tabs"],
+            "parents": [{"class": "tab_control", "attributes": ["deleted"]}],
+            "layer0.opacity": {"target": 0.8, "speed": 4.0, "interpolation": "smoothstep"},
+            "layer0.tint": "var(--redish)",
+        },
+        {
+            "class": "tab_close_button",
+            "settings": ["!highlight_modified_tabs"],
+            "parents": [{"class": "tab_control", "attributes": ["!selected", "deleted"]}],
+            "layer0.opacity": {"target": 0.6, "speed": 4.0, "interpolation": "smoothstep"},
+            "layer0.tint": "var(--redish)",
+        },
+        {
+            "class": "tab_close_button",
+            "settings": ["!highlight_modified_tabs"],
+            "attributes": ["hover"],
+            "parents": [{"class": "tab_control", "attributes": ["deleted"]}],
+            "layer0.opacity": {"target": 0.9, "speed": 4.0, "interpolation": "smoothstep"}
         },
         {
             "class": "scroll_tabs_left_button",
