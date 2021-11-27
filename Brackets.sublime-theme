@@ -407,6 +407,12 @@
             "tab_height": 34
         },
         {
+            "class": "tabset_control",
+            "settings": {"file_tab_style": "wave"},
+            "tab_overlap": 18,
+            "tab_height": 34
+        },
+        {
             "class": "tab_connector",
             "layer0.texture": "",
             "layer0.opacity": 1.0,
@@ -483,6 +489,24 @@
             "layer2.inner_margin": [19, 0, 19, 0],
             "layer2.opacity": 0.0,
             "layer3.inner_margin": [19, 0, 19, 0],
+            "tint_index": 1,
+            "accent_tint_index": 2,
+            "content_margin": [26, 8, 22, 4],
+            "hit_test_level": 0.3
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "wave"},
+            "layer1.texture": "Theme - Brackets/assets/tab_wave.png",
+            "layer1.inner_margin": [23, 0, 23, 0],
+            "layer1.opacity": 1.0,
+            "layer2.texture": "Theme - Brackets/assets/tab_wave_highlight.png",
+            "layer2.inner_margin": [23, 0, 23, 0],
+            "layer2.opacity": 0.0,
+            "layer3.texture": "Theme - Brackets/assets/tab_wave_border.png",
+            "layer3.inner_margin": [23, 0, 23, 0],
+            "layer3.tint": "black",
+            "layer3.opacity": 0.1,
             "tint_index": 1,
             "accent_tint_index": 2,
             "content_margin": [26, 8, 22, 4],
@@ -571,7 +595,7 @@
         },
         {
             "class": "tab_control",
-            "settings": {"file_tab_style": "angled", "highlight_modified_tabs": true},
+            "settings": {"file_tab_style": ["angled", "wave"], "highlight_modified_tabs": true},
             "attributes": ["dirty", "selected"],
             "layer2.opacity": 0.6
         },
@@ -589,7 +613,13 @@
         },
         {
             "class": "tab_control",
-            "settings": {"highlight_modified_tabs": true},
+            "settings": {"file_tab_style": ["angled", "wave"], "highlight_modified_tabs": true},
+            "attributes": ["dirty", "!selected", "hover"],
+            "layer2.opacity": 0.4
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": ["rounded", "square"], "highlight_modified_tabs": true},
             "attributes": ["dirty", "!selected", "hover"],
             "layer2.opacity": 0.6
         },
@@ -625,7 +655,13 @@
         },
         {
             "class": "tab_control",
-            "settings": {"file_tab_style": "angled", "show_tab_close_buttons_on_left": true},
+            "settings": {"file_tab_style": "angled", "show_tab_close_buttons": true, "show_tab_close_buttons_on_left": true},
+            "close_button_side": "left",
+            "content_margin": [22, 8, 26, 4]
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "wave", "show_tab_close_buttons": true, "show_tab_close_buttons_on_left": true},
             "close_button_side": "left",
             "content_margin": [22, 8, 26, 4]
         },
@@ -643,6 +679,11 @@
             "class": "tab_control",
             "settings": {"file_tab_style": "angled", "show_tab_close_buttons": false},
             "content_margin": [33, 8, 34, 4]
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "wave", "show_tab_close_buttons": false},
+            "content_margin": [26, 8, 27, 4]
         },
         {
             "class": "tab_control",

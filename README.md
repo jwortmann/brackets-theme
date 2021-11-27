@@ -50,4 +50,6 @@ __Relevant standard settings:__
 
 * Kind icons used in the autocompletion popup and the *Goto Symbol…* panel, as well as icons indicating the Git status for sidebar entries are adapted from Microsoft's [Codicons](https://github.com/microsoft/vscode-codicons) icon font (licensed under [CC BY 4.0](/licenses/Codicons/LICENSE)).
 
-* File icons in the sidebar are derived from [braver/FileIcons](https://github.com/braver/FileIcons) (licensed under the [MIT license](/licenses/FileIcons/LICENSE)).
+* File icons in the sidebar are derived from [FileIcons](https://github.com/braver/FileIcons) (licensed under the [MIT license](/licenses/FileIcons/LICENSE)).
+
+* Textures for the "wave" tab style are derived from [Theme - DAneo](https://github.com/SublimeText/Theme-DAneo) (licensed under the [MIT license](/licenses/DAneo/LICENSE)).
