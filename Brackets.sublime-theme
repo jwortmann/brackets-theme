@@ -377,7 +377,8 @@
             "class": "tabset_control",
             "layer0.opacity": 1.0,
             "layer0.tint": "var(titlebar_background)",
-            "content_margin": 0
+            "content_margin": 0,
+            "tab_height": 34
         },
         {
             "class": "tabset_control",
@@ -404,6 +405,12 @@
             "settings": {"file_tab_style": "angled"},
             "tab_overlap": 16,
             "tab_height": 34
+        },
+        {
+            "class": "tab_connector",
+            "layer0.texture": "",
+            "layer0.opacity": 1.0,
+            "tint_index": 0,
         },
         {
             "class": "tab_connector",
@@ -439,6 +446,13 @@
             "accent_tint_index": 2,
             "content_margin": [16, 5, 14, 4],
             "hit_test_level": 0.3
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded", "blend_inactive_tabs": true},
+            "layer0.texture": "Theme - Default/common/tab_rounded_inverse.png",
+            "layer1.texture": "Theme - Default/common/tab_rounded.png",
+            "layer3.texture": "Theme - Default/common/tab_rounded_divider.png"
         },
         {
             "class": "tab_control",
@@ -498,6 +512,18 @@
             "class": "tab_control",
             "attributes": ["highlighted"],
             "tint_modifier": "transparent"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": ["rounded", "square"], "blend_inactive_tabs": true},
+            "attributes": ["selected"],
+            "layer1.opacity": 1.0,
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": ["rounded", "square"], "blend_inactive_tabs": true},
+            "attributes": ["!selected"],
+            "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
         },
         {
             "class": "tab_control",

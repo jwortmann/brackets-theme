@@ -24,6 +24,11 @@
               "type": "boolean",
               "default": false,
               "markdownDescription": "Hide the Git status icons in the sidebar.\n\nSetting from: *Theme - Brackets*"
+            },
+            "blend_inactive_tabs": {
+              "type": "boolean",
+              "default": false,
+              "markdownDescription": "Blend the color of inactive tabs with the background. This is how inactive tabs in the built-in Default and Adaptive themes are shown. Only applies when \"file_tab_style\" is \"rounded\" or \"square\".\n\nSetting from: *Theme - Brackets*"
             }
           }
         }
