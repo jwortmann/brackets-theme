@@ -643,6 +643,20 @@
         },
         {
             "class": "tab_control",
+            "settings": {"file_tab_style": "rounded", "blend_inactive_tabs": true, "highlight_modified_tabs": true},
+            "attributes": ["dirty", "!selected"],
+            "layer2.texture": "Theme - Default/common/tab_rounded_pinstripe.png",
+            "layer2.inner_margin": [12, 0],
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "blend_inactive_tabs": true, "highlight_modified_tabs": true},
+            "attributes": ["dirty", "!selected"],
+            "layer2.texture": "Theme - Default/common/tab_square_pinstripe.png",
+            "layer2.inner_margin": 0,
+        },
+        {
+            "class": "tab_control",
             "settings": {"file_tab_style": "rounded", "show_tab_close_buttons": true, "show_tab_close_buttons_on_left": true},
             "close_button_side": "left",
             "content_margin": [14, 5, 16, 4]
@@ -698,47 +712,87 @@
         },
         {
             "class": "tab_control",
-            "settings": {"file_tab_style": ["rounded"]},
+            "settings": {"file_tab_style": "rounded"},
             "attributes": ["right", "!left"],
             "layer3.texture": "Theme - Brackets/assets/tab_rounded_divider_right.png"
         },
         {
             "class": "tab_control",
-            "settings": {"file_tab_style": ["rounded"]},
+            "settings": {"file_tab_style": "rounded", "blend_inactive_tabs": true},
+            "attributes": ["right", "!left"],
+            "layer3.texture": "Theme - Default/common/tab_rounded_divider_right.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded"},
             "attributes": ["left_of_selected", "!left", "!right_of_selected", "!right_of_hover", "!selected", "!hover"],
             "layer3.texture": "Theme - Brackets/assets/tab_rounded_divider_right.png",
             "layer3.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
             "class": "tab_control",
-            "settings": {"file_tab_style": ["rounded"]},
+            "settings": {"file_tab_style": "rounded", "blend_inactive_tabs": true},
+            "attributes": ["left_of_selected", "!left", "!right_of_selected", "!right_of_hover", "!selected", "!hover"],
+            "layer3.texture": "Theme - Default/common/tab_rounded_divider_right.png",
+            "layer3.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded"},
             "attributes": ["left_of_hover", "!left", "!right_of_selected", "!right_of_hover", "!selected", "!hover"],
             "layer3.texture": "Theme - Brackets/assets/tab_rounded_divider_right.png",
             "layer3.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
             "class": "tab_control",
-            "settings": {"file_tab_style": ["rounded"]},
+            "settings": {"file_tab_style": "rounded", "blend_inactive_tabs": true},
+            "attributes": ["left_of_hover", "!left", "!right_of_selected", "!right_of_hover", "!selected", "!hover"],
+            "layer3.texture": "Theme - Default/common/tab_rounded_divider_right.png",
+            "layer3.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded"},
             "attributes": ["left", "!right"],
             "layer3.texture": "Theme - Brackets/assets/tab_rounded_divider_left.png"
         },
         {
             "class": "tab_control",
-            "settings": {"file_tab_style": ["rounded"]},
+            "settings": {"file_tab_style": "rounded", "blend_inactive_tabs": true},
+            "attributes": ["left", "!right"],
+            "layer3.texture": "Theme - Default/common/tab_rounded_divider_left.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded"},
             "attributes": ["right_of_selected", "!right", "!left_of_selected", "!left_of_hover", "!selected", "!hover"],
             "layer3.texture": "Theme - Brackets/assets/tab_rounded_divider_left.png",
             "layer3.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
             "class": "tab_control",
-            "settings": {"file_tab_style": ["rounded"]},
+            "settings": {"file_tab_style": "rounded", "blend_inactive_tabs": true},
+            "attributes": ["right_of_selected", "!right", "!left_of_selected", "!left_of_hover", "!selected", "!hover"],
+            "layer3.texture": "Theme - Default/common/tab_rounded_divider_left.png",
+            "layer3.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded"},
             "attributes": ["right_of_hover", "!right", "!left_of_selected", "!left_of_hover", "!selected", "!hover"],
             "layer3.texture": "Theme - Brackets/assets/tab_rounded_divider_left.png",
             "layer3.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
             "class": "tab_control",
-            "settings": {"file_tab_style": ["rounded"]},
+            "settings": {"file_tab_style": "rounded", "blend_inactive_tabs": true},
+            "attributes": ["right_of_hover", "!right", "!left_of_selected", "!left_of_hover", "!selected", "!hover"],
+            "layer3.texture": "Theme - Default/common/tab_rounded_divider_left.png",
+            "layer3.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded"},
             "attributes": ["!highlighted", "!selected", "!hover", "!left_of_selected", "!right_of_selected", "!left_of_hover", "!right_of_hover"],
             "layer3.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"}
         },
