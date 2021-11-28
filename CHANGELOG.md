@@ -1,6 +1,20 @@
 Brackets Theme Changelog
 ========================
 
+v1.1.0 (2021-11-28)
+-------------------
+
+  * Added a new setting "blend_inactive_tabs" to blend the color of inactive tabs with the
+    background. This is how inactive tabs are shown in the built-in Default and Adaptive themes.
+    This setting only applies if "file_tab_style" is "rounded" or "square".
+
+  * Added red indicator in tabs for deleted files (when "highlight_modified_tabs" is enabled).
+
+  * Added a new tab style: "wave".
+
+  * Added settings schema for LSP-json.
+
+
 v1.0.3 (2021-10-25)
 -------------------
 
