@@ -247,7 +247,7 @@
             "layer0.tint": "white",
             "layer0.opacity": {"target": 0.0, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.inner_margin": [11, 11, 0, 0],
-            "content_margin": [8, 6]
+            "content_margin": [16, 11, 0, 0]
         },
         {
             "class": "close_button",
