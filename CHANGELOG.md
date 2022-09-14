@@ -1,6 +1,16 @@
 Brackets Theme Changelog
 ========================
 
+v1.1.1 (2022-09-14)
+-------------------
+
+  * Fixed tab color not updating after temporary selecting tabs from the command palette input.
+
+  * Fixed find results in the scroll bar being hidden under the puck position.
+
+  * Tweaked label and close button alignment for selected tabs in the sidebar.
+
+
 v1.1.0 (2021-11-28)
 -------------------
 
