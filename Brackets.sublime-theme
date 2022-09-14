@@ -519,15 +519,6 @@
         },
         {
             "class": "tab_control",
-            "tint_modifier": "var(tab_background_dark)"
-        },
-        {
-            "class": "tab_control",
-            "attributes": ["file_light"],
-            "tint_modifier": "var(tab_background_light)"
-        },
-        {
-            "class": "tab_control",
             "attributes": ["selected"],
             "tint_modifier": "transparent"
         },
@@ -535,6 +526,16 @@
             "class": "tab_control",
             "attributes": ["highlighted"],
             "tint_modifier": "transparent"
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["!selected"],
+            "tint_modifier": "var(tab_background_dark)",
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["!selected", "file_light"],
+            "tint_modifier": "var(tab_background_light)"
         },
         {
             "class": "tab_control",
@@ -848,21 +849,18 @@
         },
         {
             "class": "tab_label",
-            "font.face": "var(font_face)"
-        },
-        {
-            "class": "tab_label",
-            "attributes": ["transient"],
-            "font.italic": true
-        },
-        {
-            "class": "tab_label",
+            "font.face": "var(font_face)",
             "color": "var(tab_label_dark)"
         },
         {
             "class": "tab_label",
             "parents": [{"class": "tab_control", "attributes": ["file_light"]}],
             "color": "var(tab_label_light)"
+        },
+        {
+            "class": "tab_label",
+            "attributes": ["transient"],
+            "font.italic": true
         },
         {
             "class": "tab_label",
@@ -873,6 +871,16 @@
             "class": "tab_label",
             "parents": [{"class": "tab_control", "attributes": ["highlighted", "file_light"]}],
             "color": "var(tab_label_selected_light)"
+        },
+        {
+            "class": "tab_label",
+            "parents": [{"class": "tab_control", "attributes": ["!selected"]}],
+            "color": "var(tab_label_dark)"
+        },
+        {
+            "class": "tab_label",
+            "parents": [{"class": "tab_control", "attributes": ["!selected", "file_light"]}],
+            "color": "var(tab_label_light)"
         },
         {
             "class": "tab_close_button",
