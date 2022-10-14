@@ -48,7 +48,9 @@ __Relevant standard settings:__
 
 ## Attributions
 
-* Kind icons used in the autocompletion popup and the *Goto Symbol…* panel, as well as icons indicating the Git status for sidebar entries are adapted from Microsoft's [Codicons](https://github.com/microsoft/vscode-codicons) icon font (licensed under [CC BY 4.0](/licenses/Codicons/LICENSE)).
+* Kind icons used in the autocompletion popup and the *Goto Symbol…* panel are adapted from Microsoft's [Codicons](https://github.com/microsoft/vscode-codicons) icon font (licensed under [CC BY 4.0](/licenses/Codicons/LICENSE)).
+
+* Git status icons in the sidebar are derived from [Octicons](https://github.com/primer/octicons) (licensed under the [MIT license](/licenses/Octicons/LICENSE)).
 
 * File icons in the sidebar are derived from [FileIcons](https://github.com/braver/FileIcons) (licensed under the [MIT license](/licenses/FileIcons/LICENSE)).
 

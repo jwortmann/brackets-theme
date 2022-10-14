@@ -313,7 +313,7 @@
             "settings": ["!hide_sidebar_status_icons"],
             "layer0.texture": "Theme - Brackets/status_icons/status_ignored.png",
             "layer0.tint": "var(sidebar_ignored)",
-            "content_margin": [13, 13, 0, 0]
+            "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
@@ -321,7 +321,7 @@
             "settings": ["!hide_sidebar_status_icons"],
             "layer0.texture": "Theme - Brackets/status_icons/status_untracked.png",
             "layer0.tint": "var(sidebar_untracked)",
-            "content_margin": [13, 13, 0, 0]
+            "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
@@ -329,7 +329,7 @@
             "settings": ["!hide_sidebar_status_icons"],
             "layer0.texture": "Theme - Brackets/status_icons/status_added.png",
             "layer0.tint": "var(sidebar_added)",
-            "content_margin": [13, 13, 0, 0]
+            "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
@@ -337,7 +337,7 @@
             "settings": ["!hide_sidebar_status_icons"],
             "layer0.texture": "Theme - Brackets/status_icons/status_modified.png",
             "layer0.tint": "var(sidebar_modified)",
-            "content_margin": [13, 13, 0, 0]
+            "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
@@ -345,7 +345,7 @@
             "settings": ["!hide_sidebar_status_icons"],
             "layer0.texture": "Theme - Brackets/status_icons/status_staged.png",
             "layer0.tint": "var(sidebar_staged)",
-            "content_margin": [13, 13, 0, 0]
+            "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
@@ -353,7 +353,7 @@
             "settings": ["!hide_sidebar_status_icons"],
             "layer0.texture": "Theme - Brackets/status_icons/status_missing.png",
             "layer0.tint": "var(sidebar_missing)",
-            "content_margin": [13, 13, 0, 0]
+            "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
@@ -361,15 +361,15 @@
             "settings": ["!hide_sidebar_status_icons"],
             "layer0.texture": "Theme - Brackets/status_icons/status_deleted.png",
             "layer0.tint": "var(sidebar_deleted)",
-            "content_margin": [13, 13, 0, 0]
+            "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
             "settings": ["!hide_sidebar_status_icons"],
-            "layer0.texture": "Theme - Default/common/status_unmerged.png",
+            "layer0.texture": "Theme - Brackets/status_icons/status_unmerged.png",
             "layer0.tint": "var(sidebar_unmerged)",
-            "content_margin": 6
+            "content_margin": [15, 15, 0, 0]
         },
 ////////[ Tabs ]////////////////////////////////////////////////////////////////
         {
