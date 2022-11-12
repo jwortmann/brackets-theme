@@ -10,11 +10,6 @@
               "default": false,
               "markdownDescription": "Controls whether the default style from the built-in themes with colored kind letters instead of icons in autocompletion popups and the *Goto Symbol...* panel should be used.\n\nSetting from: *Theme - Brackets*"
             },
-            "kind_icon_ambiguous": {
-              "type": "boolean",
-              "default": false,
-              "markdownDescription": "Controls whether to show the icon for the \"ambiguous\" kind in autocompletion popups (this kind is mostly used for word completions from the file). This setting doesn't apply if `\"kind_letters\"` is set to `true` (because there is no kind letter for the \"ambiguous\" kind).\n\nSetting from: *Theme - Brackets*"
-            },
             "sidebar_status_colors": {
               "type": "boolean",
               "default": false,

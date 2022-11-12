@@ -30,7 +30,6 @@ __Custom settings:__
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
 | "kind_letters" | false | Use the default style with colored kind letters instead of icons in autocompletion popups and the *Goto Symbol…* panel. |
-| "kind_icon_ambiguous" | false | Whether to show the icon for the "ambiguous" kind in autocompletion popups (usually used for word-completions from the buffer). This setting only applies if "kind_letters" is *false* or not specified. |
 | "sidebar_status_colors" | false | Highlight filenames in the sidebar for files with Git status "new" or "modified" in green and orange. Regardless of this setting, files with status "ignored" are always dimmed. |
 | "hide_sidebar_status_icons" | false | Hide the Git status icons in the sidebar. |
 | "blend_inactive_tabs" | false | Blend the color of inactive tabs with the background. This is how inactive tabs in the built-in Default and Adaptive themes are shown. This setting only applies if "file_tab_style" is "rounded" or "square". |

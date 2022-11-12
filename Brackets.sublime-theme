@@ -114,7 +114,6 @@
         "progressbar_light": "#f2f3f3",
         "progressbar_active_dark": "#284160",
         "progressbar_active_light": "#e0f0fa",
-        "kind_ambiguous_color": "var(--foreground)",
         "kind_keyword_color": "var(--pinkish)",
         "kind_type_color": "var(--purplish)",
         "kind_function_color": "var(--redish)",
@@ -1388,13 +1387,6 @@
         {
             "class": "kind_container kind_ambiguous",
             "layer0.tint": "transparent"
-        },
-        {
-            "class": "kind_container kind_ambiguous",
-            "parents": [{"class": "auto_complete"}],
-            "settings": ["!kind_letters", "kind_icon_ambiguous"],
-            "layer0.tint": "var(kind_ambiguous_color)",
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_ambiguous.png"
         },
         {
             "class": "kind_container kind_keyword",
