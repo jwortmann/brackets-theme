@@ -5,9 +5,21 @@
         "file_patterns": ["/Preferences.sublime-settings"],
         "schema": {
           "properties": {
+            "kind_icons_style": {
+              "type": "string",
+              "default": "octicons",
+              "enum": ["octicons", "codicons", "letters"],
+              "markdownEnumDescriptions": [
+                "[Octicons](https://github.com/primer/octicons) from GitHub",
+                "[Codicons](https://github.com/microsoft/vscode-codicons) from VS Code",
+                "A single colored letter, similar to the built-in Default and Adaptive themes"
+              ],
+              "markdownDescription": "Controls the style for the kind icons which are shown in the autocompletion popup and the \"Goto Symbol\" panels.\n\nSetting from: *Theme - Brackets*"
+            },
             "kind_letters": {
               "type": "boolean",
               "default": false,
+              "deprecationMessage": "This setting is deprecated!\nUse \"kind_icons_style\": \"letters\" instead.",
               "markdownDescription": "Controls whether the default style from the built-in themes with colored kind letters instead of icons in autocompletion popups and the *Goto Symbol...* panel should be used.\n\nSetting from: *Theme - Brackets*"
             },
             "sidebar_status_colors": {
