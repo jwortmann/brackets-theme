@@ -1,4 +1,7 @@
 /img export-ignore
+/icons/octicons/*.svg export-ignore
+/icons/octicons/convert.bat export-ignore
 /kind_icons/*.svg export-ignore
+/kind_icons/convert.bat export-ignore
 /status_icons/*.svg export-ignore
 /status_icons/convert.bat export-ignore

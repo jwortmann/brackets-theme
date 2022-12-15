@@ -38,6 +38,13 @@
         "panel_selected_background_light": "#e0f0fa",
         "panel_hover_background_dark": "#444444",
         "panel_hover_background_light": "#f2f3f3",
+        "overlay_background_dark": "#2c2c2c",
+        "overlay_background_light": "#dfe2e2",
+        "overlay_border_dark": "#484848",
+        "overlay_border_light": "#707070",
+        "tooltip_background": "#333333",
+        "tooltip_border": "#484848",
+        "tooltip_label": "#d1d1d1",
         "quickpanel_label_dark": "#fefefe",
         "quickpanel_label_light": "#111111",
         "quickpanel_label_selected_dark": "#fefefe",
@@ -75,6 +82,7 @@
         "input_background_light": "#ffffff",
         "input_border_dark": "#202020",
         "input_border_light": "#b2b5b5",
+        "input_border_focus": "#2893ef",
         "input_dropdown": "#878787",
         "button_background_dark": "#3f3f3f",
         "button_background_light": "#e5e9e9",
@@ -1008,26 +1016,27 @@
 ////////[ Quick Panel ]/////////////////////////////////////////////////////////
         {
             "class": "overlay_control",
-            "content_margin": [18, 13, 18, 28],
+            "content_margin": [20, 25],
             "layer0.texture": "Theme - Brackets/assets/overlay_shadow.png",
-            "layer0.opacity": 1.0,
-            "layer0.inner_margin": [18, 13, 18, 28],
+            "layer0.tint": "black",
+            "layer0.opacity": 0.8,
+            "layer0.inner_margin": [23, 28],
             "layer0.draw_center": false,
             "layer1.texture": "Theme - Brackets/assets/overlay_background.png",
-            "layer1.tint": "var(panel_background_dark)",
+            "layer1.tint": "var(overlay_background_dark)",
             "layer1.opacity": 1.0,
-            "layer1.inner_margin": [18, 13, 18, 28],
+            "layer1.inner_margin": [23, 28],
             "layer2.texture": "Theme - Brackets/assets/overlay_border.png",
-            "layer2.tint": "var(panel_border_dark)",
+            "layer2.tint": "var(overlay_border_dark)",
             "layer2.opacity": 1.0,
-            "layer2.inner_margin": [18, 13, 18, 28],
+            "layer2.inner_margin": [23, 28],
             "layer2.draw_center": false
         },
         {
             "class": "overlay_control",
             "parents": [{"class": "window", "attributes": ["file_light"]}],
-            "layer1.tint": "var(panel_background_light)",
-            "layer2.tint": "var(panel_border_light)"
+            "layer1.tint": "var(overlay_background_light)",
+            "layer2.tint": "var(overlay_border_light)"
         },
         {
             "class": "quick_panel",
@@ -2289,8 +2298,6 @@
         {
             "class": "text_line_control",
             "parents": [{"class": "overlay_control"}],
-            "layer0.texture": "Theme - Brackets/assets/background_2px.png",
-            "layer1.texture": "Theme - Brackets/assets/border_2px.png",
             "font.face": "system",
             "font.size": 13
         },
@@ -2647,24 +2654,25 @@
 ////////[ Tooltips ]////////////////////////////////////////////////////////////
         {
             "class": "tool_tip_control",
-            "layer0.texture": "Theme - Brackets/assets/background_4px.png",
-            // "layer0.tint": "var(autocomplete_background_dark)",
-            "layer0.tint": "var(autocomplete_background_light)",
-            "layer0.opacity": 1.0,
-            "layer0.inner_margin": 4,
-            "layer1.texture": "Theme - Brackets/assets/border_4px.png",
-            // "layer1.tint": "var(autocomplete_border_dark)",
-            "layer1.tint": "var(autocomplete_border_light)",
+            "layer0.texture": "Theme - Brackets/assets/tooltip_shadow.png",
+            "layer0.tint": "black",
+            "layer0.opacity": 0.5,
+            "layer0.inner_margin": 12,
+            "layer1.texture": "Theme - Brackets/assets/tooltip_background.png",
+            "layer1.tint": "var(tooltip_background)",
             "layer1.opacity": 1.0,
-            "layer1.inner_margin": 4,
-            "content_margin": [8, 3]
+            "layer1.inner_margin": 12,
+            "layer2.texture": "Theme - Brackets/assets/tooltip_border.png",
+            "layer2.tint": "var(tooltip_border)",
+            "layer2.opacity": 1.0,
+            "layer2.inner_margin": 12,
+            "content_margin": [14, 11]
         },
         {
             "class": "tool_tip_label_control",
             "font.face": "var(font_face)",
             "font.size": 12.5,
-            // "color": "var(autocomplete_label_dark)",
-            "color": "var(autocomplete_label_light)",
+            "color": "var(tooltip_label)",
             "opacity": 1.0
         },
     ]
