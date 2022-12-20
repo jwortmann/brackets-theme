@@ -317,67 +317,195 @@
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "tree_row", "attributes": ["expandable"]}, {"class": "file_system_entry", "attributes": ["ignored"]}],
-            "settings": ["!hide_sidebar_status_icons"],
+            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_ignored.png",
             "layer0.tint": "var(sidebar_ignored)",
             "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
+            "parents": [{"class": "tree_row", "attributes": ["expandable"]}, {"class": "file_system_entry", "attributes": ["ignored"]}],
+            "settings": {"git_status_icons": "octicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/status_ignored.png",
+            "layer0.tint": "var(sidebar_ignored)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        // {
+        //     "class": "vcs_status_badge",
+        //     "parents": [{"class": "tree_row", "attributes": ["expandable"]}, {"class": "file_system_entry", "attributes": ["ignored"]}],
+        //     "settings": {"git_status_icons": "letters"},
+        //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_ignored.png",
+        //     "layer0.tint": "var(sidebar_ignored)",
+        //     "content_margin": [15, 15, 0, 0]
+        // },
+        {
+            "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-            "settings": ["!hide_sidebar_status_icons"],
+            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_untracked.png",
             "layer0.tint": "var(sidebar_untracked)",
             "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+            "settings": {"git_status_icons": "octicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/status_untracked.png",
+            "layer0.tint": "var(sidebar_untracked)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        // {
+        //     "class": "vcs_status_badge",
+        //     "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+        //     "settings": {"git_status_icons": "letters"},
+        //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_untracked.png",
+        //     "layer0.tint": "var(sidebar_untracked)",
+        //     "content_margin": [15, 15, 0, 0]
+        // },
+        {
+            "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
-            "settings": ["!hide_sidebar_status_icons"],
+            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_added.png",
             "layer0.tint": "var(sidebar_added)",
             "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+            "settings": {"git_status_icons": "octicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/status_added.png",
+            "layer0.tint": "var(sidebar_added)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        // {
+        //     "class": "vcs_status_badge",
+        //     "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+        //     "settings": {"git_status_icons": "letters"},
+        //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_added.png",
+        //     "layer0.tint": "var(sidebar_added)",
+        //     "content_margin": [15, 15, 0, 0]
+        // },
+        {
+            "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-            "settings": ["!hide_sidebar_status_icons"],
+            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_modified.png",
             "layer0.tint": "var(sidebar_modified)",
             "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+            "settings": {"git_status_icons": "octicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/status_modified.png",
+            "layer0.tint": "var(sidebar_modified)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        // {
+        //     "class": "vcs_status_badge",
+        //     "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+        //     "settings": {"git_status_icons": "letters"},
+        //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_modified.png",
+        //     "layer0.tint": "var(sidebar_modified)",
+        //     "content_margin": [15, 15, 0, 0]
+        // },
+        {
+            "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-            "settings": ["!hide_sidebar_status_icons"],
+            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_staged.png",
             "layer0.tint": "var(sidebar_staged)",
             "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
+            "settings": {"git_status_icons": "octicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/status_staged.png",
+            "layer0.tint": "var(sidebar_staged)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        // {
+        //     "class": "vcs_status_badge",
+        //     "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
+        //     "settings": {"git_status_icons": "letters"},
+        //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_staged.png",
+        //     "layer0.tint": "var(sidebar_staged)",
+        //     "content_margin": [15, 15, 0, 0]
+        // },
+        {
+            "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
-            "settings": ["!hide_sidebar_status_icons"],
+            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_missing.png",
             "layer0.tint": "var(sidebar_missing)",
             "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
+            "settings": {"git_status_icons": "octicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/status_missing.png",
+            "layer0.tint": "var(sidebar_missing)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        // {
+        //     "class": "vcs_status_badge",
+        //     "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
+        //     "settings": {"git_status_icons": "letters"},
+        //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_missing.png",
+        //     "layer0.tint": "var(sidebar_missing)",
+        //     "content_margin": [15, 15, 0, 0]
+        // },
+        {
+            "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
-            "settings": ["!hide_sidebar_status_icons"],
+            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_deleted.png",
             "layer0.tint": "var(sidebar_deleted)",
             "content_margin": [15, 15, 0, 0]
         },
         {
             "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
+            "settings": {"git_status_icons": "octicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/status_deleted.png",
+            "layer0.tint": "var(sidebar_deleted)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        // {
+        //     "class": "vcs_status_badge",
+        //     "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
+        //     "settings": {"git_status_icons": "letters"},
+        //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_deleted.png",
+        //     "layer0.tint": "var(sidebar_deleted)",
+        //     "content_margin": [15, 15, 0, 0]
+        // },
+        {
+            "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
-            "settings": ["!hide_sidebar_status_icons"],
+            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_unmerged.png",
             "layer0.tint": "var(sidebar_unmerged)",
             "content_margin": [15, 15, 0, 0]
         },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
+            "settings": {"git_status_icons": "octicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/status_unmerged.png",
+            "layer0.tint": "var(sidebar_unmerged)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        // {
+        //     "class": "vcs_status_badge",
+        //     "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
+        //     "settings": {"git_status_icons": "letters"},
+        //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_unmerged.png",
+        //     "layer0.tint": "var(sidebar_unmerged)",
+        //     "content_margin": [15, 15, 0, 0]
+        // },
 ////////[ Tabs ]////////////////////////////////////////////////////////////////
         {
             "class": "tabset_control",

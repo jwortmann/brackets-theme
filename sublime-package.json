@@ -18,19 +18,24 @@
             },
             "kind_letters": {
               "type": "boolean",
-              "default": false,
               "deprecationMessage": "This setting is deprecated!\nUse \"kind_icons_style\": \"letters\" instead.",
-              "markdownDescription": "Controls whether the default style from the built-in themes with colored kind letters instead of icons in autocompletion popups and the *Goto Symbol...* panel should be used.\n\nSetting from: *Theme - Brackets*"
+              "markdownDescription": "Setting from: *Theme - Brackets*"
             },
             "sidebar_status_colors": {
               "type": "boolean",
               "default": false,
               "markdownDescription": "Highlight filenames in the sidebar for files with Git status \"new\" or \"modified\" in green and orange. Regardless of this setting, files with status \"ignored\" are always dimmed.\n\nSetting from: *Theme - Brackets*"
             },
+            "git_status_icons": {
+              "type": "string",
+              "default": "octicons",
+              "enum": ["octicons", "letters", "disabled"],
+              "markdownDescription": "Controls the style for the git status icons for files and folders in the sidebar.\n\nSetting from: *Theme - Brackets*"
+            },
             "hide_sidebar_status_icons": {
               "type": "boolean",
-              "default": false,
-              "markdownDescription": "Hide the Git status icons in the sidebar.\n\nSetting from: *Theme - Brackets*"
+              "deprecationMessage": "This setting is deprecated!\nUse \"git_status_icons\": \"disabled\" instead.",
+              "markdownDescription": "Setting from: *Theme - Brackets*"
             },
             "blend_inactive_tabs": {
               "type": "boolean",
