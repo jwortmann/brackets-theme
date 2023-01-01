@@ -1393,17 +1393,40 @@
             "color": "var(quickpanel_path_label_light)",
             "link_color": "var(text_link_light)"
         },
+////////[ Sheets ]//////////////////////////////////////////////////////////////
+        {
+            "class": "sheet_contents",
+            "background_modifier": ""
+        },
+        {
+            "class": "sheet_contents",
+            "settings": {"inactive_sheet_dimming": true},
+            "attributes": ["!highlighted"],
+            "background_modifier": "lightness(- 2%)"
+        },
+        {
+            "class": "sheet_contents",
+            "settings": {"inactive_sheet_dimming": true},
+            "attributes": ["file_light", "!highlighted"],
+            "background_modifier": "lightness(- 5%)"
+        },
 ////////[ Views ]///////////////////////////////////////////////////////////////
         {
             "class": "text_area_control",
-            "settings": ["inactive_sheet_dimming"],
+            "settings": {"inactive_sheet_dimming": true},
             "attributes": ["!highlighted"],
             "background_modifier": "lightness(- 2%)"
         },
         {
             "class": "text_area_control",
+            "settings": {"inactive_sheet_dimming": true},
+            "attributes": ["file_light", "!highlighted"],
+            "background_modifier": "lightness(- 5%)"
+        },
+        {
+            "class": "text_area_control",
             "parents": [{"class": "text_line_control"}],
-            "settings": ["inactive_sheet_dimming"],
+            "settings": {"inactive_sheet_dimming": true},
             "attributes": ["!highlighted"],
             "background_modifier": ""
         },
