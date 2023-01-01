@@ -1,7 +1,7 @@
 Brackets Theme Changelog
 ========================
 
-v1.2.0 (2023-01-)
+v1.2.0 (2023-01-01)
 -------------------
 
   * Changed the default kind icons in the autocomplete popup and "Goto Symbol..." panel. A new
