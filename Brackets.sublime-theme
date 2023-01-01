@@ -1183,20 +1183,20 @@
 ////////[ Quick Panel ]/////////////////////////////////////////////////////////
         {
             "class": "overlay_control",
-            "content_margin": [20, 25],
+            "content_margin": [20, 25, 20, 21],
             "layer0.texture": "Theme - Brackets/assets/overlay_shadow.png",
             "layer0.tint": "black",
-            "layer0.opacity": 0.8,
-            "layer0.inner_margin": [23, 28],
+            "layer0.opacity": 0.5,
+            "layer0.inner_margin": [24, 30, 24, 24],
             "layer0.draw_center": false,
             "layer1.texture": "Theme - Brackets/assets/overlay_background.png",
             "layer1.tint": "var(overlay_background_dark)",
             "layer1.opacity": 1.0,
-            "layer1.inner_margin": [23, 28],
+            "layer1.inner_margin": [24, 30, 24, 24],
             "layer2.texture": "Theme - Brackets/assets/overlay_border.png",
             "layer2.tint": "var(overlay_border_dark)",
             "layer2.opacity": 1.0,
-            "layer2.inner_margin": [23, 28],
+            "layer2.inner_margin": [24, 30, 24, 24],
             "layer2.draw_center": false
         },
         {
@@ -1489,6 +1489,41 @@
             "class": "fold_button_control",
             "attributes": ["expanded"],
             "layer0.texture": "Theme - Brackets/assets/fold_opened.png"
+        },
+        {
+            "class": "popup_shadow",
+            "settings": {"popup_shadows": true},
+            "layer0.texture": "Theme - Brackets/assets/popup_shadow.png",
+            "layer0.tint": "black",
+            "layer0.opacity": 0.5,
+            "layer0.inner_margin": 24,
+        },
+        {
+            "class": "popup_control html_popup",
+            "settings": {"popup_style": "rounded"},
+            "content_margin": 3,
+            "layer0.texture": "Theme - Brackets/assets/popup_background.png",
+            "layer0.opacity": 1.0,
+            "layer0.tint": "color(var(--background) blend(var(--foreground) 94%))",
+            "layer0.inner_margin": 8,
+            "layer1.texture": "Theme - Brackets/assets/popup_border.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(overlay_border_dark)",
+            "layer1.inner_margin": 8
+        },
+        {
+            "class": "popup_control html_popup",
+            "settings": {"popup_style": "square"},
+            "content_margin": 1,
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(overlay_border_dark)"
+        },
+        {
+            "class": "popup_control html_popup",
+            "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
+            "settings": {"popup_style": ["rounded", "square"]},
+            "layer0.tint": "color(var(--background) blend(var(--foreground) 93.5%))",
+            "layer1.tint": "var(tooltip_border_light)"
         },
         {
             "class": "annotation_close_button",

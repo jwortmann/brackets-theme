@@ -47,6 +47,12 @@
               "default": "dark",
               "enum": ["dark", "light"],
               "markdownDescription": "Controls the style for tooltips.\n\nUpvote https://github.com/sublimehq/sublime_text/issues/4683 on GitHub if you would prefer that the style should be automatically derived from the color scheme.\n\nSetting from: *Theme - Brackets*"
+            },
+            "popup_style": {
+              "type": "string",
+              "default": "default",
+              "enum": ["default", "rounded", "square"],
+              "markdownDescription": "Controls the style for hover popups.\n\nOptions: \"default\", \"rounded\" or \"square\". When set to \"rounded\" or \"square\", popups will be drawn with a border.\n\nSetting from: *Theme - Brackets*"
             }
           }
         }

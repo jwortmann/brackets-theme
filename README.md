@@ -34,6 +34,7 @@ __Custom settings:__
 | "sidebar_status_colors" | false | Highlight filenames in the sidebar for files with Git status "new" or "modified" in green and orange. Regardless of this setting, files with status "ignored" are always dimmed. |
 | "blend_inactive_tabs" | false | Blend the color of inactive tabs with the background. This is how inactive tabs in the built-in Default and Adaptive themes are shown. This setting only applies if "file_tab_style" is "rounded" or "square". |
 | "tooltip_style" | "dark" | Controls the style for tooltips. Options are "dark" and "light". |
+| "popup_style" | "default" | Controls the style for hover popups. Options are "default", "rounded" and "square". When set to "rounded" or "square", popups will be drawn with a border. |
 
 __Relevant standard settings:__
 

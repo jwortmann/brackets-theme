@@ -21,9 +21,11 @@ v1.2.0 (2023-01-)
     corner radius.
 
   * Tweaked the visual presentation of tooltips to match the style of the command palette. Tooltips
-    have a shadow and use a dark background by default now.
+    now have a shadow and use a dark background by default.
 
-  * Added a new setting "tooltip_style" with the options "dark" and "light".
+  * Added a new "tooltip_style" setting with the options "dark" and "light".
+
+  * Added a new "popup_style" setting with the options "default", "rounded" and "square".
 
   * Adjusted the default file icon in the sidebar for markup files (HTML, Markdown, etc.), so that
     it matches the style of the other file icons.
