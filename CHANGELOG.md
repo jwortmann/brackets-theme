@@ -1,6 +1,32 @@
 Brackets Theme Changelog
 ========================
 
+v1.2.0 (2023-01-)
+-------------------
+
+  * Changed the default kind icons in the autocomplete popup and "Goto Symbol..." panel. A new
+    setting "kind_icons_style" was added and can be set to "codicons" to restore the former icons.
+
+  * The "kind_letters" setting is deprecated - use "kind_icons_style": "letters" instead.
+
+  * Removed the "kind_icon_ambiguous" setting and the ability to show an icon for this kind.
+
+  * Changed the default git status icons in the sidebar. A new setting "git_status_icons" was added
+    and can be set to "codicons" to restore the former icons.
+
+  * The "hide_sidebar_status_icons" setting is deprecated - use "git_status_icons": "disabled"
+    instead.
+
+  * Tweaked the visual presentation of the command palette with a subtle border and increased
+    corner radius.
+
+  * Tweaked the visual presentation of tooltips to match the style of the command palette. Tooltips
+    have a shadow and use a dark background now.
+
+  * Adjusted the default file icon in the sidebar for markup files (HTML, Markdown, etc.), so that
+    it matches the style of the other file icons.
+
+
 v1.1.1 (2022-09-14)
 -------------------
 

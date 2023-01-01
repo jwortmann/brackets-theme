@@ -312,22 +312,45 @@
         {
             "class": "vcs_status_badge",
             "layer0.opacity": 1.0,
+            "content_margin": [15, 15, 0, 0]
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
             "content_margin": 0
         },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "tree_row", "attributes": ["expandable"]}, {"class": "file_system_entry", "attributes": ["ignored"]}],
-            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
-            "layer0.texture": "Theme - Brackets/status_icons/status_ignored.png",
-            "layer0.tint": "var(sidebar_ignored)",
             "content_margin": [15, 15, 0, 0]
+        },
+        {
+            "class": "vcs_status_badge",
+            "settings": {"hide_sidebar_status_icons": true},
+            "content_margin": 0
+        },
+        {
+            "class": "vcs_status_badge",
+            "settings": {"git_status_icons": "disabled"},
+            "content_margin": 0
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "tree_row", "attributes": ["expandable"]}, {"class": "file_system_entry", "attributes": ["ignored"]}],
+            "layer0.texture": "Theme - Brackets/status_icons/status_ignored.png",
+            "layer0.tint": "var(sidebar_ignored)"
         },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "tree_row", "attributes": ["expandable"]}, {"class": "file_system_entry", "attributes": ["ignored"]}],
             "settings": {"git_status_icons": "octicons"},
-            "layer0.texture": "Theme - Brackets/status_icons/status_ignored.png",
-            "layer0.tint": "var(sidebar_ignored)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "tree_row", "attributes": ["expandable"]}, {"class": "file_system_entry", "attributes": ["ignored"]}],
+            "settings": {"git_status_icons": "codicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/codicons/status_ignored.png",
             "content_margin": [15, 15, 0, 0]
         },
         // {
@@ -335,23 +358,25 @@
         //     "parents": [{"class": "tree_row", "attributes": ["expandable"]}, {"class": "file_system_entry", "attributes": ["ignored"]}],
         //     "settings": {"git_status_icons": "letters"},
         //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_ignored.png",
-        //     "layer0.tint": "var(sidebar_ignored)",
         //     "content_margin": [15, 15, 0, 0]
         // },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
-            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_untracked.png",
-            "layer0.tint": "var(sidebar_untracked)",
-            "content_margin": [15, 15, 0, 0]
+            "layer0.tint": "var(sidebar_untracked)"
         },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
             "settings": {"git_status_icons": "octicons"},
-            "layer0.texture": "Theme - Brackets/status_icons/status_untracked.png",
-            "layer0.tint": "var(sidebar_untracked)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+            "settings": {"git_status_icons": "codicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/codicons/status_untracked.png",
             "content_margin": [15, 15, 0, 0]
         },
         // {
@@ -359,23 +384,25 @@
         //     "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
         //     "settings": {"git_status_icons": "letters"},
         //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_untracked.png",
-        //     "layer0.tint": "var(sidebar_untracked)",
         //     "content_margin": [15, 15, 0, 0]
         // },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
-            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_added.png",
-            "layer0.tint": "var(sidebar_added)",
-            "content_margin": [15, 15, 0, 0]
+            "layer0.tint": "var(sidebar_added)"
         },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
             "settings": {"git_status_icons": "octicons"},
-            "layer0.texture": "Theme - Brackets/status_icons/status_added.png",
-            "layer0.tint": "var(sidebar_added)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+            "settings": {"git_status_icons": "codicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/codicons/status_added.png",
             "content_margin": [15, 15, 0, 0]
         },
         // {
@@ -383,23 +410,25 @@
         //     "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
         //     "settings": {"git_status_icons": "letters"},
         //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_added.png",
-        //     "layer0.tint": "var(sidebar_added)",
         //     "content_margin": [15, 15, 0, 0]
         // },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
-            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_modified.png",
-            "layer0.tint": "var(sidebar_modified)",
-            "content_margin": [15, 15, 0, 0]
+            "layer0.tint": "var(sidebar_modified)"
         },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
             "settings": {"git_status_icons": "octicons"},
-            "layer0.texture": "Theme - Brackets/status_icons/status_modified.png",
-            "layer0.tint": "var(sidebar_modified)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+            "settings": {"git_status_icons": "codicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/codicons/status_modified.png",
             "content_margin": [15, 15, 0, 0]
         },
         // {
@@ -407,23 +436,25 @@
         //     "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
         //     "settings": {"git_status_icons": "letters"},
         //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_modified.png",
-        //     "layer0.tint": "var(sidebar_modified)",
         //     "content_margin": [15, 15, 0, 0]
         // },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
-            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_staged.png",
-            "layer0.tint": "var(sidebar_staged)",
-            "content_margin": [15, 15, 0, 0]
+            "layer0.tint": "var(sidebar_staged)"
         },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
             "settings": {"git_status_icons": "octicons"},
-            "layer0.texture": "Theme - Brackets/status_icons/status_staged.png",
-            "layer0.tint": "var(sidebar_staged)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
+            "settings": {"git_status_icons": "codicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/codicons/status_staged.png",
             "content_margin": [15, 15, 0, 0]
         },
         // {
@@ -431,23 +462,25 @@
         //     "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
         //     "settings": {"git_status_icons": "letters"},
         //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_staged.png",
-        //     "layer0.tint": "var(sidebar_staged)",
         //     "content_margin": [15, 15, 0, 0]
         // },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
-            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_missing.png",
-            "layer0.tint": "var(sidebar_missing)",
-            "content_margin": [15, 15, 0, 0]
+            "layer0.tint": "var(sidebar_missing)"
         },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
             "settings": {"git_status_icons": "octicons"},
-            "layer0.texture": "Theme - Brackets/status_icons/status_missing.png",
-            "layer0.tint": "var(sidebar_missing)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
+            "settings": {"git_status_icons": "codicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/codicons/status_missing.png",
             "content_margin": [15, 15, 0, 0]
         },
         // {
@@ -455,23 +488,25 @@
         //     "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
         //     "settings": {"git_status_icons": "letters"},
         //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_missing.png",
-        //     "layer0.tint": "var(sidebar_missing)",
         //     "content_margin": [15, 15, 0, 0]
         // },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
-            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_deleted.png",
-            "layer0.tint": "var(sidebar_deleted)",
-            "content_margin": [15, 15, 0, 0]
+            "layer0.tint": "var(sidebar_deleted)"
         },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
             "settings": {"git_status_icons": "octicons"},
-            "layer0.texture": "Theme - Brackets/status_icons/status_deleted.png",
-            "layer0.tint": "var(sidebar_deleted)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
+            "settings": {"git_status_icons": "codicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/codicons/status_deleted.png",
             "content_margin": [15, 15, 0, 0]
         },
         // {
@@ -479,23 +514,25 @@
         //     "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
         //     "settings": {"git_status_icons": "letters"},
         //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_deleted.png",
-        //     "layer0.tint": "var(sidebar_deleted)",
         //     "content_margin": [15, 15, 0, 0]
         // },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
-            "settings": {"git_status_icons": "", "hide_sidebar_status_icons": false},
             "layer0.texture": "Theme - Brackets/status_icons/status_unmerged.png",
-            "layer0.tint": "var(sidebar_unmerged)",
-            "content_margin": [15, 15, 0, 0]
+            "layer0.tint": "var(sidebar_unmerged)"
         },
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
             "settings": {"git_status_icons": "octicons"},
-            "layer0.texture": "Theme - Brackets/status_icons/status_unmerged.png",
-            "layer0.tint": "var(sidebar_unmerged)",
+            "content_margin": [15, 15, 0, 0]
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
+            "settings": {"git_status_icons": "codicons"},
+            "layer0.texture": "Theme - Brackets/status_icons/codicons/status_unmerged.png",
             "content_margin": [15, 15, 0, 0]
         },
         // {
@@ -503,7 +540,6 @@
         //     "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
         //     "settings": {"git_status_icons": "letters"},
         //     "layer0.texture": "Theme - Brackets/status_icons/letters/status_unmerged.png",
-        //     "layer0.tint": "var(sidebar_unmerged)",
         //     "content_margin": [15, 15, 0, 0]
         // },
 ////////[ Tabs ]////////////////////////////////////////////////////////////////
@@ -1262,7 +1298,9 @@
             "class": "kind_container",
             "parents": [{"class": "quick_panel"}],
             "content_margin": [5, 0, 6, 0],
-            "layer0.opacity": 0.15
+            "layer0.opacity": 0,
+            "layer1.opacity": 1.0,
+            "layer1.inner_margin": [22, 0, 0, 22]
         },
         {
             "class": "kind_container",
@@ -1280,13 +1318,6 @@
             "parents": [{"class": "overlay_control kind_info"}, {"class": "quick_panel"}],
             "platforms": ["linux"],
             "content_margin": [5, 3, 6, 5]
-        },
-        {
-            "class": "kind_container",
-            "parents": [{"class": "quick_panel"}],
-            "settings": ["!kind_letters"],
-            "layer0.opacity": 1.0,
-            "layer0.inner_margin": [22, 0, 0, 22]
         },
         {
             "class": "quick_panel_label",
@@ -1494,14 +1525,9 @@
             "class": "kind_container",
             "parents": [{"class": "auto_complete"}],
             "content_margin": [5, 2, 6, 4],
-            "layer0.opacity": 0.15,
-            "layer0.tint": "var(autocomplete_background_dark)"
-        },
-        {
-            "class": "kind_container",
-            "parents": [{"class": "auto_complete"}],
-            "platforms": ["osx"],
-            "content_margin": [5, 3, 6, 4]
+            "layer0.opacity": 0,
+            "layer1.opacity": 1.0,
+            "layer1.inner_margin": [22, 0, 0, 22]
         },
         {
             "class": "kind_container",
@@ -1511,178 +1537,120 @@
         },
         {
             "class": "kind_container",
-            "parents": [{"class": "auto_complete", "attributes": ["file_light"]}],
-            "layer0.tint": "var(autocomplete_background_light)"
+            "parents": [{"class": "auto_complete"}],
+            "platforms": ["osx"],
+            "content_margin": [5, 3, 6, 4]
         },
         {
             "class": "kind_container",
-            "parents": [{"class": "auto_complete"}],
-            "settings": {"kind_icons_style": "", "kind_letters": false},
-            "layer0.opacity": 1.0,
-            "layer0.inner_margin": [22, 0, 0, 22]
+            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
+            "layer0.opacity": 0.15,
+            "layer1.opacity": 0
         },
         {
             "class": "kind_container",
-            "parents": [{"class": "auto_complete"}],
+            "settings": {"kind_icons_style": "letters"},
+            "layer0.opacity": 0.15,
+            "layer1.opacity": 0
+        },
+        {
+            "class": "kind_container",
             "settings": {"kind_icons_style": ["octicons", "codicons"]},
-            "layer0.opacity": 1.0,
-            "layer0.inner_margin": [22, 0, 0, 22]
+            "layer0.opacity": 0,
+            "layer1.opacity": 1.0
         },
         {
-            "class": "kind_container kind_ambiguous",
-            "layer0.tint": "transparent"
-        },
-        {
-            "class": "kind_container kind_keyword",
-            "layer0.tint": "var(kind_keyword_color)"
+            "class": "kind_container",
+            "layer0.tint": "transparent",
+            "layer1.tint": "transparent"
         },
         {
             "class": "kind_container kind_keyword",
-            "settings": {"kind_icons_style": "", "kind_letters": false},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_keyword.png"
-        },
-        {
-            "class": "kind_container kind_keyword",
-            "settings": {"kind_icons_style": "octicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_keyword.png"
+            "layer0.tint": "var(kind_keyword_color)",
+            "layer1.texture": "Theme - Brackets/kind_icons/kind_keyword.png",
+            "layer1.tint": "var(kind_keyword_color)"
         },
         {
             "class": "kind_container kind_keyword",
             "settings": {"kind_icons_style": "codicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/codicons/kind_keyword.png"
+            "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_keyword.png"
         },
         {
             "class": "kind_container kind_type",
-            "layer0.tint": "var(kind_type_color)"
-        },
-        {
-            "class": "kind_container kind_type",
-            "settings": {"kind_icons_style": "", "kind_letters": false},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_type.png"
-        },
-        {
-            "class": "kind_container kind_type",
-            "settings": {"kind_icons_style": "octicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_type.png"
+            "layer0.tint": "var(kind_type_color)",
+            "layer1.texture": "Theme - Brackets/kind_icons/kind_type.png",
+            "layer1.tint": "var(kind_type_color)"
         },
         {
             "class": "kind_container kind_type",
             "settings": {"kind_icons_style": "codicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/codicons/kind_type.png"
+            "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_type.png"
         },
         {
             "class": "kind_container kind_function",
-            "layer0.tint": "var(kind_function_color)"
-        },
-        {
-            "class": "kind_container kind_function",
-            "settings": {"kind_icons_style": "", "kind_letters": false},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_function.png"
-        },
-        {
-            "class": "kind_container kind_function",
-            "settings": {"kind_icons_style": "octicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_function.png"
+            "layer0.tint": "var(kind_function_color)",
+            "layer1.texture": "Theme - Brackets/kind_icons/kind_function.png",
+            "layer1.tint": "var(kind_function_color)"
         },
         {
             "class": "kind_container kind_function",
             "settings": {"kind_icons_style": "codicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/codicons/kind_function.png"
+            "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_function.png"
         },
         {
             "class": "kind_container kind_namespace",
-            "layer0.tint": "var(kind_namespace_color)"
-        },
-        {
-            "class": "kind_container kind_namespace",
-            "settings": {"kind_icons_style": "", "kind_letters": false},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_namespace.png"
-        },
-        {
-            "class": "kind_container kind_namespace",
-            "settings": {"kind_icons_style": "octicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_namespace.png"
+            "layer0.tint": "var(kind_namespace_color)",
+            "layer1.texture": "Theme - Brackets/kind_icons/kind_namespace.png",
+            "layer1.tint": "var(kind_namespace_color)"
         },
         {
             "class": "kind_container kind_namespace",
             "settings": {"kind_icons_style": "codicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/codicons/kind_namespace.png"
+            "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_namespace.png"
         },
         {
             "class": "kind_container kind_navigation",
-            "layer0.tint": "var(kind_navigation_color)"
-        },
-        {
-            "class": "kind_container kind_navigation",
-            "settings": {"kind_icons_style": "", "kind_letters": false},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_navigation.png"
-        },
-        {
-            "class": "kind_container kind_navigation",
-            "settings": {"kind_icons_style": "octicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_navigation.png"
+            "layer0.tint": "var(kind_navigation_color)",
+            "layer1.texture": "Theme - Brackets/kind_icons/kind_navigation.png",
+            "layer1.tint": "var(kind_navigation_color)"
         },
         {
             "class": "kind_container kind_navigation",
             "settings": {"kind_icons_style": "codicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/codicons/kind_navigation.png"
+            "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_navigation.png"
         },
         {
             "class": "kind_container kind_markup",
-            "layer0.tint": "var(kind_markup_color)"
-        },
-        {
-            "class": "kind_container kind_markup",
-            "settings": {"kind_icons_style": "", "kind_letters": false},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_markup.png"
-        },
-        {
-            "class": "kind_container kind_markup",
-            "settings": {"kind_icons_style": "octicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_markup.png"
+            "layer0.tint": "var(kind_markup_color)",
+            "layer1.texture": "Theme - Brackets/kind_icons/kind_markup.png",
+            "layer1.tint": "var(kind_markup_color)"
         },
         {
             "class": "kind_container kind_markup",
             "settings": {"kind_icons_style": "codicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/codicons/kind_markup.png"
+            "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_markup.png"
         },
         {
             "class": "kind_container kind_variable",
-            "layer0.tint": "var(kind_variable_color)"
-        },
-        {
-            "class": "kind_container kind_variable",
-            "settings": {"kind_icons_style": "", "kind_letters": false},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_variable.png"
-        },
-        {
-            "class": "kind_container kind_variable",
-            "settings": {"kind_icons_style": "octicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_variable.png"
+            "layer0.tint": "var(kind_variable_color)",
+            "layer1.texture": "Theme - Brackets/kind_icons/kind_variable.png",
+            "layer1.tint": "var(kind_variable_color)"
         },
         {
             "class": "kind_container kind_variable",
             "settings": {"kind_icons_style": "codicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/codicons/kind_variable.png"
+            "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_variable.png"
         },
         {
             "class": "kind_container kind_snippet",
-            "layer0.tint": "var(kind_snippet_color)"
-        },
-        {
-            "class": "kind_container kind_snippet",
-            "settings": {"kind_icons_style": "", "kind_letters": false},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_snippet.png"
-        },
-        {
-            "class": "kind_container kind_snippet",
-            "settings": {"kind_icons_style": "octicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/kind_snippet.png"
+            "layer0.tint": "var(kind_snippet_color)",
+            "layer1.texture": "Theme - Brackets/kind_icons/kind_snippet.png",
+            "layer1.tint": "var(kind_snippet_color)"
         },
         {
             "class": "kind_container kind_snippet",
             "settings": {"kind_icons_style": "codicons"},
-            "layer0.texture": "Theme - Brackets/kind_icons/codicons/kind_snippet.png"
+            "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_snippet.png"
         },
         {
             "class": "kind_container kind_color_redish",
@@ -1739,17 +1707,13 @@
             "font.face": "var(kind_font_face)",
             "font.size": 15,
             "font.bold": true,
-            "font.italic": true
-        },
-        {
-            "class": "kind_label",
-            "settings": {"kind_icons_style": ""},
+            "font.italic": true,
             "color": "transparent"
         },
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_keyword"}],
-            "settings": ["kind_letters"],
+            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
             "color": "var(kind_keyword_color)"
         },
         {
@@ -1761,7 +1725,7 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_type"}],
-            "settings": ["kind_letters"],
+            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
             "color": "var(kind_type_color)"
         },
         {
@@ -1773,7 +1737,7 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_function"}],
-            "settings": ["kind_letters"],
+            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
             "color": "var(kind_function_color)"
         },
         {
@@ -1785,7 +1749,7 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_namespace"}],
-            "settings": ["kind_letters"],
+            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
             "color": "var(kind_namespace_color)"
         },
         {
@@ -1797,7 +1761,7 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_navigation"}],
-            "settings": ["kind_letters"],
+            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
             "color": "var(kind_navigation_color)"
         },
         {
@@ -1809,7 +1773,7 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_markup"}],
-            "settings": ["kind_letters"],
+            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
             "color": "var(kind_markup_color)"
         },
         {
@@ -1821,7 +1785,7 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_variable"}],
-            "settings": ["kind_letters"],
+            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
             "color": "var(kind_variable_color)"
         },
         {
@@ -1833,7 +1797,7 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_snippet"}],
-            "settings": ["kind_letters"],
+            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
             "color": "var(kind_snippet_color)"
         },
         {
@@ -1844,7 +1808,7 @@
         },
         {
             "class": "kind_label",
-            "settings": {"kind_icons_style": ["octicons", "codicons"]},
+            "settings": {"kind_icons_style": ["octicons", "codicons"]}, // this setting will always take precedence
             "color": "transparent"
         },
         {

@@ -30,7 +30,7 @@ __Custom settings:__
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
 | "kind_icons_style" | "octicons" | Controls the style for the kind icons which are shown in the autocompletion popup and the "Goto Symbol" panels. Options:<ul><li>"octicons" (from GitHub)</li><li>"codicons" (from VS Code)</li><li>"letters" (similar to the built-in themes)</li></ul> |
-| "git_status_icons" | "octicons" | Controls the style for the git status icons for files and folders in the sidebar. Options:<ul><li>"octicons"</li><li>"letters"</li><li>"disabled"</li> |
+| "git_status_icons" | "octicons" | Controls the style for the git status icons for files and folders in the sidebar. Options:<ul><li>"octicons"</li><li>"codicons"</li><li>"disabled"</li> |
 | "sidebar_status_colors" | false | Highlight filenames in the sidebar for files with Git status "new" or "modified" in green and orange. Regardless of this setting, files with status "ignored" are always dimmed. |
 | "blend_inactive_tabs" | false | Blend the color of inactive tabs with the background. This is how inactive tabs in the built-in Default and Adaptive themes are shown. This setting only applies if "file_tab_style" is "rounded" or "square". |
 
