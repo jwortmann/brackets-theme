@@ -17,14 +17,20 @@ v1.2.0 (2023-01-)
   * The "hide_sidebar_status_icons" setting is deprecated - use "git_status_icons": "disabled"
     instead.
 
-  * Tweaked the visual presentation of the command palette with a subtle border and increased
+  * Tweaked the visual presentation of the command palette with a subtle border and an increased
     corner radius.
 
   * Tweaked the visual presentation of tooltips to match the style of the command palette. Tooltips
-    have a shadow and use a dark background now.
+    have a shadow and use a dark background by default now.
+
+  * Added a new setting "tooltip_style" with the options "dark" and "light".
 
   * Adjusted the default file icon in the sidebar for markup files (HTML, Markdown, etc.), so that
     it matches the style of the other file icons.
+
+  * Fixed inactive sheet dimming not working for HtmlSheets.
+
+  * Increased the inactive sheet dimming contrast for light color schemes.
 
 
 v1.1.1 (2022-09-14)

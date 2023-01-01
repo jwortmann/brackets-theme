@@ -41,6 +41,12 @@
               "type": "boolean",
               "default": false,
               "markdownDescription": "Blend the color of inactive tabs with the background. This is how inactive tabs in the built-in Default and Adaptive themes are shown. Only applies when \"file_tab_style\" is \"rounded\" or \"square\".\n\nSetting from: *Theme - Brackets*"
+            },
+            "tooltip_style": {
+              "type": "string",
+              "default": "dark",
+              "enum": ["dark", "light"],
+              "markdownDescription": "Controls the style for tooltips.\n\nUpvote https://github.com/sublimehq/sublime_text/issues/4683 on GitHub if you would prefer that the style should be automatically derived from the color scheme.\n\nSetting from: *Theme - Brackets*"
             }
           }
         }
