@@ -1,3 +1,4 @@
 /img export-ignore
 *.svg export-ignore
 convert.bat export-ignore
+convert.bat -linguist-detectable
