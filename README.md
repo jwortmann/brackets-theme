@@ -51,9 +51,7 @@ __Relevant standard settings:__
 
 ## Attributions
 
-* Kind icons used in the autocompletion popup and the *Goto Symbol…* panels are derived from [Octicons](https://github.com/primer/octicons) (licensed under the [MIT license](/licenses/Octicons/LICENSE)) and from [Codicons](https://github.com/microsoft/vscode-codicons) (licensed under [CC BY 4.0](/licenses/Codicons/LICENSE)).
-
-* Git status icons in the sidebar are derived from Octicons and from Codicons.
+* Git status icons in the sidebar and kind icons used in the autocompletion popup and the *Goto Symbol…* panels are derived from [Octicons](https://github.com/primer/octicons) (licensed under the [MIT license](/licenses/Octicons/LICENSE)) and from [Codicons](https://github.com/microsoft/vscode-codicons) (licensed under [CC BY 4.0](/licenses/Codicons/LICENSE)).
 
 * File icons in the sidebar are derived from [FileIcons](https://github.com/braver/FileIcons) (licensed under the [MIT license](/licenses/FileIcons/LICENSE)).
 
