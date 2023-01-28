@@ -2791,7 +2791,7 @@
             "class": "label_control",
             "parents": [{"class": "button_control"}],
             "font.face": "var(font_face)",
-            "font.size": 12.5
+            "font.size": 13
         },
 ////////[ Labels ]//////////////////////////////////////////////////////////////
         {
@@ -2830,7 +2830,7 @@
         {
             "class": "tool_tip_label_control",
             "font.face": "var(font_face)",
-            "font.size": 12.5,
+            "font.size": 13,
             "color": "var(tooltip_label_dark)",
             "opacity": 1.0
         },
