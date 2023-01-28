@@ -1,6 +1,14 @@
 Brackets Theme Changelog
 ========================
 
+v1.2.1 (2023-01-28)
+-------------------
+
+  * Fixed dash/minus sign not being rendered in tooltips.
+
+  * Fixed kind icon alignment in some quick panel overlays provided by plugins.
+
+
 v1.2.0 (2023-01-01)
 -------------------
 
