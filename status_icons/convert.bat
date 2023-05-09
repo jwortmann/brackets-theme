@@ -13,6 +13,9 @@ inkscape --export-type=png -w 45 -h 45 --export-filename=status_missing@3x.png s
 inkscape --export-type=png -w 15 -h 15 --export-filename=status_modified.png status_modified.svg
 inkscape --export-type=png -w 30 -h 30 --export-filename=status_modified@2x.png status_modified.svg
 inkscape --export-type=png -w 45 -h 45 --export-filename=status_modified@3x.png status_modified.svg
+rem inkscape --export-type=png -w 15 -h 15 --export-filename=status_renamed.png status_renamed.svg
+rem inkscape --export-type=png -w 30 -h 30 --export-filename=status_renamed@2x.png status_renamed.svg
+rem inkscape --export-type=png -w 45 -h 45 --export-filename=status_renamed@3x.png status_renamed.svg
 inkscape --export-type=png -w 15 -h 15 --export-filename=status_staged.png status_staged.svg
 inkscape --export-type=png -w 30 -h 30 --export-filename=status_staged@2x.png status_staged.svg
 inkscape --export-type=png -w 45 -h 45 --export-filename=status_staged@3x.png status_staged.svg
