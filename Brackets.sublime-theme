@@ -1510,7 +1510,7 @@
         },
         {
             "class": "popup_control html_popup",
-            "settings": {"popup_style": "rounded"},
+            "settings": {"popup_style": ["rounded", ""]},
             "content_margin": 3,
             "layer0.texture": "Theme - Brackets/assets/popup_background.png",
             "layer0.opacity": 1.0,

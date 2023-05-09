@@ -50,7 +50,7 @@
             },
             "popup_style": {
               "type": "string",
-              "default": "default",
+              "default": "rounded",
               "enum": ["default", "rounded", "square"],
               "markdownDescription": "Controls the style for hover popups.\n\nOptions: \"default\", \"rounded\" or \"square\". When set to \"rounded\" or \"square\", popups will be drawn with a border.\n\nSetting from: *Theme - Brackets*"
             }

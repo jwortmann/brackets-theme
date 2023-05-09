@@ -1,6 +1,13 @@
 Brackets Theme Changelog
 ========================
 
+v1.3.0 (2023-??-??)
+-------------------
+
+  * Hover popups are now rendered with a rounded border. You can revert to the old style by adding
+    "popup_style": "default" into your settings.
+
+
 v1.2.1 (2023-01-28)
 -------------------
 
@@ -86,12 +93,14 @@ v1.0.3 (2021-10-25)
   * The font size in Widgets like the console panel and text input fields isn't fixed anymore and
     uses the global font size set by the user instead.
 
+
 v1.0.2 (2021-08-08)
 -------------------
 
   * Use custom close icon in annotations.
 
   * Changed font style for keybindings in the command palette to non-italic.
+
 
 v1.0.1 (2021-07-25)
 -------------------
@@ -101,6 +110,7 @@ v1.0.1 (2021-07-25)
   * Fixed kind icons in autocomplete popup not working with small font sizes.
 
   * Fixed blurry tab scroll buttons if hardware acceleration is enabled.
+
 
 v1.0.0 (2021-07-23)
 -------------------
