@@ -7,6 +7,9 @@ v1.3.0 (2023-??-??)
   * Hover popups are now rendered with a rounded border. You can revert to the old style by adding
     "popup_style": "default" into your settings.
 
+  * Added the ability to hide the tabs dropdown button by using the setting
+    "hide_tabs_dropdown_button": true.
+
 
 v1.2.1 (2023-01-28)
 -------------------

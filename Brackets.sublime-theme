@@ -1169,6 +1169,12 @@
             "layer0.opacity": {"target": 0.8, "speed": 4.0, "interpolation": "smoothstep"}
         },
         {
+            "class": "show_tabs_dropdown_button",
+            "settings": ["hide_tabs_dropdown_button"],
+            "layer0.opacity": 0.0,
+            "content_margin": [3, 0]
+        },
+        {
             "class": "new_tab_button",
             "layer0.texture": "Theme - Default/common/new_tab.png",
             "layer0.tint": "white",
