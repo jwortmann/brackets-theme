@@ -16,9 +16,11 @@ From the command palette select *Package Control: Install Package* and search fo
 
 ## Preview
 
-![Preview Dark](img/preview_dark.png)
-
-![Preview Light](img/preview_light.png)
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/preview_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/preview_light.png">
+    <img alt="Preview image of the theme" src="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/preview_dark.png">
+</picture>
 
 ## Customization
 
