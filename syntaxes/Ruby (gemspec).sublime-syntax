@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: Ruby (gemspec)
+scope: source.ruby.gemspec
+hidden: true
+file_extensions:
+  - gemspec
+
+contexts:
+  main:
+    - include: scope:source.ruby
+      apply_prototype: true

@@ -32,8 +32,9 @@ __Custom settings:__
 | "kind_icons_style" | "octicons" | Controls the style for the kind icons which are shown in the autocompletion popup and the "Goto Symbol" panels. Options:<ul><li>"octicons" (from GitHub)</li><li>"codicons" (from VS Code)</li><li>"letters" (similar to the built-in themes)</li></ul> |
 | "git_status_icons" | "octicons" | Controls the style for the git status icons for files and folders in the sidebar. Options:<ul><li>"octicons"</li><li>"codicons"</li><li>"disabled"</li> |
 | "sidebar_status_colors" | false | Highlight filenames in the sidebar for files with Git status "new" or "modified" in green and orange. Regardless of this setting, files with status "ignored" are always dimmed. |
-| "popup_style" | "rounded" | Controls the style for hover popups. Options are "default", "rounded" and "square". When set to "rounded" or "square", popups will be drawn with a border. |
+| "popup_style" | "rounded" | Controls the style for hover popups. Options are "plain", "rounded" and "square". When set to "rounded" or "square", popups will be drawn with a border. |
 | "tooltip_style" | "dark" | Controls the style for tooltips. Options are "dark" and "light". |
+| "hide_tabs_dropdown_button" | false | Hides the tabs dropdown button. |
 | "blend_inactive_tabs" | false | Blend the color of inactive tabs with the background. This is how inactive tabs in the built-in Default and Adaptive themes are shown. This setting only applies if "file_tab_style" is "rounded" or "square". |
 
 __Relevant standard settings:__
@@ -49,10 +50,16 @@ __Relevant standard settings:__
 | "hide_new_tab_button" | false | Hides the new tab button. |
 | "popup_shadows" | true | Draw shadows under popup windows. |
 
+## File Icons
+
+This theme uses custom file type icons in the sidebar.
+As a side effect, file icons might not be displayed correctly when you switch to another theme, like for example the built-in *Default* or *Adaptive* themes.
+To restore the icons for those themes, disable this package by running *Package Control: Disable Package* from the command palette and select *Theme - Brackets*.
+
 ## Attributions
 
 * Git status icons in the sidebar and kind icons used in the autocompletion popup and the *Goto Symbol…* panels are derived from [Octicons](https://github.com/primer/octicons) (licensed under the [MIT license](/licenses/Octicons/LICENSE)) and from [Codicons](https://github.com/microsoft/vscode-codicons) (licensed under [CC BY 4.0](/licenses/Codicons/LICENSE)).
 
-* File icons in the sidebar are derived from [FileIcons](https://github.com/braver/FileIcons) (licensed under the [MIT license](/licenses/FileIcons/LICENSE)).
+* File icons in the sidebar are derived from [FileIcons](https://github.com/braver/FileIcons) (licensed under the [MIT license](/licenses/FileIcons/LICENSE)), [AFileIcon](https://github.com/SublimeText/AFileIcon) (licensed under the [MIT license](/licenses/AFileIcon/LICENSE.md)), [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme) (licensed under the [MIT license](/licenses/MaterialIconTheme/LICENSE.md)) and [Simple Icons](https://github.com/simple-icons/simple-icons) (licensed under CC0).
 
 * Textures for the "wave" tab style are derived from [Theme - DAneo](https://github.com/SublimeText/Theme-DAneo) (licensed under the [MIT license](/licenses/DAneo/LICENSE)).

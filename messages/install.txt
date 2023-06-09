@@ -1,0 +1,14 @@
+Thanks for installing!
+
+To activate the theme, run "UI: Select Theme" from the command palette
+and select "Brackets".
+
+This theme uses custom file type icons in the sidebar. As a side effect,
+file icons might not be displayed correctly when you switch to another
+theme, like for example the built-in "Default" or "Adaptive" themes. To
+restore the icons for those themes, disable this package by running
+"Package Control: Disable Package" from the command palette and select
+"Theme - Brackets".
+
+Visit the GitHub page for all supported customization settings:
+https://github.com/jwortmann/brackets-theme#customization

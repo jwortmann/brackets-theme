@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+name: XML (Visual Studio)
+scope: text.xml.visualstudio
+hidden: true
+file_extensions:
+  - csproj
+  - fsproj
+  - shproj
+  - sqlproj
+  - vbproj
+  - vcxproj
+  - vsproj
+
+contexts:
+  main:
+    - include: scope:text.xml
+      apply_prototype: true

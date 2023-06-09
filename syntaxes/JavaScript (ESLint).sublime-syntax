@@ -1,0 +1,14 @@
+%YAML 1.2
+---
+name: JavaScript (ESLint)
+scope: source.js.eslint
+hidden: true
+file_extensions:
+  - eslint.config.js
+  - .eslintrc.js
+  - .eslintrc.cjs
+
+contexts:
+  main:
+    - include: scope:source.js
+      apply_prototype: true

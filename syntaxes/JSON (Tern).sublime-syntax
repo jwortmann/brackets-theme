@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: JSON (Tern)
+scope: source.json.tern
+hidden: true
+file_extensions:
+  - .tern-config
+  - .tern-project
+
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true

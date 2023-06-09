@@ -1,0 +1,17 @@
+* This release introduces new custom file type icons in the sidebar.
+  As a side effect, file icons might not be displayed correctly when
+  you switch to another theme, like for example the built-in "Default"
+  or "Adaptive" themes. To restore the icons for those themes, disable
+  this package by running "Package Control: Disable Package" from the
+  command palette and select "Theme - Brackets".
+
+* Popups in the editor area are now rendered with a border and rounded
+  corners by default. You can revert to the old style by adding
+  "popup_style": "plain" into your global settings ("Preferences: Settings"
+  from the command palette).
+
+* Added the ability to hide the tabs dropdown button by using the
+  setting "hide_tabs_dropdown_button": true.
+
+Visit the GitHub page for all supported customization settings:
+https://github.com/jwortmann/brackets-theme#customization

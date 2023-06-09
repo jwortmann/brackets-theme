@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: TypeScript (webpack)
+scope: source.ts.webpack
+hidden: true
+file_extensions:
+  - webpack.config.ts
+
+contexts:
+  main:
+    - include: scope:source.ts
+      apply_prototype: true

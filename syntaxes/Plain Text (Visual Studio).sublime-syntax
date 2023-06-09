@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: Plain Text (Visual Studio)
+scope: text.plain.visualstudio
+hidden: true
+file_extensions:
+  - idl
+  - sln
+
+contexts:
+  main:
+    - include: scope:text.plain
+      apply_prototype: true

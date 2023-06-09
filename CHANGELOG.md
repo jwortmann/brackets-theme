@@ -1,14 +1,18 @@
 Brackets Theme Changelog
 ========================
 
-v1.3.0 (2023-??-??)
+v1.3.0 (2023-06-09)
 -------------------
 
-  * Hover popups are now rendered with a rounded border. You can revert to the old style by adding
-    "popup_style": "default" into your settings.
+  * Added new custom file type icons in the sidebar.
+
+  * Hover popups are now rendered with a border and rounded corners by default. You can revert to
+    the old style by adding "popup_style": "default" into your settings.
 
   * Added the ability to hide the tabs dropdown button by using the setting
     "hide_tabs_dropdown_button": true.
+
+  * Minor style tweak for selected and highlighted rows in the command palette (rounded corners).
 
 
 v1.2.1 (2023-01-28)

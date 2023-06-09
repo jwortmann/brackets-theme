@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: JSON (Bower)
+scope: source.json.bower
+hidden: true
+file_extensions:
+  - .bowerrc
+
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true

@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: Binary (Adobe Photoshop)
+scope: binary.photoshop
+hidden: true
+file_extensions:
+  - psd
+  - psb
+
+contexts:
+  main:
+    - include: scope:binary.plain
+      apply_prototype: true

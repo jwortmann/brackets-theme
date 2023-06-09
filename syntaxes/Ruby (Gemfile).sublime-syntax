@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: Ruby (Gemfile)
+scope: source.ruby.gemfile
+hidden: true
+file_extensions:
+  - Gemfile
+
+contexts:
+  main:
+    - include: scope:source.ruby
+      apply_prototype: true

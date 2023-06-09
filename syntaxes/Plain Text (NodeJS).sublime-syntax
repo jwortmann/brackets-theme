@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: Plain Text (NodeJS)
+scope: text.plain.nodejs
+hidden: true
+file_extensions:
+  - .node-version
+  - .nvmrc
+
+contexts:
+  main:
+    - include: scope:text.plain
+      apply_prototype: true

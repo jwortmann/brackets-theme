@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: Binary (Sketch)
+scope: binary.sketch
+hidden: true
+file_extensions:
+  - sketch
+
+contexts:
+  main:
+    - include: scope:binary.plain
+      apply_prototype: true

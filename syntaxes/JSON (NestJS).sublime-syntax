@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: JSON (NestJS)
+scope: source.json.nestjs
+hidden: true
+file_extensions:
+  - nest-cli.json
+
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true

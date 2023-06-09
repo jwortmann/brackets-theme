@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+name: Binary (Audio)
+scope: binary.audio
+hidden: true
+file_extensions:
+  - mp3
+  - ogg
+  - opus
+  - wav
+  - wma
+  - aac
+  - flac
+  - m4a
+
+contexts:
+  main:
+    - include: scope:binary.plain
+      apply_prototype: true

@@ -1,0 +1,24 @@
+%YAML 1.2
+---
+name: Binary (Video)
+scope: binary.video
+hidden: true
+file_extensions:
+  - avi
+  - mp4
+  - m4v
+  - mov
+  - mkv
+  - h264
+  - webm
+  - wmv
+  - ogv
+  - ogm
+  - mpg
+  - mpeg
+  - flv
+
+contexts:
+  main:
+    - include: scope:binary.plain
+      apply_prototype: true

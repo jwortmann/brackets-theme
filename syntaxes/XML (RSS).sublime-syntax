@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: XML (RSS)
+scope: text.xml.rss
+hidden: true
+file_extensions:
+  - rss
+
+contexts:
+  main:
+    - include: scope:text.xml
+      apply_prototype: true

@@ -1,0 +1,16 @@
+%YAML 1.2
+---
+name: C++ (Header)
+scope: source.c++.header
+hidden: true
+file_extensions:
+  - h
+  - hh
+  - hpp
+  - hxx
+  - h++
+
+contexts:
+  main:
+    - include: scope:source.c++
+      apply_prototype: true

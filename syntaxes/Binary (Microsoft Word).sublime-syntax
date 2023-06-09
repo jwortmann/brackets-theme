@@ -1,0 +1,16 @@
+%YAML 1.2
+---
+name: Binary (Microsoft Word)
+scope: binary.word
+hidden: true
+file_extensions:
+  - doc
+  - docm
+  - docx
+  - dotm
+  - dotx
+
+contexts:
+  main:
+    - include: scope:binary.plain
+      apply_prototype: true
