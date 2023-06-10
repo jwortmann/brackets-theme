@@ -3,7 +3,7 @@
 name: Binary (Video)
 scope: binary.video
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - avi
   - mp4
   - m4v

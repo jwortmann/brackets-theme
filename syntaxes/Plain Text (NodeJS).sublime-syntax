@@ -3,7 +3,7 @@
 name: Plain Text (NodeJS)
 scope: text.plain.nodejs
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - .node-version
   - .nvmrc
 

@@ -3,7 +3,7 @@
 name: JSON (Babel)
 scope: source.json.babel
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - .babelrc
 
 contexts:

@@ -3,7 +3,7 @@
 name: Markdown (License)
 scope: text.html.markdown.license
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - LICENSE.md
 
 contexts:

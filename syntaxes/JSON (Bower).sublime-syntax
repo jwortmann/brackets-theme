@@ -3,7 +3,7 @@
 name: JSON (Bower)
 scope: source.json.bower
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - .bowerrc
 
 contexts:

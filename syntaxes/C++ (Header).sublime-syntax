@@ -3,7 +3,7 @@
 name: C++ (Header)
 scope: source.c++.header
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - h
   - hh
   - hpp

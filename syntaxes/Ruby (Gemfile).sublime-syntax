@@ -3,7 +3,7 @@
 name: Ruby (Gemfile)
 scope: source.ruby.gemfile
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - Gemfile
 
 contexts:

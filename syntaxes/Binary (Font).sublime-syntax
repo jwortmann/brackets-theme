@@ -3,7 +3,7 @@
 name: Binary (Font)
 scope: binary.font
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - eot
   - otf
   - ttf

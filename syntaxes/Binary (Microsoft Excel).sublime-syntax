@@ -3,7 +3,7 @@
 name: Binary (Microsoft Excel)
 scope: binary.excel
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - xla
   - xlam
   - xll

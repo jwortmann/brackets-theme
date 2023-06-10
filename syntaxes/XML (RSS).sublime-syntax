@@ -3,7 +3,7 @@
 name: XML (RSS)
 scope: text.xml.rss
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - rss
 
 contexts:

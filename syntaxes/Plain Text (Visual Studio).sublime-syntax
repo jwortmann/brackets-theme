@@ -3,7 +3,7 @@
 name: Plain Text (Visual Studio)
 scope: text.plain.visualstudio
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - idl
   - sln
 

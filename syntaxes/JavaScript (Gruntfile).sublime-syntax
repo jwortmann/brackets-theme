@@ -3,7 +3,7 @@
 name: JavaScript (Gruntfile)
 scope: source.js.gruntfile
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - Gruntfile.js
 
 contexts:

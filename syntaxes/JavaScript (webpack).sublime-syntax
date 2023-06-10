@@ -3,7 +3,7 @@
 name: JavaScript (webpack)
 scope: source.js.webpack
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - webpack.config.js
   - webpack.config.babel.js
 

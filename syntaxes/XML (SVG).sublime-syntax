@@ -3,7 +3,7 @@
 name: XML (SVG)
 scope: text.xml.svg
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - svg
 
 contexts:

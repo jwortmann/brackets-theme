@@ -3,7 +3,7 @@
 name: YAML (Yarnrc)
 scope: source.yaml.yarnrc
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - .yarnrc.yml
 
 contexts:

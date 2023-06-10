@@ -3,7 +3,7 @@
 name: Ruby (gemspec)
 scope: source.ruby.gemspec
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - gemspec
 
 contexts:

@@ -3,7 +3,7 @@
 name: JSON (NestJS)
 scope: source.json.nestjs
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - nest-cli.json
 
 contexts:

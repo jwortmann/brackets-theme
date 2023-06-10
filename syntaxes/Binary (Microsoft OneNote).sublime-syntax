@@ -3,7 +3,7 @@
 name: Binary (Microsoft OneNote)
 scope: binary.onenote
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - one
 
 contexts:

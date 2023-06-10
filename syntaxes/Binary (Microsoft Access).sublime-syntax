@@ -3,7 +3,7 @@
 name: Binary (Microsoft Access)
 scope: binary.access
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - accdb
   - accde
   - accdr

@@ -3,7 +3,7 @@
 name: Plain Text (VTK)
 scope: text.plain.vtk
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - vtk
 
 contexts:

@@ -3,7 +3,7 @@
 name: Binary (Audio)
 scope: binary.audio
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - mp3
   - ogg
   - opus

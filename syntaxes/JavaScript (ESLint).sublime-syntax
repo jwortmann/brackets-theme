@@ -3,7 +3,7 @@
 name: JavaScript (ESLint)
 scope: source.js.eslint
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - eslint.config.js
   - .eslintrc.js
   - .eslintrc.cjs

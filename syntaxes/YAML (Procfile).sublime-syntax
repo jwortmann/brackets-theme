@@ -3,7 +3,7 @@
 name: YAML (Procfile)
 scope: source.yaml.procfile
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - Procfile
 
 contexts:

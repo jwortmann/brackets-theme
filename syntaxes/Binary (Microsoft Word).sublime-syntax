@@ -3,7 +3,7 @@
 name: Binary (Microsoft Word)
 scope: binary.word
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - doc
   - docm
   - docx

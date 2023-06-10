@@ -3,7 +3,7 @@
 name: JSON (Jest)
 scope: source.json.jest
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - jest.config.json
 
 contexts:

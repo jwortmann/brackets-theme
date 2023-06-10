@@ -3,7 +3,7 @@
 name: Groovy (Jenkinsfile)
 scope: source.groovy.jenkins
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - Jenkinsfile
 
 contexts:

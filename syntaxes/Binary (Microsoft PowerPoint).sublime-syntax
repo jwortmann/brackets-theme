@@ -3,7 +3,7 @@
 name: Binary (Microsoft PowerPoint)
 scope: binary.powerpoint
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - ppt
   - pptm
   - pptx

@@ -3,7 +3,7 @@
 name: Binary (HDF)
 scope: binary.hdf
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - hdf
   - hdf4
   - hdf5

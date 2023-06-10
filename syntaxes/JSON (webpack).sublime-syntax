@@ -3,7 +3,7 @@
 name: JSON (webpack)
 scope: source.json.webpack
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - tsconfig-for-webpack-config.json
 
 contexts:

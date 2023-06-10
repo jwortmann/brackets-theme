@@ -3,7 +3,7 @@
 name: Binary (Adobe Illustrator)
 scope: binary.illustrator
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - ai
 
 contexts:

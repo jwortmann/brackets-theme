@@ -3,7 +3,7 @@
 name: YAML (Heroku)
 scope: source.yaml.heroku
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - heroku.yml
 
 contexts:

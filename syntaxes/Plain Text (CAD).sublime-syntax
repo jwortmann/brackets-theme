@@ -3,7 +3,7 @@
 name: Plain Text (CAD)
 scope: text.plain.cad
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - cad
   - stl
   - step

@@ -3,7 +3,7 @@
 name: JSON (Tern)
 scope: source.json.tern
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - .tern-config
   - .tern-project
 

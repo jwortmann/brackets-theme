@@ -3,7 +3,7 @@
 name: TypeScript (Gulpfile)
 scope: source.ts.gulpfile
 hidden: true
-file_extensions:
+hidden_file_extensions:
   - gulpfile.ts
 
 contexts:
