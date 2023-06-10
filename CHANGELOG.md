@@ -1,13 +1,19 @@
 Brackets Theme Changelog
 ========================
 
+v1.3.1 (2023-06-10)
+-------------------
+
+  * Fixed included syntaxes for special file icons to be visible in file dialogs.
+
+
 v1.3.0 (2023-06-09)
 -------------------
 
   * Added new custom file type icons in the sidebar.
 
   * Hover popups are now rendered with a border and rounded corners by default. You can revert to
-    the old style by adding "popup_style": "default" into your settings.
+    the old style by adding "popup_style": "plain" into your settings.
 
   * Added the ability to hide the tabs dropdown button by using the setting
     "hide_tabs_dropdown_button": true.
