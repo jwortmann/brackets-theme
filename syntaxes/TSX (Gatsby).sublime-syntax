@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: TSX (Gatsby)
+scope: source.tsx.gatsby
+hidden: true
+hidden_file_extensions:
+  - gatsby-browser.tsx
+  - gatsby-ssr.tsx
+
+contexts:
+  main:
+    - include: scope:source.tsx
+      apply_prototype: true

@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.lua</string>
+    <string>source.lua, source.pluto</string>
     <key>settings</key>
     <dict>
       <key>icon</key>

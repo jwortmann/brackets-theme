@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: JSON (Deno)
+scope: source.json.deno
+hidden: true
+hidden_file_extensions:
+  - deno.json
+  - deno.jsonc
+
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true

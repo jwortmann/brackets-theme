@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: JavaScript (Nuxt)
+scope: source.js.nuxtjs
+hidden: true
+hidden_file_extensions:
+  - nuxt.config.js
+
+contexts:
+  main:
+    - include: scope:source.js
+      apply_prototype: true

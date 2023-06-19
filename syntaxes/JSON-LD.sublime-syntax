@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: JSON-LD
+scope: source.json.jsonld
+hidden: true
+hidden_file_extensions:
+  - jsonld
+
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true
