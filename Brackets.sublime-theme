@@ -1480,7 +1480,7 @@
         },
         {
             "class": "fold_button_control",
-            "layer0.texture": "Theme - Brackets/assets/fold_closed.png",
+            "layer0.texture": "Theme - Brackets/animations/fold_closed.png",
             "layer0.tint": "var(fold_button_dark)",
             "layer0.opacity": 1.0,
             "content_margin": 8
@@ -1504,7 +1504,43 @@
         {
             "class": "fold_button_control",
             "attributes": ["expanded"],
-            "layer0.texture": "Theme - Brackets/assets/fold_opened.png"
+            "layer0.texture": "Theme - Brackets/animations/fold_opened.png"
+        },
+        {
+            "class": "fold_button_control",
+            "settings": ["animation_enabled"],
+            "attributes": ["!expanded", "pressed", "hover"],
+            "layer0.texture": {
+                "keyframes": [
+                    "Theme - Brackets/animations/fold1.png",
+                    "Theme - Brackets/animations/fold2.png",
+                    "Theme - Brackets/animations/fold3.png",
+                    "Theme - Brackets/animations/fold4.png",
+                    "Theme - Brackets/animations/fold5.png",
+                    "Theme - Brackets/animations/fold6.png",
+                    "Theme - Brackets/animations/fold_opened.png"
+                ],
+                "loop": false,
+                "frame_time": 0.0166
+            }
+        },
+        {
+            "class": "fold_button_control",
+            "settings": ["animation_enabled"],
+            "attributes": ["expanded", "pressed", "hover"],
+            "layer0.texture": {
+                "keyframes": [
+                    "Theme - Brackets/animations/fold6.png",
+                    "Theme - Brackets/animations/fold5.png",
+                    "Theme - Brackets/animations/fold4.png",
+                    "Theme - Brackets/animations/fold3.png",
+                    "Theme - Brackets/animations/fold2.png",
+                    "Theme - Brackets/animations/fold1.png",
+                    "Theme - Brackets/animations/fold_closed.png"
+                ],
+                "loop": false,
+                "frame_time": 0.0166
+            }
         },
         {
             "class": "popup_shadow",
