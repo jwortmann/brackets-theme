@@ -1487,6 +1487,11 @@
         },
         {
             "class": "fold_button_control",
+            "settings": {"fold_buttons_style": "square"},
+            "layer0.texture": "Theme - Brackets/animations/fold_closed_square.png",
+        },
+        {
+            "class": "fold_button_control",
             "parents": [{"class": "text_area_control", "attributes": ["file_light"]}],
             "layer0.tint": "var(fold_button_light)"
         },
@@ -1508,7 +1513,13 @@
         },
         {
             "class": "fold_button_control",
-            "settings": ["animation_enabled"],
+            "settings": {"fold_buttons_style": "square"},
+            "attributes": ["expanded"],
+            "layer0.texture": "Theme - Brackets/animations/fold_opened_square.png"
+        },
+        {
+            "class": "fold_button_control",
+            "settings": {"animation_enabled": true},
             "attributes": ["!expanded", "pressed", "hover"],
             "layer0.texture": {
                 "keyframes": [
@@ -1526,7 +1537,25 @@
         },
         {
             "class": "fold_button_control",
-            "settings": ["animation_enabled"],
+            "settings": {"animation_enabled": true, "fold_buttons_style": "square"},
+            "attributes": ["!expanded", "pressed", "hover"],
+            "layer0.texture": {
+                "keyframes": [
+                    "Theme - Brackets/animations/fold1_square.png",
+                    "Theme - Brackets/animations/fold2_square.png",
+                    "Theme - Brackets/animations/fold3_square.png",
+                    "Theme - Brackets/animations/fold4_square.png",
+                    "Theme - Brackets/animations/fold5_square.png",
+                    "Theme - Brackets/animations/fold6_square.png",
+                    "Theme - Brackets/animations/fold_opened_square.png"
+                ],
+                "loop": false,
+                "frame_time": 0.0166
+            }
+        },
+        {
+            "class": "fold_button_control",
+            "settings": {"animation_enabled": true},
             "attributes": ["expanded", "pressed", "hover"],
             "layer0.texture": {
                 "keyframes": [
@@ -1537,6 +1566,24 @@
                     "Theme - Brackets/animations/fold2.png",
                     "Theme - Brackets/animations/fold1.png",
                     "Theme - Brackets/animations/fold_closed.png"
+                ],
+                "loop": false,
+                "frame_time": 0.0166
+            }
+        },
+        {
+            "class": "fold_button_control",
+            "settings": {"animation_enabled": true, "fold_buttons_style": "square"},
+            "attributes": ["expanded", "pressed", "hover"],
+            "layer0.texture": {
+                "keyframes": [
+                    "Theme - Brackets/animations/fold6_square.png",
+                    "Theme - Brackets/animations/fold5_square.png",
+                    "Theme - Brackets/animations/fold4_square.png",
+                    "Theme - Brackets/animations/fold3_square.png",
+                    "Theme - Brackets/animations/fold2_square.png",
+                    "Theme - Brackets/animations/fold1_square.png",
+                    "Theme - Brackets/animations/fold_closed_square.png"
                 ],
                 "loop": false,
                 "frame_time": 0.0166

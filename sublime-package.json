@@ -53,6 +53,12 @@
               "default": "rounded",
               "enum": ["plain", "rounded", "square"],
               "markdownDescription": "Controls the style for hover popups.\n\nOptions: \"plain\", \"rounded\" or \"square\". When set to \"rounded\" or \"square\", popups will be drawn with a border.\n\nSetting from: *Theme - Brackets*"
+            },
+            "fold_buttons_style": {
+              "type": "string",
+              "default": "triangle",
+              "enum": ["triangle", "square"],
+              "markdownDescription": "Controls the style for the buttons shown in the gutter to fold regions of text.\n\nSetting from: *Theme - Brackets*"
             }
           }
         }
