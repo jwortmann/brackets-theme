@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: JavaScript (Rollup)
+scope: source.js.rollup
+hidden: true
+hidden_file_extensions:
+  - rollup.config.js
+
+contexts:
+  main:
+    - include: scope:source.js
+      apply_prototype: true
