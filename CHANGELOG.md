@@ -1,6 +1,16 @@
 Brackets Theme Changelog
 ========================
 
+v1.4.0 (2023-06-21)
+-------------------
+
+  * Added a new setting "fold_buttons_style" with options "triangle" (default) and "square".
+
+  * Added animations for fold buttons and for close buttons of modified tabs.
+
+  * Updated and added a few new file type icons.
+
+
 v1.3.1 (2023-06-10)
 -------------------
 
