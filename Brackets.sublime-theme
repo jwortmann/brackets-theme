@@ -253,7 +253,7 @@
         },
         {
             "class": "close_button",
-            "layer0.texture": "Theme - Brackets/assets/close.png",
+            "layer0.texture": "Theme - Brackets/animations/close.png",
             "layer0.tint": "white",
             "layer0.opacity": {"target": 0.0, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.inner_margin": [11, 11, 0, 0],
@@ -262,13 +262,13 @@
         {
             "class": "close_button",
             "attributes": ["dirty"],
-            "layer0.texture": "Theme - Brackets/assets/tab_dirty.png",
+            "layer0.texture": "Theme - Brackets/animations/tab_dirty.png",
             "layer0.opacity": 0.5
         },
         {
             "class": "close_button",
             "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-            "layer0.texture": "Theme - Brackets/assets/close.png",
+            "layer0.texture": "Theme - Brackets/animations/close.png",
             "layer0.opacity": {"target": 0.5, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
@@ -1065,7 +1065,7 @@
         {
             "class": "tab_close_button",
             "settings": ["show_tab_close_buttons"],
-            "layer0.texture": "Theme - Brackets/assets/close.png",
+            "layer0.texture": "Theme - Brackets/animations/close.png",
             "layer0.opacity": {"target": 0.5, "speed": 4.0, "interpolation": "smoothstep"},
             "layer0.tint": "white",
             "layer0.inner_margin": [11, 0, 0, 11],
@@ -1078,6 +1078,25 @@
         },
         {
             "class": "tab_close_button",
+            "settings": {"animation_enabled": true},
+            "attributes": ["hover", "!pressed"],
+            "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+            "layer0.texture": {
+                "keyframes": [
+                    "Theme - Brackets/animations/close1.png",
+                    "Theme - Brackets/animations/close2.png",
+                    "Theme - Brackets/animations/close3.png",
+                    "Theme - Brackets/animations/close4.png",
+                    "Theme - Brackets/animations/close5.png",
+                    "Theme - Brackets/animations/close6.png",
+                    "Theme - Brackets/animations/close.png"
+                ],
+                "loop": false,
+                "frame_time": 0.0166
+            }
+        },
+        {
+            "class": "tab_close_button",
             "attributes": ["hover"],
             "layer0.opacity": {"target": 0.8, "speed": 4.0, "interpolation": "smoothstep"}
         },
@@ -1085,7 +1104,7 @@
             "class": "tab_close_button",
             "attributes": ["!hover"],
             "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-            "layer0.texture": "Theme - Brackets/assets/tab_dirty.png"
+            "layer0.texture": "Theme - Brackets/animations/tab_dirty.png"
         },
         {
             "class": "tab_close_button",
@@ -2147,7 +2166,7 @@
         },
         {
             "class": "panel_close_button",
-            "layer0.texture": "Theme - Brackets/assets/close.png",
+            "layer0.texture": "Theme - Brackets/animations/close.png",
             "layer0.opacity": {"target": 0.5, "speed": 4.0, "interpolation": "smoothstep"},
             "layer0.tint": "white",
             "content_margin": 6
