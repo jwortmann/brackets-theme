@@ -1987,7 +1987,7 @@
         },
         {
             "class": "kind_label",
-            "settings": {"kind_icons_style": ["octicons", "codicons"]}, // this setting will always take precedence
+            "settings": {"kind_icons_style": ["octicons", "codicons"]},
             "color": "transparent"
         },
         {
@@ -2323,6 +2323,12 @@
         },
         {
             "class": "scroll_bar_control",
+            "parents": [{"class": "overlay_control"}], // quick panel
+            "settings": ["!overlay_scroll_bars"],
+            "content_margin": [4, 0, 0, 0]
+        },
+        {
+            "class": "scroll_bar_control",
             "parents": [{"class": "sidebar_container"}],
             "content_margin": 2
         },
@@ -2367,32 +2373,6 @@
             "content_margin": [5, 5, 0, 0]
         },
         {
-            "class": "scroll_track_control",
-            "parents": [{"class": "popup_control"}], // autocomplete popup
-            "settings": ["!overlay_scroll_bars"],
-            "layer0.tint": "var(scrollbar_background_light)"
-        },
-        {
-            "class": "scroll_track_control",
-            "parents": [{"class": "popup_control"}],
-            "settings": ["!overlay_scroll_bars"],
-            "attributes": ["dark"],
-            "layer0.tint": "var(scrollbar_background_dark)"
-        },
-        {
-            "class": "scroll_track_control",
-            "parents": [{"class": "overlay_control"}], // quick panel
-            "settings": ["!overlay_scroll_bars"],
-            "layer0.tint": "var(scrollbar_background_light)"
-        },
-        {
-            "class": "scroll_track_control",
-            "parents": [{"class": "overlay_control"}],
-            "settings": ["!overlay_scroll_bars"],
-            "attributes": ["dark"],
-            "layer0.tint": "var(scrollbar_background_dark)"
-        },
-        {
             "class": "puck_control",
             "settings": ["overlay_scroll_bars"],
             "layer0.texture": "Theme - Default/common/scroll.png",
@@ -2426,7 +2406,13 @@
             "layer0.tint": "var(scrollbar_puck_light)",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 2,
-            "content_margin": 6
+            "content_margin": [6, 20]
+        },
+        {
+            "class": "puck_control",
+            "settings": ["!overlay_scroll_bars"],
+            "attributes": ["horizontal"],
+            "content_margin": [20, 6]
         },
         {
             "class": "puck_control",
@@ -2453,39 +2439,14 @@
             "layer0.inner_margin": 2,
             "layer0.opacity": 1.0,
             "layer0.tint": "var(scrollbar_puck_sidebar)",
-            "content_margin": 0
+            "content_margin": [0, 40]
         },
         {
             "class": "puck_control",
             "parents": [{"class": "sidebar_container"}],
             "attributes": ["horizontal"],
-            "layer0.texture": "Theme - Default/common/scroll_horiz.png"
-        },
-        {
-            "class": "puck_control",
-            "parents": [{"class": "popup_control"}], // autocomplete popup
-            "settings": ["!overlay_scroll_bars"],
-            "layer0.tint": "var(scrollbar_puck_light)"
-        },
-        {
-            "class": "puck_control",
-            "parents": [{"class": "popup_control"}],
-            "settings": ["!overlay_scroll_bars"],
-            "attributes": ["dark"],
-            "layer0.tint": "var(scrollbar_puck_dark)"
-        },
-        {
-            "class": "puck_control",
-            "parents": [{"class": "overlay_control"}], // quick panel
-            "settings": ["!overlay_scroll_bars"],
-            "layer0.tint": "var(scrollbar_puck_light)"
-        },
-        {
-            "class": "puck_control",
-            "parents": [{"class": "overlay_control"}],
-            "settings": ["!overlay_scroll_bars"],
-            "attributes": ["dark"],
-            "layer0.tint": "var(scrollbar_puck_dark)"
+            "layer0.texture": "Theme - Default/common/scroll_horiz.png",
+            "content_margin": [40, 0]
         },
         {
             "class": "scroll_corner_control",
