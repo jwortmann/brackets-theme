@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: Binary (Parquet)
+scope: binary.parquet
+hidden: true
+hidden_file_extensions:
+  - parquet
+
+contexts:
+  main:
+    - include: scope:binary.plain
+      apply_prototype: true
