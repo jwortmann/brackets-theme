@@ -1,6 +1,17 @@
 Brackets Theme Changelog
 ========================
 
+v1.5.0 (2023-07-20)
+-------------------
+
+  * Added a new setting "scroll_bar_style" with options "auto" (default), "brackets", "sublime" and
+    "thin".
+
+  * Minor style tweak for the default fold buttons.
+
+  * Updated a few file type icons.
+
+
 v1.4.0 (2023-06-21)
 -------------------
 
