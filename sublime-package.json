@@ -40,7 +40,7 @@
             "blend_inactive_tabs": {
               "type": "boolean",
               "default": false,
-              "markdownDescription": "Blend the color of inactive tabs with the background. This is how inactive tabs in the built-in Default and Adaptive themes are shown. Only applies when \"file_tab_style\" is \"rounded\" or \"square\".\n\nSetting from: *Theme - Brackets*"
+              "markdownDescription": "Blend the color of inactive tabs with the background. This is how inactive tabs in the built-in Default and Adaptive themes are shown. Only applies when `\"file_tab_style\"` is `\"rounded\"` or `\"square\"`.\n\nSetting from: *Theme - Brackets*"
             },
             "tooltip_style": {
               "type": "string",
@@ -52,13 +52,30 @@
               "type": "string",
               "default": "rounded",
               "enum": ["plain", "rounded", "square"],
-              "markdownDescription": "Controls the style for hover popups.\n\nOptions: \"plain\", \"rounded\" or \"square\". When set to \"rounded\" or \"square\", popups will be drawn with a border.\n\nSetting from: *Theme - Brackets*"
+              "markdownDescription": "Controls the style for hover popups.\n\nOptions: `\"plain\"`, `\"rounded\"` or `\"square\"`. When set to `\"rounded\"` or `\"square\"`, popups will be drawn with a border.\n\nSetting from: *Theme - Brackets*"
             },
             "fold_buttons_style": {
               "type": "string",
               "default": "triangle",
               "enum": ["triangle", "square"],
               "markdownDescription": "Controls the style for the buttons shown in the gutter to fold regions of text.\n\nSetting from: *Theme - Brackets*"
+            },
+            "hide_tabs_dropdown_button": {
+              "type": "boolean",
+              "default": false,
+              "markdownDescription": "Hides the tabs dropdown button.\n\nSetting from: *Theme - Brackets*"
+            },
+            "scroll_bar_style": {
+              "type": "string",
+              "default": "auto",
+              "enum": ["brackets", "sublime", "thin", "auto"],
+              "markdownEnumDescriptions": [
+                "The original scroll bars from Adobe Brackets",
+                "The default scroll bars from Sublime Text",
+                "Thin scroll bars that expand on hover",
+                "Uses `\"sublime\"` when overlay scroll bars are enabled, and `\"brackets\"` when disabled"
+              ],
+              "markdownDescription": "Controls the style for scroll bars. Options are:\n\n- `\"brackets\"`\n- `\"sublime\"`\n- `\"thin\"`\n- `\"auto\"`\n\nThe `\"auto\"` option uses `\"sublime\"` when overlay scroll bars are enabled, and `\"brackets\"` when disabled.\n\nSetting from: *Theme - Brackets*"
             }
           }
         }
