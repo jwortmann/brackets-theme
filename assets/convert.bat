@@ -22,3 +22,15 @@ inkscape --export-type=png -w 42 -h 18 --export-filename=scroll_horiz_thin2@3x.p
 inkscape --export-type=png -w 14 -h 6 --export-filename=scroll_horiz_thin3.png scroll_horiz_thin3.svg
 inkscape --export-type=png -w 28 -h 12 --export-filename=scroll_horiz_thin3@2x.png scroll_horiz_thin3.svg
 inkscape --export-type=png -w 42 -h 18 --export-filename=scroll_horiz_thin3@3x.png scroll_horiz_thin3.svg
+inkscape --export-type=png -w 12 -h 37 --export-filename=sidebar_angled.png sidebar_angled.svg
+inkscape --export-type=png -w 24 -h 74 --export-filename=sidebar_angled@2x.png sidebar_angled.svg
+inkscape --export-type=png -w 36 -h 111 --export-filename=sidebar_angled@3x.png sidebar_angled.svg
+inkscape --export-type=png -w 12 -h 37 --export-filename=sidebar_square.png sidebar_square.svg
+inkscape --export-type=png -w 24 -h 74 --export-filename=sidebar_square@2x.png sidebar_square.svg
+inkscape --export-type=png -w 36 -h 111 --export-filename=sidebar_square@3x.png sidebar_square.svg
+inkscape --export-type=png -w 16 -h 16 --export-filename=sidebar_row_selected.png sidebar_row_selected.svg
+inkscape --export-type=png -w 32 -h 32 --export-filename=sidebar_row_selected@2x.png sidebar_row_selected.svg
+inkscape --export-type=png -w 48 -h 48 --export-filename=sidebar_row_selected@3x.png sidebar_row_selected.svg
+inkscape --export-type=png -w 16 -h 16 --export-filename=sidebar_row_selected_border.png sidebar_row_selected_border.svg
+inkscape --export-type=png -w 32 -h 32 --export-filename=sidebar_row_selected_border@2x.png sidebar_row_selected_border.svg
+inkscape --export-type=png -w 48 -h 48 --export-filename=sidebar_row_selected_border@3x.png sidebar_row_selected_border.svg

@@ -160,27 +160,60 @@
             "content_margin": 0
         },
         {
+            "class": "sidebar_container",
+            "settings": {"themed_title_bar": true},
+            "layer1.texture": "Theme - Brackets/assets/sidebar_rounded.png",
+            "layer1.tint": "var(titlebar_background)",
+            "layer1.opacity": 1.0,
+            "layer1.inner_margin": [11, 36, 0, 0],
+            "content_margin": [7, 34, 0, 0]
+        },
+        {
+            "class": "sidebar_container",
+            "settings": {"themed_title_bar": true, "file_tab_style": "square"},
+            "layer1.texture": "Theme - Brackets/assets/sidebar_square.png"
+        },
+        {
+            "class": "sidebar_container",
+            "settings": {"themed_title_bar": true, "file_tab_style": "angled"},
+            "layer1.texture": "Theme - Brackets/assets/sidebar_angled.png"
+        },
+        {
             "class": "sidebar_tree",
-            "row_padding": [12, 4],
+            "row_padding": [10, 4, 12, 4],
             "indent": 10,
             "indent_offset": 14,
             "indent_top_level": false,
             "spacer_rows": true
         },
         {
+            "class": "sidebar_tree",
+            "settings": {"overlay_scroll_bars": false},
+            "parents": [{"class": "scroll_area_control", "attributes": ["scrollable"]}],
+            "row_padding": [10, 4, 3, 4],
+        },
+        {
             "class": "tree_row",
             "attributes": ["selected"],
+            "layer0.texture": "Theme - Brackets/assets/sidebar_row_selected.png",
             "layer0.tint": "var(sidebar_selected_background)",
             "layer0.opacity": 1.0,
-            "layer1.texture": "Theme - Brackets/assets/sidebar_selected_border.png",
+            "layer0.inner_margin": 2,
+            "layer1.texture": "Theme - Brackets/assets/sidebar_row_selected_border.png",
             "layer1.tint": "var(sidebar_selected_border)",
             "layer1.opacity": 1.0,
-            "layer1.inner_margin": [0, 2, 0, 0],
-            "layer2.texture": "Theme - Brackets/assets/fill.png",
-            "layer2.tint": "var(sidebar_background)",
-            "layer2.opacity": 1.0,
-            "layer2.inner_margin": [0, 1, 0, 0]
+            "layer1.inner_margin": 2
         },
+        // {
+        //     "class": "tree_row",
+        //     "settings": {"overlay_scroll_bars": false},
+        //     "parents": [{"class": "scroll_area_control", "attributes": ["scrollable"]}],
+        //     "attributes": ["selected"],
+        //     "layer0.texture": "Theme - Brackets/assets/sidebar_row_selected_rounded.png",
+        //     "layer0.inner_margin": 5,
+        //     "layer1.texture": "Theme - Brackets/assets/sidebar_row_selected_rounded_border.png",
+        //     "layer1.inner_margin": 5
+        // },
         {
             "class": "sidebar_heading",
             "font.size": 12,
@@ -188,6 +221,11 @@
             "shadow_color": "rgba(0, 0, 0, 0.2)",
             "shadow_offset": [0, 1],
             "case": "title"
+        },
+        {
+            "class": "file_system_entry",
+            "content_margin": 0,
+            "spacing": 4
         },
         {
             "class": "sidebar_label",
@@ -551,7 +589,8 @@
             "layer0.opacity": 1.0,
             "layer0.tint": "var(titlebar_background)",
             "content_margin": 0,
-            "tab_height": 34
+            "tab_height": 32,
+            "connector_height": 2
         },
         {
             "class": "tabset_control",
@@ -561,29 +600,23 @@
         {
             "class": "tabset_control",
             "settings": {"file_tab_style": "rounded"},
-            "tab_overlap": 10,
-            "tab_height": 32,
-            "connector_height": 2
+            "tab_overlap": 10
         },
         {
             "class": "tabset_control",
             "settings": {"file_tab_style": "square"},
             "tab_overlap": 1,
-            "tab_height": 32,
-            "connector_height": 2,
             "spacing": 5
         },
         {
             "class": "tabset_control",
             "settings": {"file_tab_style": "angled"},
             "tab_overlap": 16,
-            "tab_height": 34
         },
         {
             "class": "tabset_control",
             "settings": {"file_tab_style": "wave"},
             "tab_overlap": 18,
-            "tab_height": 34
         },
         {
             "class": "tab_connector",
@@ -652,13 +685,13 @@
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "angled"},
-            "layer0.texture": "Theme - Default/common/tab_shadow.png",
+            "layer0.texture": "Theme - Brackets/assets/tab_angled_shadow.png",
             "layer0.inner_margin": [19, 0, 19, 0],
             "layer0.opacity": 0.2,
-            "layer1.texture": "Theme - Default/common/tab.png",
+            "layer1.texture": "Theme - Brackets/assets/tab_angled.png",
             "layer1.inner_margin": [19, 0, 19, 0],
             "layer1.opacity": 1.0,
-            "layer2.texture": "Theme - Default/common/tab_highlight.png",
+            "layer2.texture": "Theme - Brackets/assets/tab_angled_highlight.png",
             "layer2.inner_margin": [19, 0, 19, 0],
             "layer2.opacity": 0.0,
             "layer3.inner_margin": [19, 0, 19, 0],
@@ -793,6 +826,12 @@
         },
         {
             "class": "tab_control",
+            "settings": {"file_tab_style": ["angled", "wave"], "highlight_modified_tabs": true},
+            "attributes": ["dirty", "file_light", "!selected", "hover"],
+            "layer2.opacity": 0.5
+        },
+        {
+            "class": "tab_control",
             "settings": {"file_tab_style": ["rounded", "square"], "highlight_modified_tabs": true},
             "attributes": ["dirty", "!selected", "hover"],
             "layer2.opacity": 0.6
@@ -811,7 +850,7 @@
         },
         {
             "class": "tab_control",
-            "settings": {"highlight_modified_tabs": true},
+            "settings": {"file_tab_style": ["rounded", "square"], "highlight_modified_tabs": true},
             "attributes": ["dirty", "file_light", "!selected", "hover"],
             "layer2.opacity": 0.7
         },
@@ -2314,6 +2353,12 @@
         {
             "class": "scroll_area_control",
             "parents": [{"class": "sidebar_container"}],
+            "overlay": false
+        },
+        {
+            "class": "scroll_area_control",
+            "settings": {"overlay_scroll_bars": true},
+            "parents": [{"class": "sidebar_container"}],
             "overlay": true
         },
         {
@@ -2687,11 +2732,22 @@
             "parents": [{"class": "sidebar_container"}],
             "layer0.texture": "Theme - Default/common/scroll.png",
             "layer0.inner_margin": 2,
-            "layer0.opacity": 1.0,
+            "layer0.opacity": {"target": 0.0, "speed": 10.0, "interpolation": "smoothstep"},
             "layer0.tint": "var(scrollbar_puck_sidebar)",
             "layer1.opacity": 0.0,
             "layer2.opacity": 0.0,
             "content_margin": [0, 40]
+        },
+        {
+            "class": "puck_control",
+            "parents": [{"class": "sidebar_container", "attributes": ["hover"]}],
+            "layer0.opacity": {"target": 1.0, "speed": 10.0, "interpolation": "smoothstep"},
+        },
+        {
+            "class": "puck_control",
+            "settings": ["overlay_scroll_bars"],
+            "parents": [{"class": "sidebar_container"}],
+            "layer0.opacity": 1.0,
         },
         {
             "class": "puck_control",
@@ -2747,6 +2803,12 @@
             "settings": {"scroll_bar_style": "brackets"},
             "parents": [{"class": "window", "attributes": ["!file_light"]}],
             "layer0.tint": "var(scrollbar_background_dark)"
+        },
+        {
+            "class": "scroll_corner_control",
+            "parents": [{"class": "sidebar_container"}],
+            "layer0.opacity": 1.0,
+            "layer0.tint": "var(sidebar_background)"
         },
 ////////[ Inputs ]//////////////////////////////////////////////////////////////
         {
