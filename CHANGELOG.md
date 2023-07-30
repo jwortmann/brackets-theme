@@ -1,6 +1,18 @@
 Brackets Theme Changelog
 ========================
 
+v1.6.0 (2023-07-30)
+-------------------
+
+  * Updated sidebar design with a border on the left-hand side and additional margin at the top
+    (only if the "themed_title_bar" setting is enabled).
+
+  * The scroll bars in the sidebar now follow the "overlay_scroll_bars" setting - when disabled, the
+    scroll bars are visible when hovering with the mouse over the sidebar.
+
+  * Fixed a potential incompatibility with the LSP package for certain file types with special icons.
+
+
 v1.5.0 (2023-07-20)
 -------------------
 

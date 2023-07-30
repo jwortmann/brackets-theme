@@ -166,7 +166,7 @@
             "layer1.tint": "var(titlebar_background)",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": [11, 36, 0, 0],
-            "content_margin": [7, 34, 0, 0]
+            "content_margin": [7, 34, 0, 0] // https://github.com/sublimehq/sublime_text/issues/5774
         },
         {
             "class": "sidebar_container",
