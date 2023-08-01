@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: JSON (Jupyter Notebook)
+scope: source.json.jupyter
+hidden: true
+hidden_file_extensions:
+  - ipynb
+
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true
