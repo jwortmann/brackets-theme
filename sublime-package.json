@@ -8,9 +8,10 @@
             "kind_icons_style": {
               "type": "string",
               "default": "octicons",
-              "enum": ["octicons", "codicons", "letters"],
+              "enum": ["octicons", "gitlab", "codicons", "letters"],
               "markdownEnumDescriptions": [
                 "[Octicons](https://github.com/primer/octicons) from GitHub",
+                "[GitLab SVGs](https://gitlab.com/gitlab-org/gitlab-svgs)",
                 "[Codicons](https://github.com/microsoft/vscode-codicons) from VS Code",
                 "A single colored letter, similar to the built-in Default and Adaptive themes"
               ],

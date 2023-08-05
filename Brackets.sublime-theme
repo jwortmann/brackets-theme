@@ -1794,6 +1794,11 @@
             "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_keyword.png"
         },
         {
+            "class": "kind_container kind_keyword",
+            "settings": {"kind_icons_style": "gitlab"},
+            "layer1.texture": "Theme - Brackets/kind_icons/gitlab/kind_keyword.png"
+        },
+        {
             "class": "kind_container kind_type",
             "layer0.tint": "var(kind_type_color)",
             "layer1.texture": "Theme - Brackets/kind_icons/kind_type.png",
@@ -1803,6 +1808,11 @@
             "class": "kind_container kind_type",
             "settings": {"kind_icons_style": "codicons"},
             "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_type.png"
+        },
+        {
+            "class": "kind_container kind_type",
+            "settings": {"kind_icons_style": "gitlab"},
+            "layer1.texture": "Theme - Brackets/kind_icons/gitlab/kind_type.png"
         },
         {
             "class": "kind_container kind_function",
@@ -1816,6 +1826,11 @@
             "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_function.png"
         },
         {
+            "class": "kind_container kind_function",
+            "settings": {"kind_icons_style": "gitlab"},
+            "layer1.texture": "Theme - Brackets/kind_icons/gitlab/kind_function.png"
+        },
+        {
             "class": "kind_container kind_namespace",
             "layer0.tint": "var(kind_namespace_color)",
             "layer1.texture": "Theme - Brackets/kind_icons/kind_namespace.png",
@@ -1825,6 +1840,11 @@
             "class": "kind_container kind_namespace",
             "settings": {"kind_icons_style": "codicons"},
             "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_namespace.png"
+        },
+        {
+            "class": "kind_container kind_namespace",
+            "settings": {"kind_icons_style": "gitlab"},
+            "layer1.texture": "Theme - Brackets/kind_icons/gitlab/kind_namespace.png"
         },
         {
             "class": "kind_container kind_navigation",
@@ -1838,6 +1858,11 @@
             "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_navigation.png"
         },
         {
+            "class": "kind_container kind_navigation",
+            "settings": {"kind_icons_style": "gitlab"},
+            "layer1.texture": "Theme - Brackets/kind_icons/gitlab/kind_navigation.png"
+        },
+        {
             "class": "kind_container kind_markup",
             "layer0.tint": "var(kind_markup_color)",
             "layer1.texture": "Theme - Brackets/kind_icons/kind_markup.png",
@@ -1847,6 +1872,11 @@
             "class": "kind_container kind_markup",
             "settings": {"kind_icons_style": "codicons"},
             "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_markup.png"
+        },
+        {
+            "class": "kind_container kind_markup",
+            "settings": {"kind_icons_style": "gitlab"},
+            "layer1.texture": "Theme - Brackets/kind_icons/gitlab/kind_markup.png"
         },
         {
             "class": "kind_container kind_variable",
@@ -1860,6 +1890,11 @@
             "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_variable.png"
         },
         {
+            "class": "kind_container kind_variable",
+            "settings": {"kind_icons_style": "gitlab"},
+            "layer1.texture": "Theme - Brackets/kind_icons/gitlab/kind_variable.png"
+        },
+        {
             "class": "kind_container kind_snippet",
             "layer0.tint": "var(kind_snippet_color)",
             "layer1.texture": "Theme - Brackets/kind_icons/kind_snippet.png",
@@ -1869,6 +1904,11 @@
             "class": "kind_container kind_snippet",
             "settings": {"kind_icons_style": "codicons"},
             "layer1.texture": "Theme - Brackets/kind_icons/codicons/kind_snippet.png"
+        },
+        {
+            "class": "kind_container kind_snippet",
+            "settings": {"kind_icons_style": "gitlab"},
+            "layer1.texture": "Theme - Brackets/kind_icons/gitlab/kind_snippet.png"
         },
         {
             "class": "kind_container kind_color_redish",
