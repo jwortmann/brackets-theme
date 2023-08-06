@@ -204,16 +204,6 @@
             "layer1.opacity": 1.0,
             "layer1.inner_margin": 2
         },
-        // {
-        //     "class": "tree_row",
-        //     "settings": {"overlay_scroll_bars": false},
-        //     "parents": [{"class": "scroll_area_control", "attributes": ["scrollable"]}],
-        //     "attributes": ["selected"],
-        //     "layer0.texture": "Theme - Brackets/assets/sidebar_row_selected_rounded.png",
-        //     "layer0.inner_margin": 5,
-        //     "layer1.texture": "Theme - Brackets/assets/sidebar_row_selected_rounded_border.png",
-        //     "layer1.inner_margin": 5
-        // },
         {
             "class": "sidebar_heading",
             "font.size": 12,
@@ -1294,7 +1284,8 @@
             "class": "quick_panel",
             "parents": [{"class": "switch_project_window"}],
             "layer0.tint": "var(panel_background_dark)",
-            "layer0.opacity": 1.0
+            "layer0.opacity": 1.0,
+            "row_padding": [18, 4, 20, 4]
         },
         {
             "class": "quick_panel",
@@ -1339,6 +1330,12 @@
             "layer0.texture": "Theme - Brackets/assets/background_4px.png",
             "layer0.inner_margin": 4,
             "layer0.opacity": 1.0
+        },
+        {
+            "class": "quick_panel_row",
+            "parents": [{"class": "switch_project_window"}],
+            "layer0.texture": "Theme - Brackets/assets/background_4px_padding.png",
+            "layer0.inner_margin": [8, 4]
         },
         {
             "class": "quick_panel_row",
@@ -2227,6 +2224,10 @@
             "content_margin": [0, 0, 0, -4]
         },
         {
+            "class": "panel_control switch_project_panel",
+            "layer1.opacity": 0.0
+        },
+        {
             "class": "panel_grid_control",
             "inside_spacing": 6,
             "outside_vspacing": 4,
@@ -2242,6 +2243,12 @@
             "class": "panel_grid_control",
             "parents": [{"class": "panel_control output_panel"}],
             "outside_hspacing": 0
+        },
+        {
+            "class": "panel_grid_control",
+            "parents": [{"class": "panel_control switch_project_panel"}],
+            "outside_vspacing": 2,
+            "outside_hspacing": 1
         },
         {
             "class": "panel_close_button",
@@ -2386,22 +2393,6 @@
             "overlay": true
         },
         {
-            "class": "scroll_area_control",
-            "settings": {"overlay_scroll_bars": false},
-            "overlay": false
-        },
-        {
-            "class": "scroll_area_control",
-            "parents": [{"class": "sidebar_container"}],
-            "overlay": false
-        },
-        {
-            "class": "scroll_area_control",
-            "settings": {"overlay_scroll_bars": true},
-            "parents": [{"class": "sidebar_container"}],
-            "overlay": true
-        },
-        {
             "class": "scroll_bar_control",
             "settings": {"scroll_bar_style": ["", "auto"], "overlay_scroll_bars": true},
             "content_margin": 4
@@ -2447,6 +2438,19 @@
         },
         {
             "class": "scroll_bar_control",
+            "parents": [{"class": "switch_project_window"}],
+            "settings": {"scroll_bar_style": ["sublime", "thin"], "overlay_scroll_bars": false},
+            "layer0.tint": "var(panel_background_light)"
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [{"class": "switch_project_window"}],
+            "settings": {"scroll_bar_style": ["sublime", "thin"], "overlay_scroll_bars": false},
+            "attributes": ["dark"],
+            "layer0.tint": "var(panel_background_dark)"
+        },
+        {
+            "class": "scroll_bar_control",
             "parents": [{"class": "overlay_control"}],
             "content_margin": [4, 0, 0, 0]
         },
@@ -2454,7 +2458,6 @@
             "class": "scroll_bar_control",
             "parents": [{"class": "overlay_control"}],
             "settings": {"scroll_bar_style": ["sublime", "thin"], "overlay_scroll_bars": false},
-            "layer0.opacity": 1.0,
             "layer0.tint": "var(overlay_background_light)"
         },
         {
