@@ -32,7 +32,7 @@ __Custom settings:__
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
 | "kind_icons_style" | "octicons" | Controls the style for the kind icons which are shown in the autocompletion popup and the "Goto Symbol" panels. Options:<ul><li>"octicons" (from GitHub)</li><li>"gitlab" (from GitLab)</li><li>"codicons" (from VS Code)</li><li>"letters" (similar to the built-in themes)</li></ul> |
-| "git_status_icons" | "octicons" | Controls the style for the git status icons for files and folders in the sidebar. Options:<ul><li>"octicons"</li><li>"codicons"</li><li>"disabled"</li> |
+| "git_status_icons" | "octicons" | Controls the style for the git status icons for files and folders in the sidebar. Options:<ul><li>"octicons"</li><li>"codicons"</li><li>"letters"</li><li>"disabled"</li> |
 | "sidebar_status_colors" | false | Highlight filenames in the sidebar for files with Git status "new" or "modified" in green and orange. Regardless of this setting, files with status "ignored" are always dimmed. |
 | "popup_style" | "rounded" | Controls the style for hover popups. Options are "plain", "rounded" and "square". When set to "rounded" or "square", popups will be drawn with a border. |
 | "tooltip_style" | "dark" | Controls the style for tooltips. Options are "dark" and "light". |
@@ -44,7 +44,7 @@ __Custom settings:__
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/kind_icons_dark.png">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/kind_icons_light.png">
-    <img alt="Preview image of different kind icons styles" src="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/kind_icons_dark.png">
+    <img alt="Preview image of the different kind icons styles" src="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/kind_icons_dark.png">
 </picture>
 
 __Relevant standard settings:__

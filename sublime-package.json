@@ -30,7 +30,7 @@
             "git_status_icons": {
               "type": "string",
               "default": "octicons",
-              "enum": ["octicons", "codicons", "disabled"],
+              "enum": ["octicons", "codicons", "letters", "disabled"],
               "markdownDescription": "Controls the style for the git status icons for files and folders in the sidebar.\n\nSetting from: *Theme - Brackets*"
             },
             "hide_sidebar_status_icons": {
