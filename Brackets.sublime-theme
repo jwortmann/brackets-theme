@@ -103,8 +103,17 @@
         "button_border_shadow_pressed_light": "#c7caca",
         "button_border_shadow_selected_dark": "#263d5a",
         "button_border_shadow_selected_light": "#d3e2eb",
+        "button_background_disabled_dark": "#303030",
+        "button_background_disabled_light": "#e0e4e4",
+        "button_border_disabled_dark": "#272727",
+        "button_border_disabled_light": "#d1d4d4",
+        "button_border_shadow_disabled_dark": "#343434",
         "label_dark": "#cccccc", // @dark-bc-text
         "label_light": "#333333", // @bc-text
+        "title_label_dark": "#ffffff",
+        "title_label_light": "#000000",
+        "label_disabled_dark": "#5b5b5b",
+        "label_disabled_light": "#abadad",
         "tab_background_dark": "color(#141517 alpha(0.40))",
         "tab_background_light": "color(#d3d3d3 alpha(0.80))",
         "tab_label_dark": "#8e8e8e",
@@ -2977,6 +2986,21 @@
             "layer1.tint": "var(button_border_shadow_selected_light)"
         },
         {
+            "class": "button_control",
+            "attributes": ["disabled"],
+            "layer0.tint": "var(button_background_disabled_dark)",
+            "layer1.tint": "var(button_border_shadow_disabled_dark)",
+            "layer2.tint": "var(button_border_disabled_dark)"
+        },
+        {
+            "class": "button_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "attributes": ["disabled"],
+            "layer0.tint": "var(button_background_disabled_light)",
+            "layer1.tint": "var(button_background_disabled_light)",
+            "layer2.tint": "var(button_border_disabled_light)"
+        },
+        {
             "class": "icon_button_control",
             "min_size": [35, 28],
             "layer0.texture": "Theme - Brackets/assets/button_background_center.png",
@@ -3255,15 +3279,11 @@
             "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.tint": "var(icon_selected_light)"
         },
-        {
-            "class": "label_control",
-            "parents": [{"class": "button_control"}],
-            "font.face": "var(font_face)",
-            "font.size": 13
-        },
 ////////[ Labels ]//////////////////////////////////////////////////////////////
         {
             "class": "label_control",
+            "font.face": "var(font_face)",
+            "font.size": 12,
             "color": "var(label_dark)",
             "shadow_offset": [0, 0]
         },
@@ -3271,6 +3291,41 @@
             "class": "label_control",
             "parents": [{"class": "window", "attributes": ["file_light"]}],
             "color": "var(label_light)"
+        },
+        {
+            "class": "label_control",
+            "parents": [{"class": "status_container"}],
+            "font.size": 11
+        },
+        {
+            "class": "label_control",
+            "parents": [{"class": "status_button"}],
+            "font.size": 11
+        },
+        {
+            "class": "label_control",
+            "parents": [{"class": "button_control"}],
+            "font.size": 13
+        },
+        {
+            "class": "label_control",
+            "parents": [{"class": "button_control", "attributes": ["disabled"]}],
+            "color": "var(label_disabled_dark)"
+        },
+        {
+            "class": "label_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "button_control", "attributes": ["disabled"]}],
+            "color": "var(label_disabled_light)"
+        },
+        {
+            "class": "title_label_control",
+            "color": "var(title_label_dark)",
+            "font.size": 24
+        },
+        {
+            "class": "title_label_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "color": "var(title_label_light)"
         },
 ////////[ Tooltips ]////////////////////////////////////////////////////////////
         {
