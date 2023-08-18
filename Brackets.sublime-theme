@@ -80,6 +80,8 @@
         "scrollbar_puck_light": "#464646", // #cecece @win-scrollbar-thumb
         "scrollbar_puck_pressed_dark": "#ebebeb", // #a9a9a9
         "scrollbar_puck_pressed_light": "#000000", // #606060 @win-scrollbar-thumb-active
+        "scrollbar_puck_dark2": "#959595",
+        "scrollbar_puck_light2": "#858585",
         "scrollbar_puck_sidebar": "#1c1d1e",
         "input_background_dark": "var(--background)",
         "input_background_light": "#ffffff",
@@ -2598,22 +2600,22 @@
             "class": "puck_control",
             "settings": {"scroll_bar_style": "thin"},
             "layer0.texture": "Theme - Brackets/assets/scroll_thin.png",
-            "layer0.tint": "black",
-            "layer0.opacity": 0.6,
+            "layer0.tint": "var(scrollbar_puck_light2)",
+            "layer0.opacity": 1.0,
             "layer0.inner_margin": 3,
             "content_margin": [0, 20]
         },
         {
             "class": "puck_control",
             "settings": {"scroll_bar_style": "thin", "animation_enabled": true},
-            "layer0.tint": "var(scrollbar_puck_light)",
+            "layer0.tint": "var(scrollbar_puck_light2)",
             "layer0.opacity": 1.0,
             "layer1.texture": "Theme - Brackets/assets/scroll_thin2.png",
-            "layer1.tint": "var(scrollbar_puck_light)",
+            "layer1.tint": "var(scrollbar_puck_light2)",
             "layer1.opacity": {"target": 0.0, "speed": 5.0, "interpolation": "smoothstep"},
             "layer1.inner_margin": 3,
             "layer2.texture": "Theme - Brackets/assets/scroll_thin3.png",
-            "layer2.tint": "var(scrollbar_puck_light)",
+            "layer2.tint": "var(scrollbar_puck_light2)",
             "layer2.opacity": {"target": 0.0, "speed": 10.0, "interpolation": "smoothstep"},
             "layer2.inner_margin": 3
         },
@@ -2625,17 +2627,22 @@
         },
         {
             "class": "puck_control",
-            "settings": {"scroll_bar_style": ["sublime", "thin"]},
+            "settings": {"scroll_bar_style": "sublime"},
             "attributes": ["dark"],
             "layer0.tint": "white"
         },
         {
             "class": "puck_control",
+            "settings": {"scroll_bar_style": "thin"},
+            "attributes": ["dark"],
+            "layer0.tint": "var(scrollbar_puck_dark2)"
+        },
+        {
+            "class": "puck_control",
             "settings": {"scroll_bar_style": "thin", "animation_enabled": true},
             "attributes": ["dark"],
-            "layer0.tint": "var(scrollbar_puck_dark)",
-            "layer1.tint": "var(scrollbar_puck_dark)",
-            "layer2.tint": "var(scrollbar_puck_dark)"
+            "layer1.tint": "var(scrollbar_puck_dark2)",
+            "layer2.tint": "var(scrollbar_puck_dark2)"
         },
         {
             "class": "puck_control",
