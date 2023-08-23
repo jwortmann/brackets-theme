@@ -2,11 +2,11 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>binary.video</string>
+    <string>source.awk</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>file_type_video</string>
+      <string>file_type_awk</string>
     </dict>
   </dict>
 </plist>
