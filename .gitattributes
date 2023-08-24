@@ -1,7 +1,4 @@
 /img export-ignore
-/status_icons/letters/status_added.png export-ignore
-/status_icons/letters/status_added@2x.png export-ignore
-/status_icons/letters/status_added@3x.png export-ignore
 *.svg export-ignore
 *.bat export-ignore
 *.bat -linguist-detectable

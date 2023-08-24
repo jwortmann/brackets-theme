@@ -425,7 +425,10 @@
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
             "settings": {"git_status_icons": "letters"},
-            "layer0.texture": "Theme - Brackets/status_icons/letters/status_untracked.png",
+            "layer0.texture": "Theme - Brackets/status_icons/letters/badge.png",
+            "layer1.texture": "Theme - Brackets/status_icons/letters/status_untracked.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(label_dark)",
             "content_margin": [15, 15, 0, 0]
         },
         {
@@ -451,7 +454,10 @@
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["added"]}],
             "settings": {"git_status_icons": "letters"},
-            "layer0.texture": "Theme - Brackets/status_icons/letters/status_staged.png",
+            "layer0.texture": "Theme - Brackets/status_icons/letters/badge.png",
+            "layer1.texture": "Theme - Brackets/status_icons/letters/status_staged.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(label_dark)",
             "content_margin": [15, 15, 0, 0]
         },
         {
@@ -477,7 +483,10 @@
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
             "settings": {"git_status_icons": "letters"},
-            "layer0.texture": "Theme - Brackets/status_icons/letters/status_modified.png",
+            "layer0.texture": "Theme - Brackets/status_icons/letters/badge.png",
+            "layer1.texture": "Theme - Brackets/status_icons/letters/status_modified.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(label_dark)",
             "content_margin": [15, 15, 0, 0]
         },
         {
@@ -503,7 +512,10 @@
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["staged"]}],
             "settings": {"git_status_icons": "letters"},
-            "layer0.texture": "Theme - Brackets/status_icons/letters/status_staged.png",
+            "layer0.texture": "Theme - Brackets/status_icons/letters/badge.png",
+            "layer1.texture": "Theme - Brackets/status_icons/letters/status_staged.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(label_dark)",
             "content_margin": [15, 15, 0, 0]
         },
         {
@@ -529,7 +541,10 @@
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
             "settings": {"git_status_icons": "letters"},
-            "layer0.texture": "Theme - Brackets/status_icons/letters/status_missing.png",
+            "layer0.texture": "Theme - Brackets/status_icons/letters/badge.png",
+            "layer1.texture": "Theme - Brackets/status_icons/letters/status_missing.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(label_dark)",
             "content_margin": [15, 15, 0, 0]
         },
         {
@@ -555,7 +570,10 @@
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}],
             "settings": {"git_status_icons": "letters"},
-            "layer0.texture": "Theme - Brackets/status_icons/letters/status_staged.png",
+            "layer0.texture": "Theme - Brackets/status_icons/letters/badge.png",
+            "layer1.texture": "Theme - Brackets/status_icons/letters/status_staged.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(label_dark)",
             "content_margin": [15, 15, 0, 0]
         },
         {
@@ -581,7 +599,10 @@
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}],
             "settings": {"git_status_icons": "letters"},
-            "layer0.texture": "Theme - Brackets/status_icons/letters/status_unmerged.png",
+            "layer0.texture": "Theme - Brackets/status_icons/letters/badge.png",
+            "layer1.texture": "Theme - Brackets/status_icons/letters/status_unmerged.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(label_dark)",
             "content_margin": [15, 15, 0, 0]
         },
 ////////[ Tabs ]////////////////////////////////////////////////////////////////

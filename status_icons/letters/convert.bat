@@ -1,9 +1,6 @@
-inkscape --export-type=png -w 15 -h 15 --export-filename=status_added.png status_added.svg
-inkscape --export-type=png -w 30 -h 30 --export-filename=status_added@2x.png status_added.svg
-inkscape --export-type=png -w 45 -h 45 --export-filename=status_added@3x.png status_added.svg
-inkscape --export-type=png -w 15 -h 15 --export-filename=status_ignored.png status_ignored.svg
-inkscape --export-type=png -w 30 -h 30 --export-filename=status_ignored@2x.png status_ignored.svg
-inkscape --export-type=png -w 45 -h 45 --export-filename=status_ignored@3x.png status_ignored.svg
+inkscape --export-type=png -w 15 -h 15 --export-filename=badge.png badge.svg
+inkscape --export-type=png -w 30 -h 30 --export-filename=badge@2x.png badge.svg
+inkscape --export-type=png -w 45 -h 45 --export-filename=badge@3x.png badge.svg
 inkscape --export-type=png -w 15 -h 15 --export-filename=status_missing.png status_missing.svg
 inkscape --export-type=png -w 30 -h 30 --export-filename=status_missing@2x.png status_missing.svg
 inkscape --export-type=png -w 45 -h 45 --export-filename=status_missing@3x.png status_missing.svg
