@@ -1,6 +1,24 @@
 Brackets Theme Changelog
 ========================
 
+v1.7.0 (2023-08-24)
+-------------------
+
+  * Added a new "gitlab" style option for the "kind_icons_style" setting.
+
+  * Added a new "letters" style option for the "git_status_icons" setting.
+
+  * Fixed padding and scroll bar color in the Switch Project window.
+
+  * Fixed style for disabled button in the Update window.
+
+  * Adjusted puck color of the "thin" scroll bar style to match the color from Windows Explorer.
+
+  * Updated a few file type icons and added icon for Jupyter Notebook (.ipynb).
+
+  * Updated and added new preview screenshots in the Readme page on GitHub.
+
+
 v1.6.0 (2023-07-30)
 -------------------
 
