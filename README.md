@@ -19,7 +19,7 @@ From the command palette select *Package Control: Install Package* and search fo
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/preview_dark.png">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/preview_light.png">
-    <img alt="Preview image of the theme" src="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/preview_dark.png">
+    <img alt="Preview image of the theme" src="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/preview_light.png">
 </picture>
 
 ## Customization
@@ -44,7 +44,7 @@ __Custom settings:__
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/kind_icons_dark.png">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/kind_icons_light.png">
-    <img alt="Preview image of the different kind icons styles" src="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/kind_icons_dark.png">
+    <img alt="Preview image of the different kind icons styles" src="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/kind_icons_light.png">
 </picture>
 
 __Relevant standard settings:__
