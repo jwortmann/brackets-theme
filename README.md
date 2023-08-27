@@ -24,8 +24,8 @@ From the command palette select *Package Control: Install Package* and search fo
 
 ## Customization
 
-Various theme-related settings defined by Sublime Text, as well as a few custom settings specific to this theme are supported to tweak the appearance.
-All settings should be modified in the *Preferences.sublime-settings* file, which can be opened via *Preferences > Settings* from the menu.
+Various theme-related settings defined by Sublime Text, as well as a few custom settings specific to this theme are supported to configure the appearance.
+All settings should be modified in the *Preferences.sublime-settings* file, which can be opened via *Preferences: Settings* from the command palette.
 
 __Custom settings:__
 
@@ -68,8 +68,8 @@ To restore the icons for those themes, disable this package by running *Package 
 
 ## Attributions
 
-* Git status icons in the sidebar and kind icons used in the autocompletion popup and the *Goto Symbol…* panels are derived from [Octicons](https://github.com/primer/octicons) (licensed under the [MIT license](/licenses/Octicons/LICENSE)), [GitLab SVGs](https://gitlab.com/gitlab-org/gitlab-svgs) (licensed under the [MIT license](/licenses/GitLabSVGs/LICENSE)) and [Codicons](https://github.com/microsoft/vscode-codicons) (licensed under [CC BY 4.0](/licenses/Codicons/LICENSE)).
+* Git status icons in the sidebar and kind icons used in the autocompletion popup and the *Goto Symbol…* panels are derived from [Octicons](https://github.com/primer/octicons) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/Octicons/LICENSE)), [GitLab SVGs](https://gitlab.com/gitlab-org/gitlab-svgs) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/GitLabSVGs/LICENSE)) and [Codicons](https://github.com/microsoft/vscode-codicons) (licensed under [CC BY 4.0](https://github.com/jwortmann/brackets-theme/blob/master/licenses/Codicons/LICENSE)).
 
-* File icons in the sidebar are derived from [FileIcons](https://github.com/braver/FileIcons) (licensed under the [MIT license](/licenses/FileIcons/LICENSE)), [AFileIcon](https://github.com/SublimeText/AFileIcon) (licensed under the [MIT license](/licenses/AFileIcon/LICENSE.md)), [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme) (licensed under the [MIT license](/licenses/MaterialIconTheme/LICENSE.md)) and [Simple Icons](https://github.com/simple-icons/simple-icons) (licensed under CC0).
+* File icons in the sidebar are derived from [FileIcons](https://github.com/braver/FileIcons) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/FileIcons/LICENSE)), [AFileIcon](https://github.com/SublimeText/AFileIcon) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/AFileIcon/LICENSE.md)), [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/MaterialIconTheme/LICENSE.md)) and [Simple Icons](https://github.com/simple-icons/simple-icons) (licensed under CC0).
 
-* Textures for the "wave" tab style are derived from [Theme - DAneo](https://github.com/SublimeText/Theme-DAneo) (licensed under the [MIT license](/licenses/DAneo/LICENSE)).
+* Textures for the "wave" tab style are derived from [Theme - DAneo](https://github.com/SublimeText/Theme-DAneo) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/DAneo/LICENSE)).
