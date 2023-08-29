@@ -3367,6 +3367,11 @@
         },
         {
             "class": "tool_tip_control",
+            "settings": {"popup_shadows": false},
+            "layer0.opacity": 0.0
+        },
+        {
+            "class": "tool_tip_control",
             "settings": {"tooltip_style": "light"},
             "layer1.tint": "var(tooltip_background_light)",
             "layer2.tint": "var(tooltip_border_light)"
