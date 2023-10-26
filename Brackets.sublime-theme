@@ -1328,12 +1328,8 @@
             "class": "mini_quick_panel_row",
             "layer0.texture": "Theme - Brackets/assets/background_4px.png",
             "layer0.inner_margin": 4,
+            "layer0.tint": "transparent",
             "layer0.opacity": 1.0
-        },
-        {
-            "class": "mini_quick_panel_row",
-            "attributes": ["!selected"],
-            "layer0.tint": "transparent"
         },
         {
             "class": "mini_quick_panel_row",
@@ -1358,9 +1354,21 @@
             "layer0.tint": "var(panel_hover_background_light)"
         },
         {
+            "class": "mini_quick_panel_row",
+            "attributes": ["selected", "hover"],
+            "layer0.tint": "color(var(panel_selected_background_dark) lightness(+ 5%))" // #2e4c71
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "attributes": ["selected", "hover"],
+            "layer0.tint": "color(var(panel_selected_background_light) lightness(+ 4%))" // #f2f9fd
+        },
+        {
             "class": "quick_panel_row",
             "layer0.texture": "Theme - Brackets/assets/background_4px.png",
             "layer0.inner_margin": 4,
+            "layer0.tint": "transparent",
             "layer0.opacity": 1.0
         },
         {
@@ -1371,11 +1379,6 @@
         },
         {
             "class": "quick_panel_row",
-            "attributes": ["!selected"],
-            "layer0.tint": "transparent"
-        },
-        {
-            "class": "quick_panel_row",
             "attributes": ["selected"],
             "layer0.tint": "var(panel_selected_background_dark)"
         },
@@ -1395,6 +1398,17 @@
             "parents": [{"class": "window", "attributes": ["file_light"]}],
             "attributes": ["!selected", "hover"],
             "layer0.tint": "var(panel_hover_background_light)"
+        },
+        {
+            "class": "quick_panel_row",
+            "attributes": ["selected", "hover"],
+            "layer0.tint": "color(var(panel_selected_background_dark) lightness(+ 5%))" // #2e4c71
+        },
+        {
+            "class": "quick_panel_row",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "attributes": ["selected", "hover"],
+            "layer0.tint": "color(var(panel_selected_background_light) lightness(+ 4%))" // #f2f9fd
         },
         {
             "class": "quick_panel_entry",
