@@ -46,27 +46,3 @@ inkscape --export-type=png --export-area=-4.091:-2.818:16.273:17.546 -w 48 -h 48
 inkscape --export-type=png --export-area=-4.091:-2.818:16.273:17.546 -w 16 -h 16 --export-filename=fold6_square.png fold6_square.svg
 inkscape --export-type=png --export-area=-4.091:-2.818:16.273:17.546 -w 32 -h 32 --export-filename=fold6_square@2x.png fold6_square.svg
 inkscape --export-type=png --export-area=-4.091:-2.818:16.273:17.546 -w 48 -h 48 --export-filename=fold6_square@3x.png fold6_square.svg
-inkscape --export-type=png -w 12 -h 12 --export-filename=close.png close.svg
-inkscape --export-type=png -w 24 -h 24 --export-filename=close@2x.png close.svg
-inkscape --export-type=png -w 36 -h 36 --export-filename=close@3x.png close.svg
-inkscape --export-type=png -w 12 -h 12 --export-filename=tab_dirty.png tab_dirty.svg
-inkscape --export-type=png -w 24 -h 24 --export-filename=tab_dirty@2x.png tab_dirty.svg
-inkscape --export-type=png -w 36 -h 36 --export-filename=tab_dirty@3x.png tab_dirty.svg
-inkscape --export-type=png -w 12 -h 12 --export-filename=close1.png close1.svg
-inkscape --export-type=png -w 24 -h 24 --export-filename=close1@2x.png close1.svg
-inkscape --export-type=png -w 36 -h 36 --export-filename=close1@3x.png close1.svg
-inkscape --export-type=png -w 12 -h 12 --export-filename=close2.png close2.svg
-inkscape --export-type=png -w 24 -h 24 --export-filename=close2@2x.png close2.svg
-inkscape --export-type=png -w 36 -h 36 --export-filename=close2@3x.png close2.svg
-inkscape --export-type=png -w 12 -h 12 --export-filename=close3.png close3.svg
-inkscape --export-type=png -w 24 -h 24 --export-filename=close3@2x.png close3.svg
-inkscape --export-type=png -w 36 -h 36 --export-filename=close3@3x.png close3.svg
-inkscape --export-type=png -w 12 -h 12 --export-filename=close4.png close4.svg
-inkscape --export-type=png -w 24 -h 24 --export-filename=close4@2x.png close4.svg
-inkscape --export-type=png -w 36 -h 36 --export-filename=close4@3x.png close4.svg
-inkscape --export-type=png -w 12 -h 12 --export-filename=close5.png close5.svg
-inkscape --export-type=png -w 24 -h 24 --export-filename=close5@2x.png close5.svg
-inkscape --export-type=png -w 36 -h 36 --export-filename=close5@3x.png close5.svg
-inkscape --export-type=png -w 12 -h 12 --export-filename=close6.png close6.svg
-inkscape --export-type=png -w 24 -h 24 --export-filename=close6@2x.png close6.svg
-inkscape --export-type=png -w 36 -h 36 --export-filename=close6@3x.png close6.svg

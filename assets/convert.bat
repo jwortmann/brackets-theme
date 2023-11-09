@@ -4,6 +4,9 @@ inkscape --export-type=png -w 48 -h 48 --export-filename=annotation_close@3x.png
 inkscape --export-type=png -w 16 -h 16 --export-filename=branch.png branch.svg
 inkscape --export-type=png -w 32 -h 32 --export-filename=branch@2x.png branch.svg
 inkscape --export-type=png -w 48 -h 48 --export-filename=branch@3x.png branch.svg
+inkscape --export-type=png -w 12 -h 12 --export-filename=close.png close.svg
+inkscape --export-type=png -w 24 -h 24 --export-filename=close@2x.png close.svg
+inkscape --export-type=png -w 36 -h 36 --export-filename=close@3x.png close.svg
 inkscape --export-type=png -w 6 -h 14 --export-filename=scroll_thin.png scroll_thin.svg
 inkscape --export-type=png -w 12 -h 28 --export-filename=scroll_thin@2x.png scroll_thin.svg
 inkscape --export-type=png -w 18 -h 42 --export-filename=scroll_thin@3x.png scroll_thin.svg
@@ -34,3 +37,6 @@ inkscape --export-type=png -w 48 -h 48 --export-filename=sidebar_row_selected@3x
 inkscape --export-type=png -w 16 -h 16 --export-filename=sidebar_row_selected_border.png sidebar_row_selected_border.svg
 inkscape --export-type=png -w 32 -h 32 --export-filename=sidebar_row_selected_border@2x.png sidebar_row_selected_border.svg
 inkscape --export-type=png -w 48 -h 48 --export-filename=sidebar_row_selected_border@3x.png sidebar_row_selected_border.svg
+inkscape --export-type=png -w 12 -h 12 --export-filename=tab_dirty.png tab_dirty.svg
+inkscape --export-type=png -w 24 -h 24 --export-filename=tab_dirty@2x.png tab_dirty.svg
+inkscape --export-type=png -w 36 -h 36 --export-filename=tab_dirty@3x.png tab_dirty.svg
