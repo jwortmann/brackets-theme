@@ -2,11 +2,11 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.yaml.pipeline.azure-devops</string>
+    <string>source.yaml.kong</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>file_type_azure</string>
+      <string>file_type_kong</string>
     </dict>
   </dict>
 </plist>
