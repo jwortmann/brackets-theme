@@ -173,7 +173,7 @@
         {
             "class": "sidebar_container",
             "settings": {"themed_title_bar": true},
-            "layer1.texture": "Theme - Brackets/assets/sidebar_rounded.png",
+            "layer1.texture": "Theme - Brackets/assets/sidebar_background_rounded.png",
             "layer1.tint": "var(titlebar_background)",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": [11, 36, 0, 0],
@@ -182,12 +182,12 @@
         {
             "class": "sidebar_container",
             "settings": {"themed_title_bar": true, "file_tab_style": "square"},
-            "layer1.texture": "Theme - Brackets/assets/sidebar_square.png"
+            "layer1.texture": "Theme - Brackets/assets/sidebar_background_square.png"
         },
         {
             "class": "sidebar_container",
             "settings": {"themed_title_bar": true, "file_tab_style": "angled"},
-            "layer1.texture": "Theme - Brackets/assets/sidebar_angled.png"
+            "layer1.texture": "Theme - Brackets/assets/sidebar_background_angled.png"
         },
         {
             "class": "sidebar_tree",
