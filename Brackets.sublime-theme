@@ -379,11 +379,6 @@
         },
         {
             "class": "vcs_status_badge",
-            "settings": {"hide_sidebar_status_icons": true},
-            "content_margin": 0
-        },
-        {
-            "class": "vcs_status_badge",
             "settings": {"git_status_icons": "disabled"},
             "content_margin": 0
         },
@@ -1802,12 +1797,6 @@
         },
         {
             "class": "kind_container",
-            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
-            "layer0.opacity": 0.15,
-            "layer1.opacity": 0
-        },
-        {
-            "class": "kind_container",
             "settings": {"kind_icons_style": "letters"},
             "layer0.opacity": 0.15,
             "layer1.opacity": 0
@@ -2012,20 +2001,8 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_keyword"}],
-            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
-            "color": "var(kind_keyword_color)"
-        },
-        {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_keyword"}],
             "settings": {"kind_icons_style": "letters"},
             "color": "var(kind_keyword_color)"
-        },
-        {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_type"}],
-            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
-            "color": "var(kind_type_color)"
         },
         {
             "class": "kind_label",
@@ -2036,20 +2013,8 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_function"}],
-            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
-            "color": "var(kind_function_color)"
-        },
-        {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_function"}],
             "settings": {"kind_icons_style": "letters"},
             "color": "var(kind_function_color)"
-        },
-        {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_namespace"}],
-            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
-            "color": "var(kind_namespace_color)"
         },
         {
             "class": "kind_label",
@@ -2060,20 +2025,8 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_navigation"}],
-            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
-            "color": "var(kind_navigation_color)"
-        },
-        {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_navigation"}],
             "settings": {"kind_icons_style": "letters"},
             "color": "var(kind_navigation_color)"
-        },
-        {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_markup"}],
-            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
-            "color": "var(kind_markup_color)"
         },
         {
             "class": "kind_label",
@@ -2084,20 +2037,8 @@
         {
             "class": "kind_label",
             "parents": [{"class": "kind_container kind_variable"}],
-            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
-            "color": "var(kind_variable_color)"
-        },
-        {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_variable"}],
             "settings": {"kind_icons_style": "letters"},
             "color": "var(kind_variable_color)"
-        },
-        {
-            "class": "kind_label",
-            "parents": [{"class": "kind_container kind_snippet"}],
-            "settings": {"kind_letters": true}, // for backwards-compatibility with deprecated setting
-            "color": "var(kind_snippet_color)"
         },
         {
             "class": "kind_label",
