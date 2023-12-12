@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 34" fill="white">
+    <filter id="blur">
+        <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <defs>
+        <clipPath id="clip">
+            <path d="M 0,7 V 33 H 4.444 L 16,7 H 0"/>
+            <path d="M 42,7 V 33 H 37.556 L 26,7 H 42"/>
+        </clipPath>
+    </defs>
+    <path filter="url(#blur)" clip-path="url(#clip)" d="M 4,34 L 14.222,11 H 27.778 L 38,34 H 4"/>
+</svg>

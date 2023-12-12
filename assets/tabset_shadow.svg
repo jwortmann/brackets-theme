@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 34" fill="white">
+    <filter id="blur">
+        <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <defs>
+        <clipPath id="clip">
+            <rect x="0" y="0" width="8" height="32"/>
+        </clipPath>
+    </defs>
+    <rect filter="url(#blur)" x="1" y="30" width="17" height="10" clip-path="url(#clip)"/>
+</svg>

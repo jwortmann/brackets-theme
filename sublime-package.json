@@ -38,10 +38,20 @@
               "deprecationMessage": "This setting is deprecated!\nUse \"git_status_icons\": \"disabled\" instead.",
               "markdownDescription": "Setting from: *Theme - Brackets*"
             },
-            "blend_inactive_tabs": {
+            "tab_shadows": {
+              "type": "boolean",
+              "default": true,
+              "markdownDescription": "Whether to draw shadows and a thin border for file tabs.\n\nSetting from: *Theme - Brackets*"
+            },
+            "inactive_tab_transparency": {
               "type": "boolean",
               "default": false,
-              "markdownDescription": "Blend the color of inactive tabs with the background. This is how inactive tabs in the built-in Default and Adaptive themes are shown. Only applies when `\"file_tab_style\"` is `\"rounded\"` or `\"square\"`.\n\nSetting from: *Theme - Brackets*"
+              "markdownDescription": "Makes inactive tabs transparent, similar to how they are displayed in the Default and Adaptive themes.\n\nSetting from: *Theme - Brackets*"
+            },
+            "blend_inactive_tabs": {
+              "type": "boolean",
+              "deprecationMessage": "This setting is deprecated!\nUse \"inactive_tab_transparency\" instead.",
+              "markdownDescription": "Setting from: *Theme - Brackets*"
             },
             "tooltip_style": {
               "type": "string",
