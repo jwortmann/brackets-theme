@@ -24,7 +24,7 @@ From the command palette select *Package Control: Install Package* and search fo
 
 ## Customization
 
-Various theme-related settings defined by Sublime Text, as well as a few custom settings specific to this theme are supported to configure the appearance.
+Various theme-related settings defined by Sublime Text, as well as a few custom settings specific to this theme are available to configure the appearance.
 All settings should be modified in the *Preferences.sublime-settings* file, which can be opened via *Preferences: Settings* from the command palette.
 
 __Custom settings:__
@@ -38,8 +38,9 @@ __Custom settings:__
 | "tooltip_style" | "dark" | Controls the style for tooltips. Options are "dark" and "light". |
 | "scroll_bar_style" | "auto" | Controls the style for scroll bars. Options are "brackets", "sublime", "thin" and "auto". The "auto" option uses "sublime" when overlay scroll bars are enabled, and "brackets" when disabled. |
 | "fold_buttons_style" | "triangle" | Controls the style for the buttons shown in the gutter to fold regions of text. Options are "triangle" and "square". |
-| "hide_tabs_dropdown_button" | false | Hides the tabs dropdown button. |
-| "blend_inactive_tabs" | false | Blend the color of inactive tabs with the background. This is how inactive tabs in the built-in Default and Adaptive themes are shown. This setting only applies if "file_tab_style" is "rounded" or "square". |
+| "tab_shadows" | true | Draws shadows and a thin border around file tabs. |
+| "inactive_tab_transparency" | false | Makes inactive tabs transparent, similar to how they are displayed in the Default and Adaptive themes. |
+| "hide_tabs_dropdown_button" | false | Hides the tabs dropdown button at the right side of the tab bar. |
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/kind_icons_dark.png">
@@ -71,5 +72,3 @@ To restore the icons for those themes, disable this package by running *Package 
 * Git status icons in the sidebar and kind icons used in the autocompletion popup and the *Goto Symbol…* panels are derived from [Octicons](https://github.com/primer/octicons) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/Octicons/LICENSE)), [GitLab SVGs](https://gitlab.com/gitlab-org/gitlab-svgs) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/GitLabSVGs/LICENSE)) and [Codicons](https://github.com/microsoft/vscode-codicons) (licensed under [CC BY 4.0](https://github.com/jwortmann/brackets-theme/blob/master/licenses/Codicons/LICENSE)).
 
 * File icons in the sidebar are derived from [FileIcons](https://github.com/braver/FileIcons) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/FileIcons/LICENSE)), [AFileIcon](https://github.com/SublimeText/AFileIcon) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/AFileIcon/LICENSE.md)), [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/MaterialIconTheme/LICENSE.md)) and [Simple Icons](https://github.com/simple-icons/simple-icons) (licensed under CC0).
-
-* Textures for the "wave" tab style are derived from [Theme - DAneo](https://github.com/SublimeText/Theme-DAneo) (licensed under the [MIT license](https://github.com/jwortmann/brackets-theme/blob/master/licenses/DAneo/LICENSE)).
