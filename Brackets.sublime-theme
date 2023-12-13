@@ -173,11 +173,11 @@
         {
             "class": "sidebar_container",
             "settings": {"themed_title_bar": true},
-            "layer1.texture": "Theme - Brackets/assets/sidebar_rounded_background.png",
+            "layer1.texture": "Theme - Brackets/textures/sidebar_rounded_background.png",
             "layer1.tint": "var(titlebar_background)",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": [11, 38, 0, 0],
-            "layer2.texture": "Theme - Brackets/assets/sidebar_rounded_border.png",
+            "layer2.texture": "Theme - Brackets/textures/sidebar_rounded_border.png",
             "layer2.tint": "var(tab_border_dark)",
             "layer2.opacity": 0.0,
             "layer2.inner_margin": [11, 38, 0, 0],
@@ -186,14 +186,14 @@
         {
             "class": "sidebar_container",
             "settings": {"themed_title_bar": true, "file_tab_style": "square"},
-            "layer1.texture": "Theme - Brackets/assets/sidebar_square_background.png",
-            "layer2.texture": "Theme - Brackets/assets/sidebar_square_border.png"
+            "layer1.texture": "Theme - Brackets/textures/sidebar_square_background.png",
+            "layer2.texture": "Theme - Brackets/textures/sidebar_square_border.png"
         },
         {
             "class": "sidebar_container",
             "settings": {"themed_title_bar": true, "file_tab_style": "angled"},
-            "layer1.texture": "Theme - Brackets/assets/sidebar_angled_background.png",
-            "layer2.texture": "Theme - Brackets/assets/sidebar_angled_border.png"
+            "layer1.texture": "Theme - Brackets/textures/sidebar_angled_background.png",
+            "layer2.texture": "Theme - Brackets/textures/sidebar_angled_border.png"
         },
         {
             "class": "sidebar_container",
@@ -217,11 +217,11 @@
         {
             "class": "tree_row",
             "attributes": ["selected"],
-            "layer0.texture": "Theme - Brackets/assets/sidebar_row_selected.png",
+            "layer0.texture": "Theme - Brackets/textures/sidebar_row_selected.png",
             "layer0.tint": "var(sidebar_selected_background)",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 2,
-            "layer1.texture": "Theme - Brackets/assets/sidebar_row_selected_border.png",
+            "layer1.texture": "Theme - Brackets/textures/sidebar_row_selected_border.png",
             "layer1.tint": "var(sidebar_selected_border)",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": 2
@@ -303,7 +303,7 @@
         },
         {
             "class": "close_button",
-            "layer0.texture": "Theme - Brackets/assets/close.png",
+            "layer0.texture": "Theme - Brackets/textures/close.png",
             "layer0.tint": "white",
             "layer0.opacity": {"target": 0.0, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.inner_margin": [11, 11, 0, 0],
@@ -312,13 +312,13 @@
         {
             "class": "close_button",
             "attributes": ["dirty"],
-            "layer0.texture": "Theme - Brackets/assets/tab_dirty.png",
+            "layer0.texture": "Theme - Brackets/textures/tab_dirty.png",
             "layer0.opacity": 0.5
         },
         {
             "class": "close_button",
             "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-            "layer0.texture": "Theme - Brackets/assets/close.png",
+            "layer0.texture": "Theme - Brackets/textures/close.png",
             "layer0.opacity": {"target": 0.5, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
@@ -328,11 +328,11 @@
         },
         {
             "class": "disclosure_button_control",
-            "layer0.texture": "Theme - Brackets/assets/disclosure_unexpanded_shadow.png",
+            "layer0.texture": "Theme - Brackets/textures/disclosure_unexpanded_shadow.png",
             "layer0.inner_margin": [0, 0, 10, 8],
             "layer0.opacity": 0.4,
             "layer0.tint": "black",
-            "layer1.texture": "Theme - Brackets/assets/disclosure_unexpanded.png",
+            "layer1.texture": "Theme - Brackets/textures/disclosure_unexpanded.png",
             "layer1.inner_margin": [0, 0, 10, 8],
             "layer1.opacity": 1.0,
             "layer1.tint": "var(sidebar_disclosure_button)",
@@ -341,8 +341,8 @@
         {
             "class": "disclosure_button_control",
             "attributes": ["expanded"],
-            "layer0.texture": "Theme - Brackets/assets/disclosure_expanded_shadow.png",
-            "layer1.texture": "Theme - Brackets/assets/disclosure_expanded.png"
+            "layer0.texture": "Theme - Brackets/textures/disclosure_expanded_shadow.png",
+            "layer1.texture": "Theme - Brackets/textures/disclosure_expanded.png"
         },
         {
             "class": "icon_folder",
@@ -616,11 +616,11 @@
             "class": "tabset_control",
             "layer0.opacity": 1.0,
             "layer0.tint": "var(titlebar_background)",
-            "layer1.texture": "Theme - Brackets/assets/tabset_shadow.png",
+            "layer1.texture": "Theme - Brackets/textures/tabset_shadow.png",
             "layer1.tint": "black",
             "layer1.opacity": 0.6,
             "layer1.inner_margin": [7, 0, 0, 4],
-            "layer2.texture": "Theme - Brackets/assets/tabset_border.png",
+            "layer2.texture": "Theme - Brackets/textures/tabset_border.png",
             "layer2.opacity": 1.0,
             "layer2.tint": "var(tab_border_dark)",
             "layer2.inner_margin": [0, 0, 0, 4],
@@ -711,124 +711,124 @@
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "rounded"},
-            "layer0.texture": "Theme - Brackets/assets/tab_rounded_shadow.png",
+            "layer0.texture": "Theme - Brackets/textures/tab_rounded_shadow.png",
             "layer0.inner_margin": [12, 0],
-            "layer1.texture": "Theme - Brackets/assets/tab_rounded.png",
+            "layer1.texture": "Theme - Brackets/textures/tab_rounded.png",
             "layer1.inner_margin": [12, 0],
-            "layer2.texture": "Theme - Brackets/assets/tab_rounded_highlight2.png",
+            "layer2.texture": "Theme - Brackets/textures/tab_rounded_highlight2.png",
             "layer2.inner_margin": [12, 0],
-            "layer3.texture": "Theme - Brackets/assets/tab_rounded_border2.png",
+            "layer3.texture": "Theme - Brackets/textures/tab_rounded_border2.png",
             "layer3.inner_margin": [12, 0],
             "content_margin": [16, 6, 14, 3]
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "rounded", "tab_shadows": true},
-            "layer2.texture": "Theme - Brackets/assets/tab_rounded_highlight.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_rounded_highlight.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "rounded", "highlight_modified_tabs": true, "tab_shadows": true},
             "attributes": ["dirty"],
-            "layer0.texture": "Theme - Brackets/assets/tab_rounded_shadow2.png"
+            "layer0.texture": "Theme - Brackets/textures/tab_rounded_shadow2.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "rounded"},
             "attributes": ["selected"],
-            "layer3.texture": "Theme - Brackets/assets/tab_rounded_border.png"
+            "layer3.texture": "Theme - Brackets/textures/tab_rounded_border.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "square"},
-            "layer0.texture": "Theme - Brackets/assets/tab_square_shadow.png",
+            "layer0.texture": "Theme - Brackets/textures/tab_square_shadow.png",
             "layer0.inner_margin": [12, 0],
-            "layer1.texture": "Theme - Brackets/assets/tab_square2.png",
+            "layer1.texture": "Theme - Brackets/textures/tab_square2.png",
             "layer1.inner_margin": [12, 0],
-            "layer2.texture": "Theme - Brackets/assets/tab_square_highlight2.png",
+            "layer2.texture": "Theme - Brackets/textures/tab_square_highlight2.png",
             "layer2.inner_margin": [12, 0],
-            "layer3.texture": "Theme - Brackets/assets/tab_square_border2.png",
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border2.png",
             "layer3.inner_margin": [12, 0],
             "content_margin": [18, 4, 14, 5]
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "square", "tab_shadows": true},
-            "layer1.texture": "Theme - Brackets/assets/tab_square.png",
-            "layer2.texture": "Theme - Brackets/assets/tab_square_highlight.png",
+            "layer1.texture": "Theme - Brackets/textures/tab_square.png",
+            "layer2.texture": "Theme - Brackets/textures/tab_square_highlight.png",
             "content_margin": [16, 6, 14, 3]
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "square", "highlight_modified_tabs": true, "tab_shadows": true},
             "attributes": ["dirty"],
-            "layer0.texture": "Theme - Brackets/assets/tab_square_shadow2.png"
+            "layer0.texture": "Theme - Brackets/textures/tab_square_shadow2.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "square"},
             "attributes": ["selected"],
-            "layer3.texture": "Theme - Brackets/assets/tab_square_border.png"
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "angled"},
-            "layer0.texture": "Theme - Brackets/assets/tab_angled_shadow.png",
+            "layer0.texture": "Theme - Brackets/textures/tab_angled_shadow.png",
             "layer0.inner_margin": [19, 0],
-            "layer1.texture": "Theme - Brackets/assets/tab_angled.png",
+            "layer1.texture": "Theme - Brackets/textures/tab_angled.png",
             "layer1.inner_margin": [19, 0],
-            "layer2.texture": "Theme - Brackets/assets/tab_angled_highlight2.png",
+            "layer2.texture": "Theme - Brackets/textures/tab_angled_highlight2.png",
             "layer2.inner_margin": [19, 0],
-            "layer3.texture": "Theme - Brackets/assets/tab_angled_border2.png",
+            "layer3.texture": "Theme - Brackets/textures/tab_angled_border2.png",
             "layer3.inner_margin": [19, 0],
             "content_margin": [26, 6, 22, 3]
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "angled", "tab_shadows": true},
-            "layer2.texture": "Theme - Brackets/assets/tab_angled_highlight.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_angled_highlight.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "angled", "highlight_modified_tabs": true, "tab_shadows": true},
             "attributes": ["dirty"],
-            "layer0.texture": "Theme - Brackets/assets/tab_angled_shadow2.png"
+            "layer0.texture": "Theme - Brackets/textures/tab_angled_shadow2.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "angled"},
             "attributes": ["selected"],
-            "layer3.texture": "Theme - Brackets/assets/tab_angled_border.png"
+            "layer3.texture": "Theme - Brackets/textures/tab_angled_border.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "wave"},
-            "layer0.texture": "Theme - Brackets/assets/tab_wave_shadow.png",
+            "layer0.texture": "Theme - Brackets/textures/tab_wave_shadow.png",
             "layer0.inner_margin": [29, 0],
-            "layer1.texture": "Theme - Brackets/assets/tab_wave.png",
+            "layer1.texture": "Theme - Brackets/textures/tab_wave.png",
             "layer1.inner_margin": [29, 0],
-            "layer2.texture": "Theme - Brackets/assets/tab_wave_highlight2.png",
+            "layer2.texture": "Theme - Brackets/textures/tab_wave_highlight2.png",
             "layer2.inner_margin": [29, 0],
-            "layer3.texture": "Theme - Brackets/assets/tab_wave_border2.png",
+            "layer3.texture": "Theme - Brackets/textures/tab_wave_border2.png",
             "layer3.inner_margin": [29, 0],
             "content_margin": [28, 6, 24, 3]
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "wave", "tab_shadows": true},
-            "layer2.texture": "Theme - Brackets/assets/tab_wave_highlight.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_wave_highlight.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "wave", "highlight_modified_tabs": true, "tab_shadows": true},
             "attributes": ["dirty"],
-            "layer0.texture": "Theme - Brackets/assets/tab_wave_shadow2.png"
+            "layer0.texture": "Theme - Brackets/textures/tab_wave_shadow2.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "wave"},
             "attributes": ["selected"],
-            "layer3.texture": "Theme - Brackets/assets/tab_wave_border.png"
+            "layer3.texture": "Theme - Brackets/textures/tab_wave_border.png"
         },
         {
             "class": "tab_control",
@@ -957,7 +957,7 @@
             "layer0.tint": "white",
             "layer0.opacity": 0.0,
             "layer1.opacity": {"target": 0.0, "speed": 5.0,"interpolation": "smoothstep"},
-            "layer3.texture": "Theme - Brackets/assets/tab_border_bottom.png",
+            "layer3.texture": "Theme - Brackets/textures/tab_border_bottom.png",
             "layer3.inner_margin": 0
         },
         {
@@ -970,117 +970,117 @@
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "rounded"},
             "attributes": ["!selected", "!hover"],
-            "layer0.texture": "Theme - Brackets/assets/tab_rounded_divider.png"
+            "layer0.texture": "Theme - Brackets/textures/tab_rounded_divider.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "rounded"},
             "attributes": ["!selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_rounded_highlight3.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_rounded_highlight3.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "rounded", "tab_shadows": false},
             "attributes": ["!selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_rounded_highlight4.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_rounded_highlight4.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "square"},
             "attributes": ["!selected", "!hover"],
-            "layer0.texture": "Theme - Brackets/assets/tab_square_divider.png"
+            "layer0.texture": "Theme - Brackets/textures/tab_square_divider.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "square", "tab_shadows": false},
             "attributes": ["!selected", "!hover"],
-            "layer0.texture": "Theme - Brackets/assets/tab_square_divider2.png"
+            "layer0.texture": "Theme - Brackets/textures/tab_square_divider2.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "square"},
             "attributes": ["!selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_square_highlight3.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_square_highlight3.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "square", "tab_shadows": false},
             "attributes": ["!selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_square_highlight4.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_square_highlight4.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "angled"},
             "attributes": ["!selected", "!hover"],
-            "layer0.texture": "Theme - Brackets/assets/tab_angled_divider.png",
-            "layer2.texture": "Theme - Brackets/assets/tab_angled_highlight3.png"
+            "layer0.texture": "Theme - Brackets/textures/tab_angled_divider.png",
+            "layer2.texture": "Theme - Brackets/textures/tab_angled_highlight3.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "angled"},
             "attributes": ["!selected", "!hover", "left_of_hover", "!left_of_selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_angled_highlight4.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_angled_highlight4.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "angled"},
             "attributes": ["!selected", "!hover", "right_of_hover", "!right_of_selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_angled_highlight5.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_angled_highlight5.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "angled", "tab_shadows": false},
             "attributes": ["!selected", "!hover"],
-            "layer2.texture": "Theme - Brackets/assets/tab_angled_highlight6.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_angled_highlight6.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "angled", "tab_shadows": false},
             "attributes": ["!selected", "!hover", "left_of_hover", "!left_of_selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_angled_highlight7.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_angled_highlight7.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "angled", "tab_shadows": false},
             "attributes": ["!selected", "!hover", "right_of_hover", "!right_of_selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_angled_highlight8.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_angled_highlight8.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "wave"},
             "attributes": ["!selected", "!hover"],
-            "layer0.texture": "Theme - Brackets/assets/tab_wave_divider.png",
-            "layer2.texture": "Theme - Brackets/assets/tab_wave_highlight3.png"
+            "layer0.texture": "Theme - Brackets/textures/tab_wave_divider.png",
+            "layer2.texture": "Theme - Brackets/textures/tab_wave_highlight3.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "wave"},
             "attributes": ["!selected", "!hover", "left_of_hover", "!left_of_selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_wave_highlight4.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_wave_highlight4.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "wave"},
             "attributes": ["!selected", "!hover", "right_of_hover", "!right_of_selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_wave_highlight5.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_wave_highlight5.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "wave", "tab_shadows": false},
             "attributes": ["!selected", "!hover"],
-            "layer2.texture": "Theme - Brackets/assets/tab_wave_highlight6.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_wave_highlight6.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "wave", "tab_shadows": false},
             "attributes": ["!selected", "!hover", "left_of_hover", "!left_of_selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_wave_highlight7.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_wave_highlight7.png"
         },
         {
             "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "wave", "tab_shadows": false},
             "attributes": ["!selected", "!hover", "right_of_hover", "!right_of_selected"],
-            "layer2.texture": "Theme - Brackets/assets/tab_wave_highlight8.png"
+            "layer2.texture": "Theme - Brackets/textures/tab_wave_highlight8.png"
         },
         {
             "class": "tab_control",
@@ -1132,7 +1132,7 @@
         {
             "class": "tab_close_button",
             "settings": ["show_tab_close_buttons"],
-            "layer0.texture": "Theme - Brackets/assets/close.png",
+            "layer0.texture": "Theme - Brackets/textures/close.png",
             "layer0.opacity": {"target": 0.5, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.tint": "white",
             "layer0.inner_margin": [11, 0, 0, 11],
@@ -1158,7 +1158,7 @@
             "class": "tab_close_button",
             "attributes": ["!hover"],
             "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-            "layer0.texture": "Theme - Brackets/assets/tab_dirty.png"
+            "layer0.texture": "Theme - Brackets/textures/tab_dirty.png"
         },
         {
             "class": "tab_close_button",
@@ -1194,7 +1194,7 @@
         },
         {
             "class": "scroll_tabs_left_button",
-            "layer0.texture": "Theme - Brackets/assets/tab_scroll_left.png",
+            "layer0.texture": "Theme - Brackets/textures/tab_scroll_left.png",
             "layer0.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.tint": "white",
             "layer0.inner_margin": [0, 0, 8, 0],
@@ -1212,7 +1212,7 @@
         },
         {
             "class": "scroll_tabs_right_button",
-            "layer0.texture": "Theme - Brackets/assets/tab_scroll_right.png",
+            "layer0.texture": "Theme - Brackets/textures/tab_scroll_right.png",
             "layer0.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.tint": "white",
             "layer0.inner_margin": [8, 0, 0, 0],
@@ -1230,7 +1230,7 @@
         },
         {
             "class": "show_tabs_dropdown_button",
-            "layer0.texture": "Theme - Brackets/assets/dropdown.png",
+            "layer0.texture": "Theme - Brackets/textures/dropdown.png",
             "layer0.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.tint": "white",
             "layer0.inner_margin": [20, 0, 0, 0],
@@ -1269,16 +1269,16 @@
         {
             "class": "overlay_control",
             "content_margin": 17,
-            "layer0.texture": "Theme - Brackets/assets/overlay_shadow.png",
+            "layer0.texture": "Theme - Brackets/textures/overlay_shadow.png",
             "layer0.tint": "black",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 20,
             "layer0.draw_center": false,
-            "layer1.texture": "Theme - Brackets/assets/overlay_background.png",
+            "layer1.texture": "Theme - Brackets/textures/overlay_background.png",
             "layer1.tint": "var(overlay_background_dark)",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": 20,
-            "layer2.texture": "Theme - Brackets/assets/overlay_border.png",
+            "layer2.texture": "Theme - Brackets/textures/overlay_border.png",
             "layer2.tint": "var(overlay_border_dark)",
             "layer2.opacity": 1.0,
             "layer2.inner_margin": 20,
@@ -1319,7 +1319,7 @@
         },
         {
             "class": "mini_quick_panel_row",
-            "layer0.texture": "Theme - Brackets/assets/background_4px.png",
+            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
             "layer0.inner_margin": 4,
             "layer0.tint": "transparent",
             "layer0.opacity": 1.0
@@ -1359,7 +1359,7 @@
         },
         {
             "class": "quick_panel_row",
-            "layer0.texture": "Theme - Brackets/assets/background_4px.png",
+            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
             "layer0.inner_margin": 4,
             "layer0.tint": "transparent",
             "layer0.opacity": 1.0
@@ -1367,7 +1367,7 @@
         {
             "class": "quick_panel_row",
             "parents": [{"class": "switch_project_window"}],
-            "layer0.texture": "Theme - Brackets/assets/background_4px_padding.png",
+            "layer0.texture": "Theme - Brackets/textures/background_4px_padding.png",
             "layer0.inner_margin": [8, 4]
         },
         {
@@ -1686,7 +1686,7 @@
         {
             "class": "popup_shadow",
             "settings": {"popup_shadows": true},
-            "layer0.texture": "Theme - Brackets/assets/popup_shadow.png",
+            "layer0.texture": "Theme - Brackets/textures/popup_shadow.png",
             "layer0.tint": "black",
             "layer0.opacity": 0.5,
             "layer0.inner_margin": 24,
@@ -1695,11 +1695,11 @@
             "class": "popup_control html_popup",
             "settings": {"popup_style": ["rounded", ""]},
             "content_margin": 3,
-            "layer0.texture": "Theme - Brackets/assets/popup_background.png",
+            "layer0.texture": "Theme - Brackets/textures/popup_background.png",
             "layer0.opacity": 1.0,
             "layer0.tint": "color(var(--background) blend(var(--foreground) 94%))",
             "layer0.inner_margin": 8,
-            "layer1.texture": "Theme - Brackets/assets/popup_border.png",
+            "layer1.texture": "Theme - Brackets/textures/popup_border.png",
             "layer1.opacity": 1.0,
             "layer1.tint": "var(overlay_border_dark)",
             "layer1.inner_margin": 8
@@ -1720,18 +1720,18 @@
         },
         {
             "class": "annotation_close_button",
-            "layer0.texture": "Theme - Brackets/assets/annotation_close.png"
+            "layer0.texture": "Theme - Brackets/textures/annotation_close.png"
         },
 //========================================[ Auto Complete ]=========================================
         {
             "class": "popup_control auto_complete_popup",
             "content_margin": 1,
             "layer0.opacity": 0.0,
-            "layer1.texture": "Theme - Brackets/assets/background_4px.png",
+            "layer1.texture": "Theme - Brackets/textures/background_4px.png",
             "layer1.inner_margin": 4,
             "layer1.opacity": 1.0,
             "layer1.tint": "var(autocomplete_background_dark)",
-            "layer2.texture": "Theme - Brackets/assets/border_4px.png",
+            "layer2.texture": "Theme - Brackets/textures/border_4px.png",
             "layer2.inner_margin": 4,
             "layer2.opacity": 1.0,
             "layer2.tint": "var(autocomplete_border_dark)"
@@ -2134,7 +2134,7 @@
             "class": "auto_complete_detail_pane",
             "content_margin": [8, 4],
             "layer0.opacity": 0.0,
-            "layer1.texture": "Theme - Brackets/assets/autocomplete_detail.png",
+            "layer1.texture": "Theme - Brackets/textures/autocomplete_detail.png",
             "layer1.inner_margin": 4,
             "layer1.opacity": 1.0,
             "layer1.tint": "var(panel_background_dark)"
@@ -2198,13 +2198,13 @@
         },
         {
             "class": "panel_control console_panel",
-            "layer1.texture": "Theme - Brackets/assets/output_panel_border.png",
+            "layer1.texture": "Theme - Brackets/textures/output_panel_border.png",
             "layer1.inner_margin": [0, 4, 0, 0],
             "content_margin": 0
         },
         {
             "class": "panel_control output_panel",
-            "layer1.texture": "Theme - Brackets/assets/output_panel_border.png",
+            "layer1.texture": "Theme - Brackets/textures/output_panel_border.png",
             "layer1.inner_margin": [0, 4, 0, 0],
             "content_margin": [0, 0, 0, -4]
         },
@@ -2237,7 +2237,7 @@
         },
         {
             "class": "panel_close_button",
-            "layer0.texture": "Theme - Brackets/assets/close.png",
+            "layer0.texture": "Theme - Brackets/textures/close.png",
             "layer0.opacity": {"target": 0.5, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.tint": "white",
             "content_margin": 6
@@ -2275,7 +2275,7 @@
         },
         {
             "class": "sidebar_button_control",
-            "layer0.texture": "Theme - Brackets/assets/sidebar_button.png",
+            "layer0.texture": "Theme - Brackets/textures/sidebar_button.png",
             "layer0.opacity": 1.0,
             "layer0.tint": "var(statusbar_icon_dark)",
             "content_margin": [14, 11, 0, 0]
@@ -2317,7 +2317,7 @@
         },
         {
             "class": "vcs_branch_icon",
-            "layer0.texture": "Theme - Brackets/assets/branch.png",
+            "layer0.texture": "Theme - Brackets/textures/branch.png",
             "layer0.opacity": 1.0,
             "layer0.tint": "var(statusbar_icon_dark)",
             "content_margin": 8
@@ -2470,7 +2470,7 @@
             "class": "scroll_bar_control",
             "parents": [{"class": "popup_control auto_complete_popup"}],
             "settings": {"scroll_bar_style": "thin", "overlay_scroll_bars": false},
-            "layer1.texture": "Theme - Brackets/assets/scroll_thin_autocomplete_background.png",
+            "layer1.texture": "Theme - Brackets/textures/scroll_thin_autocomplete_background.png",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": 4,
             "layer1.tint": "var(autocomplete_background_light)"
@@ -2582,7 +2582,7 @@
         {
             "class": "puck_control",
             "settings": {"scroll_bar_style": "thin"},
-            "layer0.texture": "Theme - Brackets/assets/scroll_thin.png",
+            "layer0.texture": "Theme - Brackets/textures/scroll_thin.png",
             "layer0.tint": "var(scrollbar_puck_light2)",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 3,
@@ -2593,11 +2593,11 @@
             "settings": {"scroll_bar_style": "thin", "animation_enabled": true},
             "layer0.tint": "var(scrollbar_puck_light2)",
             "layer0.opacity": 1.0,
-            "layer1.texture": "Theme - Brackets/assets/scroll_thin2.png",
+            "layer1.texture": "Theme - Brackets/textures/scroll_thin2.png",
             "layer1.tint": "var(scrollbar_puck_light2)",
             "layer1.opacity": {"target": 0.0, "speed": 5.0, "interpolation": "smoothstep"},
             "layer1.inner_margin": 3,
-            "layer2.texture": "Theme - Brackets/assets/scroll_thin3.png",
+            "layer2.texture": "Theme - Brackets/textures/scroll_thin3.png",
             "layer2.tint": "var(scrollbar_puck_light2)",
             "layer2.opacity": {"target": 0.0, "speed": 10.0, "interpolation": "smoothstep"},
             "layer2.inner_margin": 3
@@ -2643,7 +2643,7 @@
             "class": "puck_control",
             "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
             "settings": {"scroll_bar_style": "thin", "animation_enabled": false},
-            "layer0.texture": "Theme - Brackets/assets/scroll_thin3.png"
+            "layer0.texture": "Theme - Brackets/textures/scroll_thin3.png"
         },
         {
             "class": "puck_control",
@@ -2670,21 +2670,21 @@
             "class": "puck_control",
             "settings": {"scroll_bar_style": "thin"},
             "attributes": ["horizontal"],
-            "layer0.texture": "Theme - Brackets/assets/scroll_horiz_thin.png",
+            "layer0.texture": "Theme - Brackets/textures/scroll_horiz_thin.png",
             "content_margin": [20, 0]
         },
         {
             "class": "puck_control",
             "settings": {"scroll_bar_style": "thin", "animation_enabled": true},
             "attributes": ["horizontal"],
-            "layer1.texture": "Theme - Brackets/assets/scroll_horiz_thin2.png",
-            "layer2.texture": "Theme - Brackets/assets/scroll_horiz_thin3.png"
+            "layer1.texture": "Theme - Brackets/textures/scroll_horiz_thin2.png",
+            "layer2.texture": "Theme - Brackets/textures/scroll_horiz_thin3.png"
         },
         {
             "class": "puck_control",
             "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
             "settings": {"scroll_bar_style": "thin", "animation_enabled": false},
-            "layer0.texture": "Theme - Brackets/assets/scroll_horiz_thin3.png"
+            "layer0.texture": "Theme - Brackets/textures/scroll_horiz_thin3.png"
         },
         {
             "class": "puck_control",
@@ -2846,10 +2846,10 @@
 //============================================[ Inputs ]============================================
         {
             "class": "text_line_control",
-            "layer0.texture": "Theme - Brackets/assets/background_4px.png",
+            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
             "layer0.inner_margin": 4,
             "layer0.opacity": 1.0,
-            "layer1.texture": "Theme - Brackets/assets/border_4px.png",
+            "layer1.texture": "Theme - Brackets/textures/border_4px.png",
             "layer1.inner_margin": 4,
             "layer1.draw_center": false,
             "layer1.opacity": 1.0,
@@ -2892,9 +2892,9 @@
         {
             "class": "text_line_control",
             "parents": [{"class": "panel_control console_panel"}],
-            "layer0.texture": "Theme - Brackets/assets/console_input_background.png",
+            "layer0.texture": "Theme - Brackets/textures/console_input_background.png",
             "layer0.inner_margin": [8, 4],
-            "layer1.texture": "Theme - Brackets/assets/console_input_border.png",
+            "layer1.texture": "Theme - Brackets/textures/console_input_border.png",
             "layer1.inner_margin": [8, 4],
             "content_margin": [8, 5, 8, 3]
         },
@@ -2913,7 +2913,7 @@
         },
         {
             "class": "dropdown_button_control",
-            "layer0.texture": "Theme - Brackets/assets/dropdown.png",
+            "layer0.texture": "Theme - Brackets/textures/dropdown.png",
             "layer0.opacity": 1.0,
             "layer0.tint": "var(input_dropdown)",
             "layer0.inner_margin": [20, 0, 0, 0],
@@ -2923,16 +2923,16 @@
         {
             "class": "button_control",
             "min_size": [68, 28],
-            "layer0.texture": "Theme - Brackets/assets/background_4px.png",
+            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
             "layer0.tint": "var(button_background_dark)",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 4,
-            "layer1.texture": "Theme - Brackets/assets/button_border2.png",
+            "layer1.texture": "Theme - Brackets/textures/button_border2.png",
             "layer1.tint": "var(button_border_shadow_dark)",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": 4,
             "layer1.draw_center": false,
-            "layer2.texture": "Theme - Brackets/assets/border_4px.png",
+            "layer2.texture": "Theme - Brackets/textures/border_4px.png",
             "layer2.tint": "var(button_border_dark)",
             "layer2.opacity": 1.0,
             "layer2.inner_margin": 4,
@@ -2977,16 +2977,16 @@
         {
             "class": "icon_button_control",
             "min_size": [35, 28],
-            "layer0.texture": "Theme - Brackets/assets/button_background_center.png",
+            "layer0.texture": "Theme - Brackets/textures/button_background_center.png",
             "layer0.tint": "var(button_background_dark)",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 3,
-            "layer1.texture": "Theme - Brackets/assets/button_border2_center.png",
+            "layer1.texture": "Theme - Brackets/textures/button_border2_center.png",
             "layer1.tint": "var(button_border_shadow_dark)",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": 3,
             "layer1.draw_center": false,
-            "layer2.texture": "Theme - Brackets/assets/button_border_center.png",
+            "layer2.texture": "Theme - Brackets/textures/button_border_center.png",
             "layer2.tint": "var(button_border_dark)",
             "layer2.opacity": 1.0,
             "layer2.inner_margin": 3,
@@ -3002,23 +3002,23 @@
         {
             "class": "icon_button_control",
             "attributes": ["left"],
-            "layer0.texture": "Theme - Brackets/assets/button_background_left.png",
-            "layer1.texture": "Theme - Brackets/assets/button_border2_left.png",
-            "layer2.texture": "Theme - Brackets/assets/button_border_left.png"
+            "layer0.texture": "Theme - Brackets/textures/button_background_left.png",
+            "layer1.texture": "Theme - Brackets/textures/button_border2_left.png",
+            "layer2.texture": "Theme - Brackets/textures/button_border_left.png"
         },
         {
             "class": "icon_button_control",
             "attributes": ["right"],
-            "layer0.texture": "Theme - Brackets/assets/button_background_right.png",
-            "layer1.texture": "Theme - Brackets/assets/button_border2_right.png",
-            "layer2.texture": "Theme - Brackets/assets/button_border_right.png"
+            "layer0.texture": "Theme - Brackets/textures/button_background_right.png",
+            "layer1.texture": "Theme - Brackets/textures/button_border2_right.png",
+            "layer2.texture": "Theme - Brackets/textures/button_border_right.png"
         },
         {
             "class": "icon_button_control",
             "attributes": ["left", "right"],
-            "layer0.texture": "Theme - Brackets/assets/background_4px.png",
-            "layer1.texture": "Theme - Brackets/assets/button_border2.png",
-            "layer2.texture": "Theme - Brackets/assets/border_4px.png"
+            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
+            "layer1.texture": "Theme - Brackets/textures/button_border2.png",
+            "layer2.texture": "Theme - Brackets/textures/border_4px.png"
         },
         {
             "class": "icon_button_control",
@@ -3036,7 +3036,7 @@
         {
             "class": "icon_regex",
             "content_margin": [14, 11],
-            "layer0.texture": "Theme - Brackets/assets/icon_regex.png",
+            "layer0.texture": "Theme - Brackets/textures/icon_regex.png",
             "layer0.opacity": 1.0,
             "layer0.tint": "var(icon_dark)"
         },
@@ -3058,7 +3058,7 @@
         {
             "class": "icon_case",
             "content_margin": [14, 11],
-            "layer0.texture": "Theme - Brackets/assets/icon_case_sensitive.png",
+            "layer0.texture": "Theme - Brackets/textures/icon_case_sensitive.png",
             "layer0.opacity": 1.0,
             "layer0.tint": "var(icon_dark)"
         },
@@ -3304,15 +3304,15 @@
 //===========================================[ Tooltips ]===========================================
         {
             "class": "tool_tip_control",
-            "layer0.texture": "Theme - Brackets/assets/tooltip_shadow.png",
+            "layer0.texture": "Theme - Brackets/textures/tooltip_shadow.png",
             "layer0.tint": "black",
             "layer0.opacity": 0.5,
             "layer0.inner_margin": 12,
-            "layer1.texture": "Theme - Brackets/assets/tooltip_background.png",
+            "layer1.texture": "Theme - Brackets/textures/tooltip_background.png",
             "layer1.tint": "var(tooltip_background_dark)",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": 12,
-            "layer2.texture": "Theme - Brackets/assets/tooltip_border.png",
+            "layer2.texture": "Theme - Brackets/textures/tooltip_border.png",
             "layer2.tint": "var(tooltip_border_dark)",
             "layer2.opacity": 1.0,
             "layer2.inner_margin": 12,
