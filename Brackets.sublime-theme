@@ -1714,7 +1714,7 @@
         {
             "class": "popup_control html_popup",
             "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
-            "settings": {"popup_style": ["rounded", "square"]},
+            "settings": {"popup_style": ["rounded", "square", ""]},
             "layer0.tint": "color(var(--background) blend(var(--foreground) 93.5%))",
             "layer1.tint": "var(tooltip_border_light)"
         },
