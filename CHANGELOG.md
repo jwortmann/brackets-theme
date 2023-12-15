@@ -1,6 +1,25 @@
 Brackets Theme Changelog
 ========================
 
+v1.8.0 (2023-12-??)
+-------------------
+
+  * Redesigned the file tabs to make it more obvious which tab is currently selected.
+    There is a new setting "tab_shadows" which can be set to false to revert back to the flat tab
+    style that was used before.
+
+  * Breaking change: The "blend_inactive_tabs" setting was renamed to "inactive_tab_transparency".
+    It can be enabled if you prefer the style of inactive tabs from the Default and Adaptive themes.
+    Now this setting also works if "file_tab_style" is set to "angled" or "wave".
+
+  * Added and updated a few file icons in the sidebar.
+
+  * Fixed popup border color with light color schemes if the "popup_style" setting is not used.
+
+  * Removed support for previously deprecated setting names, which were still functional before
+    this update.
+
+
 v1.7.0 (2023-08-24)
 -------------------
 
