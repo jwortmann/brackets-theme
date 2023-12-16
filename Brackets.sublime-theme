@@ -677,17 +677,29 @@
         },
         {
             "class": "tab_connector",
-            "settings": {"file_tab_style": "rounded"},
             "attributes": ["left_overhang"],
-            "layer0.texture": "Theme - Default/common/tab_connector_rounded_left_overhang.png",
-            "layer0.inner_margin": [12, 0, 0, 0]
+            "layer0.texture": "Theme - Brackets/textures/tab_connector_left_overhang.png",
+            "layer0.inner_margin": [7, 0, 0, 0]
         },
         {
             "class": "tab_connector",
-            "settings": {"file_tab_style": "rounded"},
+            "settings": {"file_tab_style": "square"},
+            "attributes": ["left_overhang"],
+            "layer0.texture": "Theme - Brackets/textures/tab_connector_left_overhang2.png",
+            "layer0.inner_margin": [7, 0, 0, 0]
+        },
+        {
+            "class": "tab_connector",
             "attributes": ["right_overhang"],
-            "layer0.texture": "Theme - Default/common/tab_connector_rounded_right_overhang.png",
-            "layer0.inner_margin": [0, 0, 12, 0]
+            "layer0.texture": "Theme - Brackets/textures/tab_connector_right_overhang.png",
+            "layer0.inner_margin": [0, 0, 7, 0]
+        },
+        {
+            "class": "tab_connector",
+            "settings": {"file_tab_style": "square"},
+            "attributes": ["right_overhang"],
+            "layer0.texture": "Theme - Brackets/textures/tab_connector_right_overhang2.png",
+            "layer0.inner_margin": [0, 0, 7, 0]
         },
         {
             "class": "tab_control",
