@@ -740,6 +740,24 @@
         },
         {
             "class": "tab_control",
+            "settings": {"file_tab_style": "rounded"},
+            "attributes": ["selected", "right_of_selected"],
+            "layer3.texture": "Theme - Brackets/textures/tab_rounded_border3.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded"},
+            "attributes": ["selected", "left_of_selected"],
+            "layer3.texture": "Theme - Brackets/textures/tab_rounded_border4.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded"},
+            "attributes": ["selected", "right_of_selected", "left_of_selected"],
+            "layer3.texture": "Theme - Brackets/textures/tab_rounded_border5.png"
+        },
+        {
+            "class": "tab_control",
             "settings": {"file_tab_style": "square"},
             "layer0.texture": "Theme - Brackets/textures/tab_square_shadow.png",
             "layer0.inner_margin": [12, 0],

@@ -70,6 +70,15 @@ rem inkscape --export-type=png -w 126 -h 102 --export-filename=tab_rounded_borde
 rem inkscape --export-type=png -w 42 -h 34 --export-filename=tab_rounded_border2.png tab_rounded_border2.svg
 rem inkscape --export-type=png -w 84 -h 68 --export-filename=tab_rounded_border2@2x.png tab_rounded_border2.svg
 rem inkscape --export-type=png -w 126 -h 102 --export-filename=tab_rounded_border2@3x.png tab_rounded_border2.svg
+rem inkscape --export-type=png -w 42 -h 34 --export-filename=tab_rounded_border3.png tab_rounded_border3.svg
+rem inkscape --export-type=png -w 84 -h 68 --export-filename=tab_rounded_border3@2x.png tab_rounded_border3.svg
+rem inkscape --export-type=png -w 126 -h 102 --export-filename=tab_rounded_border3@3x.png tab_rounded_border3.svg
+rem inkscape --export-type=png -w 42 -h 34 --export-filename=tab_rounded_border4.png tab_rounded_border4.svg
+rem inkscape --export-type=png -w 84 -h 68 --export-filename=tab_rounded_border4@2x.png tab_rounded_border4.svg
+rem inkscape --export-type=png -w 126 -h 102 --export-filename=tab_rounded_border4@3x.png tab_rounded_border4.svg
+rem inkscape --export-type=png -w 42 -h 34 --export-filename=tab_rounded_border5.png tab_rounded_border5.svg
+rem inkscape --export-type=png -w 84 -h 68 --export-filename=tab_rounded_border5@2x.png tab_rounded_border5.svg
+rem inkscape --export-type=png -w 126 -h 102 --export-filename=tab_rounded_border5@3x.png tab_rounded_border5.svg
 rem inkscape --export-type=png -w 42 -h 34 --export-filename=tab_rounded_shadow.png tab_rounded_shadow.svg
 rem inkscape --export-type=png -w 84 -h 68 --export-filename=tab_rounded_shadow@2x.png tab_rounded_shadow.svg
 rem inkscape --export-type=png -w 126 -h 102 --export-filename=tab_rounded_shadow@3x.png tab_rounded_shadow.svg
