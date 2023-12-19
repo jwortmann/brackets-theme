@@ -853,6 +853,20 @@
         },
         {
             "class": "tab_control",
+            "settings": {"file_tab_style": "angled"},
+            "attributes": ["!selected", "right_of_hover", "!right_of_selected"], // https://github.com/sublimehq/sublime_text/issues/6238
+            "layer0.texture": "Theme - Brackets/textures/tab_angled_shadow3.png",
+            "layer1.texture": "Theme - Brackets/textures/tab_angled2.png",
+            "layer3.texture": "Theme - Brackets/textures/tab_angled_border3.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "angled", "highlight_modified_tabs": true, "tab_shadows": true},
+            "attributes": ["!selected", "right_of_hover", "!right_of_selected", "dirty"],
+            "layer0.texture": "Theme - Brackets/textures/tab_angled_shadow4.png"
+        },
+        {
+            "class": "tab_control",
             "settings": {"file_tab_style": "wave"},
             "layer0.texture": "Theme - Brackets/textures/tab_wave_shadow.png",
             "layer0.inner_margin": [29, 0],
