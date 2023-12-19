@@ -754,19 +754,40 @@
             "class": "tab_control",
             "settings": {"file_tab_style": "rounded"},
             "attributes": ["selected", "right_of_selected"],
+            "layer0.texture": "Theme - Brackets/textures/tab_rounded_shadow3.png",
             "layer3.texture": "Theme - Brackets/textures/tab_rounded_border3.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded", "highlight_modified_tabs": true, "tab_shadows": true},
+            "attributes": ["selected", "right_of_selected", "dirty"],
+            "layer0.texture": "Theme - Brackets/textures/tab_rounded_shadow6.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "rounded"},
             "attributes": ["selected", "left_of_selected"],
+            "layer0.texture": "Theme - Brackets/textures/tab_rounded_shadow4.png",
             "layer3.texture": "Theme - Brackets/textures/tab_rounded_border4.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded", "highlight_modified_tabs": true, "tab_shadows": true},
+            "attributes": ["selected", "left_of_selected", "dirty"],
+            "layer0.texture": "Theme - Brackets/textures/tab_rounded_shadow7.png"
         },
         {
             "class": "tab_control",
             "settings": {"file_tab_style": "rounded"},
             "attributes": ["selected", "right_of_selected", "left_of_selected"],
+            "layer0.texture": "Theme - Brackets/textures/tab_rounded_shadow5.png",
             "layer3.texture": "Theme - Brackets/textures/tab_rounded_border5.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "rounded", "highlight_modified_tabs": true, "tab_shadows": true},
+            "attributes": ["selected", "right_of_selected", "left_of_selected", "dirty"],
+            "layer0.texture": "Theme - Brackets/textures/tab_rounded_shadow8.png"
         },
         {
             "class": "tab_control",
