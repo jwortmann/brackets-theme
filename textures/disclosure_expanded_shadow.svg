@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 9">
+    <filter id="blur">
+        <feGaussianBlur stdDeviation="1"/>
+    </filter>
+    <defs>
+        <clipPath id="clip">
+            <path d="M 0,3 V 9 H 11 V 3 H 9 L 5.5,8 L 2,3 Z"/>
+        </clipPath>
+    </defs>
+    <polygon fill="white" filter="url(#blur)" clip-path="url(#clip)" points="2.7,4 5.5,8 8.3,4"/>
+</svg>

@@ -330,7 +330,7 @@
             "class": "disclosure_button_control",
             "layer0.texture": "Theme - Brackets/textures/disclosure_unexpanded_shadow.png",
             "layer0.inner_margin": [0, 0, 10, 8],
-            "layer0.opacity": 0.4,
+            "layer0.opacity": 0.6,
             "layer0.tint": "black",
             "layer1.texture": "Theme - Brackets/textures/disclosure_unexpanded.png",
             "layer1.inner_margin": [0, 0, 10, 8],
@@ -1354,6 +1354,7 @@
         {
             "class": "overlay_control",
             "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "layer0.opacity": 0.6,
             "layer1.tint": "var(overlay_background_light)",
             "layer2.tint": "var(overlay_border_light)"
         },
@@ -1753,10 +1754,17 @@
         {
             "class": "popup_shadow",
             "settings": {"popup_shadows": true},
-            "layer0.texture": "Theme - Brackets/textures/popup_shadow.png",
+            "content_margin": 12,
+            "layer0.texture": "Theme - Brackets/textures/overlay_shadow.png",
             "layer0.tint": "black",
-            "layer0.opacity": 0.5,
-            "layer0.inner_margin": 24,
+            "layer0.opacity": 0.6,
+            "layer0.inner_margin": 20
+        },
+        {
+            "class": "popup_shadow",
+            "settings": {"popup_shadows": true},
+            "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
+            "layer0.opacity": 0.3
         },
         {
             "class": "popup_control html_popup",
@@ -3373,7 +3381,7 @@
             "class": "tool_tip_control",
             "layer0.texture": "Theme - Brackets/textures/tooltip_shadow.png",
             "layer0.tint": "black",
-            "layer0.opacity": 0.5,
+            "layer0.opacity": 0.6,
             "layer0.inner_margin": 12,
             "layer1.texture": "Theme - Brackets/textures/tooltip_background.png",
             "layer1.tint": "var(tooltip_background_dark)",
@@ -3387,14 +3395,15 @@
         },
         {
             "class": "tool_tip_control",
-            "settings": {"popup_shadows": false},
-            "layer0.opacity": 0.0
+            "settings": {"tooltip_style": "light"},
+            "layer0.opacity": 0.3,
+            "layer1.tint": "var(tooltip_background_light)",
+            "layer2.tint": "var(tooltip_border_light)"
         },
         {
             "class": "tool_tip_control",
-            "settings": {"tooltip_style": "light"},
-            "layer1.tint": "var(tooltip_background_light)",
-            "layer2.tint": "var(tooltip_border_light)"
+            "settings": {"popup_shadows": false},
+            "layer0.opacity": 0.0
         },
         {
             "class": "tool_tip_label_control",
