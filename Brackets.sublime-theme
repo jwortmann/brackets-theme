@@ -2545,7 +2545,7 @@
             "class": "scroll_bar_control",
             "parents": [{"class": "popup_control auto_complete_popup"}],
             "settings": {"scroll_bar_style": "thin", "overlay_scroll_bars": false},
-            "layer1.texture": "Theme - Brackets/textures/scroll_thin_autocomplete_background.png",
+            "layer1.texture": "Theme - Brackets/textures/scroll_autocomplete_background.png",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": 4,
             "layer1.tint": "var(autocomplete_background_light)"
@@ -2657,7 +2657,7 @@
         {
             "class": "puck_control",
             "settings": {"scroll_bar_style": "thin"},
-            "layer0.texture": "Theme - Brackets/textures/scroll_thin.png",
+            "layer0.texture": "Theme - Brackets/textures/scroll.png",
             "layer0.tint": "var(scrollbar_puck_light2)",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 3,
@@ -2668,11 +2668,11 @@
             "settings": {"scroll_bar_style": "thin", "animation_enabled": true},
             "layer0.tint": "var(scrollbar_puck_light2)",
             "layer0.opacity": 1.0,
-            "layer1.texture": "Theme - Brackets/textures/scroll_thin2.png",
+            "layer1.texture": "Theme - Brackets/textures/scroll2.png",
             "layer1.tint": "var(scrollbar_puck_light2)",
             "layer1.opacity": {"target": 0.0, "speed": 5.0, "interpolation": "smoothstep"},
             "layer1.inner_margin": 3,
-            "layer2.texture": "Theme - Brackets/textures/scroll_thin3.png",
+            "layer2.texture": "Theme - Brackets/textures/scroll3.png",
             "layer2.tint": "var(scrollbar_puck_light2)",
             "layer2.opacity": {"target": 0.0, "speed": 10.0, "interpolation": "smoothstep"},
             "layer2.inner_margin": 3
@@ -2718,7 +2718,7 @@
             "class": "puck_control",
             "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
             "settings": {"scroll_bar_style": "thin", "animation_enabled": false},
-            "layer0.texture": "Theme - Brackets/textures/scroll_thin3.png"
+            "layer0.texture": "Theme - Brackets/textures/scroll3.png"
         },
         {
             "class": "puck_control",
@@ -2745,21 +2745,21 @@
             "class": "puck_control",
             "settings": {"scroll_bar_style": "thin"},
             "attributes": ["horizontal"],
-            "layer0.texture": "Theme - Brackets/textures/scroll_horiz_thin.png",
+            "layer0.texture": "Theme - Brackets/textures/scroll_horiz.png",
             "content_margin": [20, 0]
         },
         {
             "class": "puck_control",
             "settings": {"scroll_bar_style": "thin", "animation_enabled": true},
             "attributes": ["horizontal"],
-            "layer1.texture": "Theme - Brackets/textures/scroll_horiz_thin2.png",
-            "layer2.texture": "Theme - Brackets/textures/scroll_horiz_thin3.png"
+            "layer1.texture": "Theme - Brackets/textures/scroll_horiz2.png",
+            "layer2.texture": "Theme - Brackets/textures/scroll_horiz3.png"
         },
         {
             "class": "puck_control",
             "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
             "settings": {"scroll_bar_style": "thin", "animation_enabled": false},
-            "layer0.texture": "Theme - Brackets/textures/scroll_horiz_thin3.png"
+            "layer0.texture": "Theme - Brackets/textures/scroll_horiz3.png"
         },
         {
             "class": "puck_control",
