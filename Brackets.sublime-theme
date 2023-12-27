@@ -3052,7 +3052,6 @@
         {
             "class": "icon_button_control",
             "min_size": [35, 28],
-            "layer0.texture": "Theme - Brackets/textures/button_background_center.png",
             "layer0.tint": "var(button_background_dark)",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 3,
