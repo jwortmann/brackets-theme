@@ -6,7 +6,8 @@
 * Breaking change: The "blend_inactive_tabs" setting was renamed to
   "inactive_tab_transparency": true/false. It can be enabled if you prefer the style
   of inactive tabs from the Default and Adaptive themes. Now this setting also works
-  if "file_tab_style" is set to "angled" or "wave".
+  if "file_tab_style" is set to "angled" or "wave". Please update your settings if
+  you have used the former setting name.
 
 * Added and updated a few file icons in the sidebar.
 

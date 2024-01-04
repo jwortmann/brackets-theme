@@ -1,7 +1,7 @@
 Brackets Theme Changelog
 ========================
 
-v1.8.0 (2023-12-??)
+v1.8.0 (2024-01-04)
 -------------------
 
   * Redesigned the file tabs to make it more obvious which tab is currently selected.
