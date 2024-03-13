@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>text.html.astro</string>
+    <string>source.astro, text.html.astro</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
