@@ -2,11 +2,11 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.shell</string>
+    <string>source.dosbatch</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>file_type_shell</string>
+      <string>file_type_batch</string>
     </dict>
   </dict>
 </plist>
