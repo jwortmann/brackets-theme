@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.js.rollup</string>
+    <string>source.js.rollup, source.ts.rollup</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
