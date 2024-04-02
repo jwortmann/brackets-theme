@@ -1,6 +1,12 @@
 Brackets Theme Changelog
 ========================
 
+v1.9.0 (2024-04-??)
+-------------------
+
+  * Replaced the monochrome gray file type icons in the sidebar with full colored icons.
+
+
 v1.8.0 (2024-01-04)
 -------------------
 

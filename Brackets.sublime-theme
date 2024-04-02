@@ -14,7 +14,6 @@
         "sidebar_folder_label": "#adb9bd", // @project-panel-text-2
         "sidebar_file_label": "#ffffff", // @project-panel-text-1
         "sidebar_file_label_selected": "#8fddff", // @open-working-file-name-highlight
-        "sidebar_file_icon": "color(#6c7478 lightness(+ 10%))",
         "sidebar_disclosure_button": "#6d787a",
         "sidebar_ignored": "hsl(221, 12%, 69%)", // Mariana blue6
         "sidebar_untracked": "hsl(114, 31%, 68%)", // Mariana green
@@ -358,7 +357,6 @@
         },
         {
             "class": "icon_file_type",
-            "layer0.tint": "var(sidebar_file_icon)",
             "layer0.opacity": 1.0,
             "content_margin": 8
         },
