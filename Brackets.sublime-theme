@@ -1153,11 +1153,11 @@
             "attributes": ["!selected", "!hover", "!right", "!left_of_selected", "!left_of_hover"],
             "layer0.opacity": 0.2
         },
-        // {
-        //     "class": "tab_control",
-        //     "attributes": ["added", "!dirty"], // https://github.com/sublimehq/sublime_text/issues/6227
-        //     "layer2.tint": "var(--greenish)",
-        // },
+        {
+            "class": "tab_control",
+            "attributes": ["added", "!dirty"],
+            "layer2.tint": "var(--greenish)",
+        },
         {
             "class": "tab_control",
             "attributes": ["deleted"],

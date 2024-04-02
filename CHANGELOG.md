@@ -6,6 +6,9 @@ v1.9.0 (2024-04-??)
 
   * Replaced the monochrome gray file type icons in the sidebar with full colored icons.
 
+  * New but unmodified tabs now have a green highlighting indicator, if the
+    "highlight_modified_tabs" setting is enabled (only in ST build 4170 or newer).
+
 
 v1.8.0 (2024-01-04)
 -------------------

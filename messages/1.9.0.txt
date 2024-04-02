@@ -19,5 +19,8 @@
   Please note that support for the monochrome icons might be dropped in a
   future release.
 
+* New but unmodified tabs now have a green highlighting indicator, if the
+  "highlight_modified_tabs" setting is enabled (only in ST build 4170 or newer).
+
 Visit the GitHub page to see all available customization settings:
 https://github.com/jwortmann/brackets-theme#customization
