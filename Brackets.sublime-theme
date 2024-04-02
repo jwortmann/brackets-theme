@@ -361,6 +361,12 @@
             "content_margin": 8
         },
         {
+            "class": "icon_file_type",
+            "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
+            "layer0.opacity": 0.7,
+            "layer0.tint": "#a0a0a0"
+        },
+        {
             "class": "vcs_status_badge",
             "layer0.opacity": 1.0,
             "content_margin": [15, 15, 0, 0]
