@@ -1,8 +1,8 @@
 * This update replaces the monochrome gray file type icons in the sidebar
   with full colored icons.
 
-  In case you prefer the monochrome variant that was used before, you can
-  still revert the icons for now by following these steps:
+  In case you prefer the monochrome variant that was used before, for now
+  you can still revert the icons by following these steps:
   1. Open "Preferences: Browse Packages" from the command palette
   2. Create a folder named "Theme - Brackets"
   3. Navigate into that folder and create another folder named "icons_mono"
@@ -13,8 +13,10 @@
 
   5. Restart Sublime Text
 
-  So the location of the file should look like this:
-  "Packages/Theme - Brackets/icons_mono/Brackets.sublime-theme"
+  So the location of the file should be like this:
+  Windows:  %APPDATA%\Sublime Text\Packages\Theme - Brackets\icons_mono\Brackets.sublime-theme
+  Mac:      ~/Library/Application Support/Sublime Text/Packages/Theme - Brackets/icons_mono/Brackets.sublime-theme
+  Linux:    ~/.config/sublime_text/Packages/Theme - Brackets/icons_mono/Brackets.sublime-theme
 
   Please note that support for the monochrome icons might be dropped in a
   future release.
