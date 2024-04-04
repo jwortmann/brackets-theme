@@ -2,11 +2,11 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.lua</string>
+    <string>source.pluto</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
-      <string>file_type_lua</string>
+      <string>file_type_pluto</string>
     </dict>
   </dict>
 </plist>
