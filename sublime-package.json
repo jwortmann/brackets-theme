@@ -87,6 +87,12 @@
                 "Uses `\"sublime\"` when overlay scroll bars are enabled, and `\"brackets\"` when disabled"
               ],
               "markdownDescription": "Controls the style for scroll bars. Options are:\n\n- `\"brackets\"`\n- `\"sublime\"`\n- `\"thin\"`\n- `\"auto\"`\n\nThe `\"auto\"` option uses `\"sublime\"` when overlay scroll bars are enabled, and `\"brackets\"` when disabled.\n\nSetting from: *Theme - Brackets*"
+            },
+            "theme_variant": {
+              "type": "string",
+              "default": "winui",
+              "enum": ["winui"],
+              "markdownDescription": "Provides an alternative style for the title bar, the side bar, and a few other UI elements (experimental).\n\nSetting from: *Theme - Brackets*"
             }
           }
         }

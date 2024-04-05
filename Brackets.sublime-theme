@@ -142,7 +142,12 @@
         "kind_navigation_color": "var(--yellowish)",
         "kind_markup_color": "var(--orangish)",
         "kind_variable_color": "var(--cyanish)",
-        "kind_snippet_color": "var(--greenish)"
+        "kind_snippet_color": "var(--greenish)",
+        "winui": "var(--accent)",
+        "winui_dark": "color(var(winui) saturation(11%) lightness(13.5%))",
+        "winui_light": "color(var(winui) saturation(24.4%) lightness(96%))",
+        "winui_dark2": "color(var(winui_dark) blend(#4b4b4b 70%))",
+        "winui_light2": "color(var(winui) saturation(0%) lightness(99%))",
     },
     "rules": [
 //===========================================[ Windows ]============================================
@@ -161,6 +166,19 @@
             "fg": "var(titlebar_fg)",
             "bg": "var(titlebar_background)",
             "style": "system"
+        },
+        {
+            "class": "title_bar",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "fg": "#ffffff",
+            "bg": "var(winui_dark)"
+        },
+        {
+            "class": "title_bar",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["file_light"],
+            "fg": "#1a1a1a",
+            "bg": "var(winui_light)"
         },
 //===========================================[ Side Bar ]===========================================
         {
@@ -200,6 +218,32 @@
             "layer2.opacity": 1.0
         },
         {
+            "class": "sidebar_container",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "var(winui_dark2)",
+            "layer1.texture": "Theme - Brackets/variants/winui/acrylic_noise.png",
+            "layer1.repeat": true,
+            "layer1.tint": "black",
+            "layer1.opacity": 0.09,
+            "layer2.texture": "Theme - Brackets/variants/winui/sidebar_background.png",
+            "layer2.inner_margin": [14, 41, 0, 0],
+            "layer2.tint": "var(winui_dark)",
+            "layer2.opacity": 1.0,
+            "layer3.texture": "Theme - Brackets/variants/winui/sidebar_border.png",
+            "layer3.inner_margin": [14, 41, 0, 0],
+            "layer3.tint": "var(tab_border_dark)",
+            "layer3.opacity": 1.0
+        },
+        {
+            "class": "sidebar_container",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "layer0.tint": "var(winui_light2)",
+            "layer1.opacity": 0.02,
+            "layer2.tint": "var(winui_light)",
+            "layer3.tint": "var(tab_border_light)"
+        },
+        {
             "class": "sidebar_tree",
             "row_padding": [10, 4, 12, 4],
             "indent": 10,
@@ -226,12 +270,38 @@
             "layer1.inner_margin": 2
         },
         {
+            "class": "tree_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Brackets/variants/winui/sidebar_row_selected.png",
+            "layer0.tint": "white",
+            "layer0.opacity": 0.06,
+            "layer0.inner_margin": 7,
+            "layer1.texture": "Theme - Brackets/variants/winui/sidebar_row_selected_border.png",
+            "layer1.tint": "color(var(winui_dark) lightness(- 1.5%))",
+            "layer1.inner_margin": 7
+        },
+        {
+            "class": "tree_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "attributes": ["selected"],
+            "layer0.opacity": 0.6,
+            "layer1.tint": "color(var(winui_light) lightness(- 15%))"
+        },
+        {
             "class": "sidebar_heading",
             "font.size": 12,
             "color": "var(sidebar_heading)",
             "shadow_color": "rgba(0, 0, 0, 0.2)",
             "shadow_offset": [0, 1],
             "case": "title"
+        },
+        {
+            "class": "sidebar_heading",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "color": "#5c5c5f"
         },
         {
             "class": "file_system_entry",
@@ -257,6 +327,18 @@
             "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
             "settings": ["bold_folder_labels"],
             "font.bold": true
+        },
+        {
+            "class": "sidebar_label",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "color": "#605f60"
+        },
+        {
+            "class": "sidebar_label",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "tree_row", "attributes": ["!expandable"]}, {"class": "file_system_entry", "attributes": ["ignored"]}],
+            "color": "#a2a0a1"
         },
         {
             "class": "sidebar_label",
@@ -301,12 +383,24 @@
             "shadow_offset": [0, 1]
         },
         {
+            "class": "sidebar_label",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "tree_row", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "color": "color(var(sidebar_file_label_selected) lightness(- 40%))"
+        },
+        {
             "class": "close_button",
             "layer0.texture": "Theme - Brackets/textures/close.png",
             "layer0.tint": "white",
             "layer0.opacity": {"target": 0.0, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.inner_margin": [11, 11, 0, 0],
             "content_margin": [16, 11, 0, 0]
+        },
+        {
+            "class": "close_button",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "layer0.tint": "black"
         },
         {
             "class": "close_button",
@@ -636,6 +730,18 @@
             "class": "tabset_control",
             "attributes": ["file_light"],
             "layer2.tint": "var(tab_border_light)"
+        },
+        {
+            "class": "tabset_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "var(winui_dark)"
+        },
+        {
+            "class": "tabset_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["file_light"],
+            "layer0.tint": "var(winui_light)",
+            "layer2.opacity": 0.5
         },
         {
             "class": "tabset_control",
@@ -1273,6 +1379,12 @@
         },
         {
             "class": "scroll_tabs_left_button",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "tabset_control", "attributes": ["file_light"]}],
+            "layer0.tint": "black"
+        },
+        {
+            "class": "scroll_tabs_left_button",
             "attributes": ["hover"],
             "layer0.opacity": {"target": 0.8, "speed": 5.0, "interpolation": "smoothstep"}
         },
@@ -1288,6 +1400,12 @@
             "layer0.tint": "white",
             "layer0.inner_margin": [8, 0, 0, 0],
             "content_margin": [10, 16, 5, 0]
+        },
+        {
+            "class": "scroll_tabs_right_button",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "tabset_control", "attributes": ["file_light"]}],
+            "layer0.tint": "black"
         },
         {
             "class": "scroll_tabs_right_button",
@@ -1309,6 +1427,12 @@
         },
         {
             "class": "show_tabs_dropdown_button",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "tabset_control", "attributes": ["file_light"]}],
+            "layer0.tint": "black"
+        },
+        {
+            "class": "show_tabs_dropdown_button",
             "attributes": ["hover"],
             "layer0.opacity": {"target": 0.8, "speed": 5.0, "interpolation": "smoothstep"}
         },
@@ -1325,6 +1449,12 @@
             "layer0.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"},
             "layer0.inner_margin": [21, 0, 1, 0],
             "content_margin": [12, 12]
+        },
+        {
+            "class": "new_tab_button",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "tabset_control", "attributes": ["file_light"]}],
+            "layer0.tint": "black"
         },
         {
             "class": "new_tab_button",
@@ -1382,12 +1512,30 @@
             "parents": [{"class": "switch_project_window"}],
             "layer0.tint": "var(panel_background_dark)",
             "layer0.opacity": 1.0,
+            "layer1.opacity": 0.0,
             "row_padding": [18, 4, 20, 4]
         },
         {
             "class": "quick_panel",
             "parents": [{"class": "switch_project_window", "attributes": ["file_light"]}],
             "layer0.tint": "var(panel_background_light)"
+        },
+        {
+            "class": "quick_panel",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "switch_project_window"}],
+            "layer0.tint": "color(var(winui) saturation(2%) lightness(18%))",
+            "layer1.texture": "Theme - Brackets/variants/winui/acrylic_noise.png",
+            "layer1.tint": "black",
+            "layer1.opacity": 0.09,
+            "layer1.repeat": true
+        },
+        {
+            "class": "quick_panel",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "switch_project_window", "attributes": ["file_light"]}],
+            "layer0.tint": "color(var(winui) saturation(13.5%) lightness(93%))",
+            "layer1.opacity": 0.03
         },
         {
             "class": "mini_quick_panel_row",
@@ -1627,6 +1775,11 @@
             "border_color": "var(view_divider_light)"
         },
         {
+            "class": "grid_layout_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "border_size": 0
+        },
+        {
             "class": "minimap_control",
             "settings": ["always_show_minimap_viewport"],
             "viewport_color": "hsl(0, 0%, 50%)",
@@ -1810,10 +1963,10 @@
             "layer1.inner_margin": 4,
             "layer1.opacity": 1.0,
             "layer1.tint": "var(autocomplete_background_dark)",
-            "layer2.texture": "Theme - Brackets/textures/border_4px.png",
-            "layer2.inner_margin": 4,
-            "layer2.opacity": 1.0,
-            "layer2.tint": "var(autocomplete_border_dark)"
+            "layer3.texture": "Theme - Brackets/textures/border_4px.png",
+            "layer3.inner_margin": 4,
+            "layer3.opacity": 1.0,
+            "layer3.tint": "var(autocomplete_border_dark)"
         },
         {
             "class": "popup_control auto_complete_popup",
@@ -1825,7 +1978,30 @@
             "class": "popup_control auto_complete_popup",
             "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
             "layer1.tint": "var(autocomplete_background_light)",
-            "layer2.tint": "var(autocomplete_border_light)"
+            "layer3.tint": "var(autocomplete_border_light)"
+        },
+        {
+            "class": "popup_control auto_complete_popup",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "content_margin": 5,
+            "layer1.texture": "Theme - Brackets/textures/background_8px.png",
+            "layer1.inner_margin": 8,
+            "layer1.tint": "color(var(winui) saturation(2%) lightness(18%))",
+            "layer2.texture": "Theme - Brackets/variants/winui/acrylic_noise.png",
+            "layer2.repeat": true,
+            "layer2.tint": "black",
+            "layer2.opacity": 0.09,
+            "layer3.texture": "Theme - Brackets/textures/border_8px.png",
+            "layer3.inner_margin": 8,
+            "layer3.tint": "color(var(winui_dark) lightness(- 1.5%))"
+        },
+        {
+            "class": "popup_control auto_complete_popup",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
+            "layer1.tint": "var(winui_light2)",
+            "layer2.opacity": 0.03,
+            "layer3.tint": "color(var(winui_light) lightness(- 15%))"
         },
         {
             "class": "auto_complete",
@@ -1840,7 +2016,7 @@
         {
             "class": "table_row",
             "layer0.opacity": 1.0,
-            "layer0.tint": "transparent"
+            "layer0.tint": "transparent",
         },
         {
             "class": "table_row",
@@ -1853,6 +2029,22 @@
             "parents": [{"class": "auto_complete", "attributes": ["file_light"]}],
             "attributes": ["selected"],
             "layer0.tint": "var(autocomplete_selected_background_light)"
+        },
+        {
+            "class": "table_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
+            "layer0.tint": "white",
+            "layer0.opacity": 0.08,
+            "layer0.inner_margin": 7
+        },
+        {
+            "class": "table_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "auto_complete", "attributes": ["file_light"]}],
+            "attributes": ["selected"],
+            "layer0.tint": "black"
         },
         {
             "class": "kind_container",
@@ -2224,6 +2416,21 @@
             "layer1.tint": "var(panel_background_light)"
         },
         {
+            "class": "auto_complete_detail_pane",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "content_margin": [8, 12, 8, 4],
+            "layer1.texture": "Theme - Brackets/variants/winui/autocomplete_detail.png",
+            "layer1.inner_margin": [3, 5, 3, 0],
+            "layer1.opacity": 1.0,
+            "layer1.tint": "white"
+        },
+        {
+            "class": "auto_complete_detail_pane",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["file_light"],
+            "layer1.tint": "black"
+        },
+        {
             "class": "auto_complete_info",
             "spacing": 8
         },
@@ -2263,33 +2470,50 @@
             "class": "panel_control",
             "layer0.tint": "var(panel_background_dark)",
             "layer0.opacity": 1.0,
-            "layer1.tint": "var(panel_border_dark)",
-            "layer1.opacity": 1.0,
-            "layer1.inner_margin": [0, 1, 0, 0],
-            "layer1.draw_center": false,
+            "layer1.opacity": 0.0,
+            "layer2.tint": "var(panel_border_dark)",
+            "layer2.opacity": 1.0,
+            "layer2.inner_margin": [0, 1, 0, 0],
+            "layer2.draw_center": false,
             "content_margin": 3
         },
         {
             "class": "panel_control",
             "parents": [{"class": "window", "attributes": ["file_light"]}],
             "layer0.tint": "var(panel_background_light)",
-            "layer1.tint": "var(panel_border_light)"
+            "layer2.tint": "var(panel_border_light)"
+        },
+        {
+            "class": "panel_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "color(var(winui) saturation(2%) lightness(18%))",
+            "layer1.texture": "Theme - Brackets/variants/winui/acrylic_noise.png",
+            "layer1.tint": "black",
+            "layer1.opacity": 0.09,
+            "layer1.repeat": true
+        },
+        {
+            "class": "panel_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "layer0.tint": "color(var(winui) saturation(13.5%) lightness(93%))",
+            "layer1.opacity": 0.03
         },
         {
             "class": "panel_control console_panel",
-            "layer1.texture": "Theme - Brackets/textures/output_panel_border.png",
-            "layer1.inner_margin": [0, 4, 0, 0],
+            "layer2.texture": "Theme - Brackets/textures/output_panel_border.png",
+            "layer2.inner_margin": [0, 4, 0, 0],
             "content_margin": 0
         },
         {
             "class": "panel_control output_panel",
-            "layer1.texture": "Theme - Brackets/textures/output_panel_border.png",
-            "layer1.inner_margin": [0, 4, 0, 0],
+            "layer2.texture": "Theme - Brackets/textures/output_panel_border.png",
+            "layer2.inner_margin": [0, 4, 0, 0],
             "content_margin": [0, 0, 0, -4]
         },
         {
             "class": "panel_control switch_project_panel",
-            "layer1.opacity": 0.0
+            "layer2.opacity": 0.0
         },
         {
             "class": "panel_grid_control",
@@ -2479,8 +2703,19 @@
         },
         {
             "class": "scroll_bar_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
+            "content_margin": [2, 1, 2, 2]
+        },
+        {
+            "class": "scroll_bar_control",
             "settings": {"scroll_bar_style": "thin"},
             "content_margin": [2, 1, 2, 2]
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [{"class": "popup_control"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
+            "content_margin": 2
         },
         {
             "class": "scroll_bar_control",
@@ -2490,9 +2725,21 @@
         },
         {
             "class": "scroll_bar_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
+            "attributes": ["horizontal"],
+            "content_margin": [4, 2, 2, 2]
+        },
+        {
+            "class": "scroll_bar_control",
             "settings": {"scroll_bar_style": "thin"},
             "attributes": ["horizontal"],
             "content_margin": [4, 2, 2, 2]
+        },
+        {
+            "class": "scroll_bar_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "overlay_scroll_bars": false},
+            "layer0.opacity": 1.0,
+            "tint_index": 0
         },
         {
             "class": "scroll_bar_control",
@@ -2503,8 +2750,21 @@
         {
             "class": "scroll_bar_control",
             "parents": [{"class": "switch_project_window"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "overlay_scroll_bars": false},
+            "layer0.tint": "var(panel_background_light)"
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [{"class": "switch_project_window"}],
             "settings": {"scroll_bar_style": ["sublime", "thin"], "overlay_scroll_bars": false},
             "layer0.tint": "var(panel_background_light)"
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [{"class": "switch_project_window"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "overlay_scroll_bars": false},
+            "attributes": ["dark"],
+            "layer0.tint": "var(panel_background_dark)"
         },
         {
             "class": "scroll_bar_control",
@@ -2521,8 +2781,21 @@
         {
             "class": "scroll_bar_control",
             "parents": [{"class": "overlay_control"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "overlay_scroll_bars": false},
+            "layer0.tint": "var(overlay_background_light)"
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [{"class": "overlay_control"}],
             "settings": {"scroll_bar_style": ["sublime", "thin"], "overlay_scroll_bars": false},
             "layer0.tint": "var(overlay_background_light)"
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [{"class": "overlay_control"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "overlay_scroll_bars": false},
+            "attributes": ["dark"],
+            "layer0.tint": "var(overlay_background_dark)"
         },
         {
             "class": "scroll_bar_control",
@@ -2548,11 +2821,27 @@
         {
             "class": "scroll_bar_control",
             "parents": [{"class": "popup_control auto_complete_popup"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "overlay_scroll_bars": false},
+            "layer1.texture": "Theme - Brackets/textures/scroll_autocomplete_background.png",
+            "layer1.opacity": 1.0,
+            "layer1.inner_margin": 4,
+            "layer1.tint": "var(autocomplete_background_light)"
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [{"class": "popup_control auto_complete_popup"}],
             "settings": {"scroll_bar_style": "thin", "overlay_scroll_bars": false},
             "layer1.texture": "Theme - Brackets/textures/scroll_autocomplete_background.png",
             "layer1.opacity": 1.0,
             "layer1.inner_margin": 4,
             "layer1.tint": "var(autocomplete_background_light)"
+        },
+        {
+            "class": "scroll_bar_control",
+            "parents": [{"class": "popup_control auto_complete_popup"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "overlay_scroll_bars": false},
+            "attributes": ["dark"],
+            "layer1.tint": "var(autocomplete_background_dark)"
         },
         {
             "class": "scroll_bar_control",
@@ -2587,6 +2876,12 @@
         },
         {
             "class": "scroll_track_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
+            "layer0.opacity": 0.0,
+            "content_margin": [3, 4, 3, 4]
+        },
+        {
+            "class": "scroll_track_control",
             "settings": {"scroll_bar_style": "thin"},
             "content_margin": [3, 4, 3, 4]
         },
@@ -2603,6 +2898,12 @@
             "attributes": ["horizontal"],
             "layer0.texture": "Theme - Default/common/scroll_horiz.png",
             "content_margin": [4, 4, 4, 3]
+        },
+        {
+            "class": "scroll_track_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
+            "attributes": ["horizontal"],
+            "content_margin": [4, 3, 4, 3]
         },
         {
             "class": "scroll_track_control",
@@ -2660,12 +2961,35 @@
         },
         {
             "class": "puck_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
+            "layer0.texture": "Theme - Brackets/textures/scroll.png",
+            "layer0.tint": "var(scrollbar_puck_light2)",
+            "layer0.opacity": 1.0,
+            "layer0.inner_margin": 3,
+            "content_margin": [0, 20]
+        },
+        {
+            "class": "puck_control",
             "settings": {"scroll_bar_style": "thin"},
             "layer0.texture": "Theme - Brackets/textures/scroll.png",
             "layer0.tint": "var(scrollbar_puck_light2)",
             "layer0.opacity": 1.0,
             "layer0.inner_margin": 3,
             "content_margin": [0, 20]
+        },
+        {
+            "class": "puck_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "animation_enabled": true},
+            "layer0.tint": "var(scrollbar_puck_light2)",
+            "layer0.opacity": 1.0,
+            "layer1.texture": "Theme - Brackets/textures/scroll2.png",
+            "layer1.tint": "var(scrollbar_puck_light2)",
+            "layer1.opacity": {"target": 0.0, "speed": 5.0, "interpolation": "smoothstep"},
+            "layer1.inner_margin": 3,
+            "layer2.texture": "Theme - Brackets/textures/scroll3.png",
+            "layer2.tint": "var(scrollbar_puck_light2)",
+            "layer2.opacity": {"target": 0.0, "speed": 10.0, "interpolation": "smoothstep"},
+            "layer2.inner_margin": 3
         },
         {
             "class": "puck_control",
@@ -2695,9 +3019,22 @@
         },
         {
             "class": "puck_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
+            "attributes": ["dark"],
+            "layer0.tint": "var(scrollbar_puck_dark2)"
+        },
+        {
+            "class": "puck_control",
             "settings": {"scroll_bar_style": "thin"},
             "attributes": ["dark"],
             "layer0.tint": "var(scrollbar_puck_dark2)"
+        },
+        {
+            "class": "puck_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "animation_enabled": true},
+            "attributes": ["dark"],
+            "layer1.tint": "var(scrollbar_puck_dark2)",
+            "layer2.tint": "var(scrollbar_puck_dark2)"
         },
         {
             "class": "puck_control",
@@ -2727,6 +3064,13 @@
         {
             "class": "puck_control",
             "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "animation_enabled": true},
+            "layer1.opacity": {"target": 1.0, "speed": 10.0, "interpolation": "smoothstep"},
+            "layer2.opacity": {"target": 1.0, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "puck_control",
+            "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
             "settings": {"scroll_bar_style": "thin", "animation_enabled": true},
             "layer1.opacity": {"target": 1.0, "speed": 10.0, "interpolation": "smoothstep"},
             "layer2.opacity": {"target": 1.0, "speed": 5.0, "interpolation": "smoothstep"}
@@ -2747,6 +3091,13 @@
         },
         {
             "class": "puck_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
+            "attributes": ["horizontal"],
+            "layer0.texture": "Theme - Brackets/textures/scroll_horiz.png",
+            "content_margin": [20, 0]
+        },
+        {
+            "class": "puck_control",
             "settings": {"scroll_bar_style": "thin"},
             "attributes": ["horizontal"],
             "layer0.texture": "Theme - Brackets/textures/scroll_horiz.png",
@@ -2754,10 +3105,23 @@
         },
         {
             "class": "puck_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "animation_enabled": true},
+            "attributes": ["horizontal"],
+            "layer1.texture": "Theme - Brackets/textures/scroll_horiz2.png",
+            "layer2.texture": "Theme - Brackets/textures/scroll_horiz3.png"
+        },
+        {
+            "class": "puck_control",
             "settings": {"scroll_bar_style": "thin", "animation_enabled": true},
             "attributes": ["horizontal"],
             "layer1.texture": "Theme - Brackets/textures/scroll_horiz2.png",
             "layer2.texture": "Theme - Brackets/textures/scroll_horiz3.png"
+        },
+        {
+            "class": "puck_control",
+            "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "animation_enabled": false},
+            "layer0.texture": "Theme - Brackets/textures/scroll_horiz3.png"
         },
         {
             "class": "puck_control",
@@ -2871,6 +3235,12 @@
         {
             "class": "scroll_corner_control",
             "settings": {"scroll_bar_style": ["", "auto"], "overlay_scroll_bars": true},
+            "layer0.opacity": 1.0,
+            "tint_index": 0
+        },
+        {
+            "class": "scroll_corner_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
             "layer0.opacity": 1.0,
             "tint_index": 0
         },
@@ -3402,6 +3772,21 @@
             "layer0.opacity": 0.3,
             "layer1.tint": "var(tooltip_background_light)",
             "layer2.tint": "var(tooltip_border_light)"
+        },
+        {
+            "class": "tool_tip_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer1.tint": "color(var(winui_dark) saturation(5%) lightness(17%))",
+            "layer1.opacity": 0.96,
+            "layer2.tint": "color(var(winui_dark) lightness(- 1.5%))",
+            "layer2.opacity": 0.96,
+            "content_margin": [16, 12]
+        },
+        {
+            "class": "tool_tip_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "tooltip_style": "light"},
+            "layer1.tint": "color(var(winui_light) lightness(99%))",
+            "layer2.tint": "color(var(winui_light) lightness(- 15%))"
         },
         {
             "class": "tool_tip_control",

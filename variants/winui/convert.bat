@@ -1,0 +1,15 @@
+rem inkscape --export-type=png --export-dpi=96 --export-filename=autocomplete_detail.png autocomplete_detail.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=autocomplete_detail@2x.png autocomplete_detail.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=autocomplete_detail@3x.png autocomplete_detail.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=sidebar_background.png sidebar_background.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=sidebar_background@2x.png sidebar_background.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=sidebar_background@3x.png sidebar_background.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=sidebar_border.png sidebar_border.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=sidebar_border@2x.png sidebar_border.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=sidebar_border@3x.png sidebar_border.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=sidebar_row_selected.png sidebar_row_selected.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=sidebar_row_selected@2x.png sidebar_row_selected.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=sidebar_row_selected@3x.png sidebar_row_selected.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=sidebar_row_selected_border.png sidebar_row_selected_border.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=sidebar_row_selected_border@2x.png sidebar_row_selected_border.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=sidebar_row_selected_border@3x.png sidebar_row_selected_border.svg

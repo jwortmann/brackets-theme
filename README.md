@@ -41,6 +41,7 @@ __Custom settings:__
 | "tab_shadows" | true | Draws shadows and a thin border around file tabs. |
 | "inactive_tab_transparency" | false | Makes inactive tabs transparent, similar to how they are displayed in the Default and Adaptive themes. |
 | "hide_tabs_dropdown_button" | false | Hides the tabs dropdown button at the right side of the tab bar. |
+| "theme_variant" | "" | Set to "winui" to use an alternative style for the title bar, the side bar, autocomplete popups, and other UI elements, inspired by the Windows 11 Mica & Acrylic materials. |
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jwortmann/brackets-theme/master/img/kind_icons_dark.png">

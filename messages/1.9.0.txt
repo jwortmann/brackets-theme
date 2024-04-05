@@ -24,5 +24,13 @@
 * New but unmodified tabs now have a green highlighting indicator, if the
   "highlight_modified_tabs" setting is enabled (only in ST build 4170 or newer).
 
+* Added a new "theme_variant" setting which can be set to "winui" in order to
+  apply an alternative style for the title bar, the side bar, autocomplete popups,
+  and other UI elements (inspired by the Windows 11 Mica & Acrylic materials).
+  This setting is currently experimental and it only works if "themed_title_bar"
+  is enabled. You can also modify the background hue by overriding the "winui"
+  color variable in a theme customization ("UI: Customize Theme" from the
+  command palette).
+
 Visit the GitHub page to see all available customization settings:
 https://github.com/jwortmann/brackets-theme#customization

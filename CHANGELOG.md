@@ -9,6 +9,10 @@ v1.9.0 (2024-04-??)
   * New but unmodified tabs now have a green highlighting indicator, if the
     "highlight_modified_tabs" setting is enabled (only in ST build 4170 or newer).
 
+  * Added a new "theme_variant" setting which can be set to "winui" in order to apply an
+    alternative style for the title bar, the side bar, autocomplete popups, and other UI
+    elements, inspired by the Windows 11 Mica & Acrylic materials.
+
 
 v1.8.0 (2024-01-04)
 -------------------
