@@ -1,8 +1,8 @@
 * This update replaces the monochrome gray file type icons in the sidebar
   with full colored icons.
 
-  In case you prefer the monochrome variant that was used before, for now
-  you can still revert the icons by following these steps:
+  In case you prefer the monochrome variant that was used before, you can
+  still revert to the old icons with the following steps:
   1. Open "Preferences: Browse Packages" from the command palette
   2. Create a folder named "Theme - Brackets"
   3. Navigate into that folder and create another folder named "icons_mono"
@@ -26,7 +26,7 @@
 
 * Added a new "theme_variant" setting which can be set to "winui" in order to
   apply an alternative style for the title bar, the side bar, autocomplete popups,
-  and other UI elements (inspired by the Windows 11 Mica & Acrylic materials).
+  and other UI elements, inspired by the Windows 11 Mica & Acrylic materials.
   This setting is currently experimental and it only works if "themed_title_bar"
   is enabled. You can also modify the background hue by overriding the "winui"
   color variable in a theme customization ("UI: Customize Theme" from the
