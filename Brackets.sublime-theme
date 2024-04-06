@@ -2858,6 +2858,18 @@
         },
         {
             "class": "scroll_track_control",
+            "settings": {"scroll_bar_style": ["", "auto", "brackets"], "overlay_scroll_bars": false},
+            "layer0.opacity": 1.0,
+            "layer0.tint": "var(scrollbar_background_light)"
+        },
+        {
+            "class": "scroll_track_control",
+            "settings": {"scroll_bar_style": ["", "auto", "brackets"], "overlay_scroll_bars": false},
+            "attributes": ["dark"],
+            "layer0.tint": "var(scrollbar_background_dark)"
+        },
+        {
+            "class": "scroll_track_control",
             "settings": {"scroll_bar_style": ["", "auto"], "overlay_scroll_bars": true},
             "layer0.texture": "Theme - Default/common/scroll.png",
             "layer0.tint": "black",
@@ -2922,18 +2934,6 @@
             "settings": {"scroll_bar_style": "sublime"},
             "attributes": ["dark"],
             "layer0.tint": "white"
-        },
-        {
-            "class": "scroll_track_control",
-            "settings": {"scroll_bar_style": ["", "auto", "brackets"], "overlay_scroll_bars": false},
-            "layer0.opacity": 1.0,
-            "layer0.tint": "var(scrollbar_background_light)"
-        },
-        {
-            "class": "scroll_track_control",
-            "settings": {"scroll_bar_style": ["", "auto", "brackets"], "overlay_scroll_bars": false},
-            "attributes": ["dark"],
-            "layer0.tint": "var(scrollbar_background_dark)"
         },
         {
             "class": "scroll_track_control",
@@ -3058,6 +3058,12 @@
         {
             "class": "puck_control",
             "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"], "animation_enabled": false},
+            "layer0.texture": "Theme - Brackets/textures/scroll3.png"
+        },
+        {
+            "class": "puck_control",
+            "parents": [{"class": "scroll_bar_control", "attributes": ["hover"]}],
             "settings": {"scroll_bar_style": "thin", "animation_enabled": false},
             "layer0.texture": "Theme - Brackets/textures/scroll3.png"
         },
@@ -3087,13 +3093,6 @@
             "settings": {"scroll_bar_style": "sublime"},
             "attributes": ["horizontal"],
             "layer0.texture": "Theme - Default/common/scroll_horiz.png",
-            "content_margin": [20, 0]
-        },
-        {
-            "class": "puck_control",
-            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
-            "attributes": ["horizontal"],
-            "layer0.texture": "Theme - Brackets/textures/scroll_horiz.png",
             "content_margin": [20, 0]
         },
         {
@@ -3139,6 +3138,13 @@
         },
         {
             "class": "puck_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
+            "layer0.texture": "Theme - Brackets/textures/scroll.png",
+            "layer0.opacity": 0.8,
+            "content_margin": [0, 20]
+        },
+        {
+            "class": "puck_control",
             "settings": {"scroll_bar_style": "brackets"},
             "layer0.tint": "var(scrollbar_puck_light)",
             "layer0.opacity": 0.2,
@@ -3150,6 +3156,13 @@
             "settings": {"scroll_bar_style": ["", "auto"], "overlay_scroll_bars": false},
             "attributes": ["horizontal"],
             "content_margin": [20, 6]
+        },
+        {
+            "class": "puck_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "scroll_bar_style": ["", "auto"]},
+            "attributes": ["horizontal"],
+            "layer0.texture": "Theme - Brackets/textures/scroll_horiz.png",
+            "content_margin": [20, 0]
         },
         {
             "class": "puck_control",
@@ -3233,6 +3246,12 @@
             "content_margin": [40, 0]
         },
         {
+            "class": "puck_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "sidebar_container"}],
+            "layer0.tint": "var(scrollbar_puck_light2)",
+        },
+        {
             "class": "scroll_corner_control",
             "settings": {"scroll_bar_style": ["", "auto"], "overlay_scroll_bars": true},
             "layer0.opacity": 1.0,
@@ -3289,8 +3308,7 @@
         {
             "class": "scroll_corner_control",
             "parents": [{"class": "sidebar_container"}],
-            "layer0.opacity": 1.0,
-            "layer0.tint": "var(sidebar_background)"
+            "layer0.opacity": 0.0
         },
 //============================================[ Inputs ]============================================
         {
