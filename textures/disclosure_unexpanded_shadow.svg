@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 9">
-    <filter id="blur">
-        <feGaussianBlur stdDeviation="1"/>
-    </filter>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 12">
     <defs>
         <clipPath id="clip">
-            <path d="M 0,0 V 9 H 11 V 4.5 H 9 L 4,8 V 0 Z"/>
+            <path clip-rule="evenodd" d="M0,0 V12 H11 V0 Z M4,2 V9 L9,5.5 Z"/>
         </clipPath>
+        <filter id="blur">
+            <feGaussianBlur stdDeviation="1"/>
+            <feOffset dy="1"/>
+        </filter>
     </defs>
-    <polygon fill="white" filter="url(#blur)" clip-path="url(#clip)" points="5,1.7 5,6 4,8 9,4.5"/>
+    <polygon fill="white" filter="url(#blur)" clip-path="url(#clip)" points="4,2 4,9 9,5.5"/>
 </svg>
