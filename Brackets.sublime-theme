@@ -409,6 +409,11 @@
         {
             "class": "close_button",
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "content_margin": [14, 11, 0, 0]
+        },
+        {
+            "class": "close_button",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "parents": [{"class": "window", "attributes": ["file_light"]}],
             "layer0.tint": "black"
         },
