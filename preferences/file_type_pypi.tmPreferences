@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.requirementstxt</string>
+    <string>source.pip-requirements, source.requirementstxt</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
