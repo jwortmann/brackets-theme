@@ -3374,8 +3374,30 @@
         },
         {
             "class": "text_line_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.texture": "Theme - Brackets/textures/button_background_r5.png",
+            "layer0.inner_margin": 5,
+            "layer1.texture": "Theme - Brackets/textures/input_border.png",
+            "layer1.inner_margin": 5,
+            "layer1.tint": "white",
+            "color_scheme_tint_2": "color(white alpha(0.03))"
+        },
+        {
+            "class": "text_line_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer1.tint": "black",
+        },
+        {
+            "class": "text_line_control",
             "parents": [{"class": "panel_control"}],
             "content_margin": [4, 5, 4, 3]
+        },
+        {
+            "class": "text_line_control",
+            "parents": [{"class": "panel_control"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "content_margin": [6, 7, 4, 3]
         },
         {
             "class": "text_line_control",
@@ -3394,10 +3416,42 @@
         },
         {
             "class": "text_line_control",
+            "parents": [{"class": "overlay_control"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer2.texture": "Theme - Brackets/textures/input_border_focus.png",
+            "layer2.tint": "color(var(--accent) saturation(37.3%) lightness(76%))",
+            "layer2.inner_margin": 5,
+            "layer2.draw_center": false,
+            "layer2.opacity": 1.0
+        },
+        {
+            "class": "text_line_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "overlay_control"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer2.tint": "color(var(--accent) saturation(30.7%) lightness(41.3%))",
+        },
+        {
+            "class": "text_line_control",
             "parents": [{"class": "switch_project_window"}],
             "font.face": "system",
             "font.size": 13,
             "content_margin": 5
+        },
+        {
+            "class": "text_line_control",
+            "parents": [{"class": "switch_project_window"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer2.texture": "Theme - Brackets/textures/input_border_focus.png",
+            "layer2.tint": "color(var(--accent) saturation(37.3%) lightness(76%))",
+            "layer2.inner_margin": 5,
+            "layer2.draw_center": false,
+            "layer2.opacity": 1.0
+        },
+        {
+            "class": "text_line_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "switch_project_window"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer2.tint": "color(var(--accent) saturation(30.7%) lightness(41.3%))",
         },
         {
             "class": "dropdown_button_control",
@@ -3449,6 +3503,39 @@
         },
         {
             "class": "button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "min_size": [72, 32],
+            "layer0.texture": "Theme - Brackets/textures/button_background_r5.png",
+            "layer0.tint": "color(var(winui) saturation(2%) lightness(24%))",
+            "layer0.opacity": {"target": 0.8, "speed": 8.0, "interpolation": "smoothstep"},
+            "layer0.inner_margin": 5,
+            "layer1.opacity": 0.0,
+            "layer2.texture": "Theme - Brackets/textures/button_border_r5.png",
+            "layer2.tint": "color(var(winui) saturation(2%) lightness(26%))",
+            "layer2.opacity": 1.0,
+            "layer2.inner_margin": 5
+        },
+        {
+            "class": "button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["hover"],
+            "layer0.opacity": {"target": 1.0, "speed": 8.0, "interpolation": "smoothstep"},
+        },
+        {
+            "class": "button_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#fefefe",
+            "layer2.tint": "#d3d3d4"
+        },
+        {
+            "class": "button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["pressed"],
+            "layer0.opacity": {"target": 0.5, "speed": 8.0, "interpolation": "smoothstep"},
+        },
+        {
+            "class": "button_control",
             "attributes": ["disabled"],
             "layer0.tint": "var(button_background_disabled_dark)",
             "layer1.tint": "var(button_border_shadow_disabled_dark)",
@@ -3485,6 +3572,35 @@
             "layer0.tint": "var(button_background_light)",
             "layer1.tint": "var(button_border_shadow_light)",
             "layer2.tint": "var(button_border_light)"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "min_size": [35, 32],
+            "layer0.tint": "color(var(winui) saturation(2%) lightness(24%))",
+            "layer0.opacity": {"target": 0.8, "speed": 8.0, "interpolation": "smoothstep"},
+            "layer1.opacity": 0.0,
+            "layer2.tint": "color(var(winui) saturation(2%) lightness(26%))",
+            "layer2.opacity": 1.0
+        },
+        {
+            "class": "icon_button_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#fefefe",
+            "layer2.tint": "#d3d3d4"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["hover"],
+            "layer0.opacity": {"target": 1.0, "speed": 8.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["pressed"],
+            "layer0.opacity": {"target": 0.5, "speed": 8.0, "interpolation": "smoothstep"},
         },
         {
             "class": "icon_button_control",
