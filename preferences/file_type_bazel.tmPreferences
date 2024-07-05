@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.bazel</string>
+    <string>source.bazel, source.starlark</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
