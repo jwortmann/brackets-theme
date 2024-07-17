@@ -49,6 +49,9 @@ rem inkscape --export-type=png --export-dpi=192 --export-filename=button_border_
 rem inkscape --export-type=png --export-dpi=96 --export-filename=input_border.png input_border.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=input_border@2x.png input_border.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=input_border@3x.png input_border.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=input_border2.png input_border2.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=input_border2@2x.png input_border2.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=input_border2@3x.png input_border2.svg
 rem inkscape --export-type=png --export-dpi=96 --export-filename=input_border_focus.png input_border_focus.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=input_border_focus@2x.png input_border_focus.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=input_border_focus@3x.png input_border_focus.svg

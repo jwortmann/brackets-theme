@@ -3410,6 +3410,13 @@
         },
         {
             "class": "text_line_control",
+            "parents": [{"class": "panel_control console_panel"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer1.texture": "Theme - Brackets/textures/input_border2.png",
+            "layer1.inner_margin": [9, 5]
+        },
+        {
+            "class": "text_line_control",
             "parents": [{"class": "overlay_control"}],
             "font.face": "system",
             "font.size": 13
