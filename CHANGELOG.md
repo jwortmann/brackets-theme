@@ -1,6 +1,14 @@
 Brackets Theme Changelog
 ========================
 
+v1.9.1 (2024-08-03)
+-------------------
+
+  * Updated styles for the "winui" theme variant.
+
+  * Added new file icons for the sidebar.
+
+
 v1.9.0 (2024-04-06)
 -------------------
 
