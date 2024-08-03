@@ -87,7 +87,6 @@
         "input_border_dark": "#202020",
         "input_border_light": "#b2b5b5",
         "input_border_focus": "#2893ef",
-        "input_dropdown": "#878787",
         "button_background_dark": "#3f3f3f",
         "button_background_light": "#e5e9e9",
         "button_border_dark": "#202020",
@@ -3413,7 +3412,8 @@
             "parents": [{"class": "panel_control console_panel"}],
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "layer1.texture": "Theme - Brackets/textures/input_border2.png",
-            "layer1.inner_margin": [9, 5]
+            "layer1.inner_margin": [9, 5],
+            "content_margin": [10, 7, 8, 3]
         },
         {
             "class": "text_line_control",
@@ -3463,10 +3463,28 @@
         {
             "class": "dropdown_button_control",
             "layer0.texture": "Theme - Brackets/textures/dropdown.png",
-            "layer0.opacity": 1.0,
-            "layer0.tint": "var(input_dropdown)",
+            "layer0.opacity": 0.5,
+            "layer0.tint": "white",
             "layer0.inner_margin": [20, 0, 0, 0],
             "content_margin": [13, 10]
+        },
+        {
+            "class": "dropdown_button_control",
+            "parents": [{"class": "text_line_control", "attributes": ["file_light"]}],
+            "layer0.tint": "black"
+        },
+        {
+            "class": "dropdown_button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.texture": "Theme - Brackets/textures/history.png",
+            "layer0.opacity": {"target": 0.5, "speed": 1.0, "interpolation": "smoothstep"},
+            "content_margin": 11
+        },
+        {
+            "class": "dropdown_button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["hover"],
+            "layer0.opacity": {"target": 0.7, "speed": 1.0, "interpolation": "smoothstep"},
         },
 //===========================================[ Buttons ]============================================
         {

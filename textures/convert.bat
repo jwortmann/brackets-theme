@@ -79,6 +79,9 @@ rem inkscape --export-type=png --export-dpi=288 --export-filename=disclosure_une
 rem inkscape --export-type=png --export-dpi=96 --export-filename=dropdown.png dropdown.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=dropdown@2x.png dropdown.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=dropdown@3x.png dropdown.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=history.png history.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=history@2x.png history.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=history@3x.png history.svg
 rem inkscape --export-type=png --export-dpi=96 --export-filename=icon_case_sensitive.png icon_case_sensitive.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=icon_case_sensitive@2x.png icon_case_sensitive.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=icon_case_sensitive@3x.png icon_case_sensitive.svg
