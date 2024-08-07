@@ -1103,7 +1103,6 @@
             "attributes": ["hover", "!selected", "file_light"],
             "layer1.opacity": {"target": 1.0, "speed": 5.0, "interpolation": "smoothstep"}
         },
-
         {
             "class": "tab_control",
             "settings": {"highlight_modified_tabs": true},
@@ -1113,7 +1112,20 @@
         {
             "class": "tab_control",
             "settings": {"highlight_modified_tabs": true},
+            "attributes": ["added"],
+            "layer2.opacity": {"target": 0.4, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
+            "settings": {"highlight_modified_tabs": true},
             "attributes": ["dirty", "file_light"],
+            "layer2.opacity": {"target": 0.7, "speed": 5.0, "interpolation": "smoothstep"},
+            "accent_tint_modifier": "transparent"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"highlight_modified_tabs": true},
+            "attributes": ["added", "file_light"],
             "layer2.opacity": {"target": 0.7, "speed": 5.0, "interpolation": "smoothstep"},
             "accent_tint_modifier": "transparent"
         },
@@ -1126,7 +1138,20 @@
         {
             "class": "tab_control",
             "settings": {"highlight_modified_tabs": true, "inactive_tab_transparency": true},
+            "attributes": ["added"],
+            "layer2.opacity": {"target": 0.5, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
+            "settings": {"highlight_modified_tabs": true, "inactive_tab_transparency": true},
             "attributes": ["dirty", "!selected", "!hover", "file_light"],
+            "layer2.opacity": {"target": 1.0, "speed": 5.0,"interpolation": "smoothstep"},
+            "accent_tint_modifier": "color(white alpha(0.3))"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"highlight_modified_tabs": true, "inactive_tab_transparency": true},
+            "attributes": ["added", "!selected", "!hover", "file_light"],
             "layer2.opacity": {"target": 1.0, "speed": 5.0,"interpolation": "smoothstep"},
             "accent_tint_modifier": "color(white alpha(0.3))"
         },
@@ -1139,13 +1164,31 @@
         {
             "class": "tab_control",
             "settings": {"highlight_modified_tabs": true},
+            "attributes": ["added", "!selected", "hover"],
+            "layer2.opacity": {"target": 0.6, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
+            "settings": {"highlight_modified_tabs": true},
             "attributes": ["dirty", "selected"],
+            "layer2.opacity": {"target": 1.0, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
+            "settings": {"highlight_modified_tabs": true},
+            "attributes": ["added", "selected"],
             "layer2.opacity": {"target": 1.0, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
             "class": "tab_control",
             "settings": {"highlight_modified_tabs": true, "tab_shadows": true},
             "attributes": ["dirty", "selected", "!file_light"],
+            "layer2.opacity": {"target": 0.9, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
+            "settings": {"highlight_modified_tabs": true, "tab_shadows": true},
+            "attributes": ["added", "selected", "!file_light"],
             "layer2.opacity": {"target": 0.9, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
