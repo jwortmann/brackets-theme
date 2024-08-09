@@ -1,4 +1,5 @@
 /img export-ignore
+/svg export-ignore
 *.svg export-ignore
 *.bat export-ignore
 *.bat -linguist-detectable
