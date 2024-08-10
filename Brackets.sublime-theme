@@ -3935,57 +3935,38 @@
 //==========================================[ Checkboxes ]==========================================
         {
             "class": "checkbox_box_control",
-            "content_margin": [13, 13, 0, 0],
-            "layer0.texture": "Theme - Brackets/textures/checkbox_background.png",
-            "layer0.tint": "var(checkbox_background_dark)",
+            "content_margin": [14, 14, 0, 0],
+            "layer0.texture": "Theme - Brackets/textures/checkbox14_border.png",
+            "layer0.tint": "var(label_dark)",
             "layer0.opacity": 1.0,
-            "layer1.texture": "Theme - Brackets/textures/checkbox_border.png",
-            "layer1.tint": "var(checkbox_border_dark)",
-            "layer1.opacity": 1.0,
-            "layer2.texture": "Theme - Brackets/textures/checkbox_checkmark.png",
-            "layer2.tint": "white",
-            "layer2.opacity": 0.0,
-        },
-        {
-            "class": "checkbox_box_control",
-            "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
-            "layer0.tint": "var(checkbox_background_light)",
-            "layer1.tint": "var(checkbox_border_light)",
-            "layer2.tint": "black"
-        },
-        {
-            "class": "checkbox_box_control",
-            "parents": [{"class": "checkbox_control", "attributes": ["checked"]}],
-            "layer2.opacity": 0.5
-        },
-        {
-            "class": "checkbox_box_control",
-            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "content_margin": [26, 13, 0, 0],
-            "layer0.texture": "Theme - Brackets/textures/checkbox_background_winui.png",
-            "layer0.tint": "var(accent_dimmed_dark)",
-            "layer0.opacity": 0.0,
-            "layer1.texture": "Theme - Brackets/textures/checkbox_border_winui.png",
-            "layer1.tint": "white",
-            "layer1.opacity": 0.5,
-            "layer2.texture": "Theme - Brackets/textures/checkbox_checkmark_winui.png",
-            "layer2.tint": "black",
-        },
-        {
-            "class": "checkbox_box_control",
-            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
-            "layer0.tint": "var(accent_dimmed_light)",
-            "layer1.tint": "black",
-            "layer2.tint": "white"
-        },
-        {
-            "class": "checkbox_box_control",
-            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "parents": [{"class": "checkbox_control", "attributes": ["checked"]}],
-            "layer0.opacity": 1.0,
+            "layer1.texture": "Theme - Brackets/textures/checkbox14_checkmark.png",
+            "layer1.tint": "var(label_dark)",
             "layer1.opacity": 0.0,
-            "layer2.opacity": 1.0
+            "layer2.opacity": 0.0
+        },
+        {
+            "class": "checkbox_box_control",
+            "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
+            "layer0.tint": "var(label_light)",
+            "layer1.tint": "var(label_light)"
+        },
+        {
+            "class": "checkbox_box_control",
+            "parents": [{"class": "checkbox_control", "attributes": ["checked"]}],
+            "layer1.opacity": 1.0,
+            "layer2.opacity": 0.0
+        },
+        {
+            "class": "checkbox_box_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer1.texture": "Theme - Brackets/textures/checkbox14_checked.png",
+            "layer1.tint": "var(accent_dimmed_dark)"
+        },
+        {
+            "class": "checkbox_box_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
+            "layer1.tint": "var(accent_dimmed_light)"
         },
 //============================================[ Labels ]============================================
         {
