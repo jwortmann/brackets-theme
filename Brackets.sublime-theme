@@ -1489,36 +1489,17 @@
             "content_margin": 0
         },
         {
-            "class": "show_tabs_dropdown_button",
-            "layer0.texture": "Theme - Brackets/textures/dropdown.png",
-            "layer0.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"},
-            "layer0.tint": "white",
-            "layer0.inner_margin": [20, 0, 0, 0],
-            "content_margin": [14, 10]
-        },
-        {
-            "class": "show_tabs_dropdown_button",
-            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "parents": [{"class": "tabset_control", "attributes": ["file_light"]}],
-            "layer0.tint": "black"
-        },
-        {
-            "class": "show_tabs_dropdown_button",
-            "attributes": ["hover"],
-            "layer0.opacity": {"target": 0.8, "speed": 5.0, "interpolation": "smoothstep"}
-        },
-        {
-            "class": "show_tabs_dropdown_button",
-            "settings": ["hide_tabs_dropdown_button"],
-            "layer0.opacity": 0.0,
-            "content_margin": [3, 0]
-        },
-        {
             "class": "new_tab_button",
             "layer0.texture": "Theme - Default/common/new_tab.png",
             "layer0.tint": "white",
             "layer0.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"},
-            "layer0.inner_margin": [21, 0, 1, 0],
+            "layer0.inner_margin": [23, 23, 0, 0],
+            "content_margin": [12, 12]
+        },
+        {
+            "class": "new_tab_button",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.texture": "Theme - Brackets/textures/new_tab.png",
             "content_margin": [12, 12]
         },
         {
@@ -1536,6 +1517,38 @@
             "class": "new_tab_button",
             "attributes": ["hover"],
             "layer0.opacity": {"target": 0.8, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "layer0.texture": "Theme - Brackets/textures/dropdown.png",
+            "layer0.opacity": {"target": 0.3, "speed": 5.0, "interpolation": "smoothstep"},
+            "layer0.tint": "white",
+            "layer0.inner_margin": [20, 0, 0, 0],
+            "content_margin": [14, 10]
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.texture": "Theme - Brackets/textures/tabs_dropdown.png",
+            "layer0.inner_margin": [23, 23, 0, 0],
+            "content_margin": [15, 12]
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "tabset_control", "attributes": ["file_light"]}],
+            "layer0.tint": "black"
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "attributes": ["hover"],
+            "layer0.opacity": {"target": 0.8, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": ["hide_tabs_dropdown_button"],
+            "layer0.opacity": 0.0,
+            "content_margin": [3, 0]
         },
 //=========================================[ Quick Panel ]==========================================
         {
