@@ -220,9 +220,6 @@ rem inkscape --export-type=png --export-dpi=288 --export-filename=tab_scroll_rig
 rem inkscape --export-type=png --export-dpi=96 --export-filename=new_tab.png new_tab.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=new_tab@2x.png new_tab.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=new_tab@3x.png new_tab.svg
-inkscape --export-type=png --export-dpi=96 --export-filename=new_tab24.png new_tab24.svg
-inkscape --export-type=png --export-dpi=192 --export-filename=new_tab24@2x.png new_tab24.svg
-inkscape --export-type=png --export-dpi=288 --export-filename=new_tab24@3x.png new_tab24.svg
 rem inkscape --export-type=png --export-dpi=96 --export-filename=tabs_dropdown.png tabs_dropdown.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=tabs_dropdown@2x.png tabs_dropdown.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=tabs_dropdown@3x.png tabs_dropdown.svg

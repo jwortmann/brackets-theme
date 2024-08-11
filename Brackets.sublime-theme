@@ -3989,37 +3989,50 @@
         {
             "class": "checkbox_box_control",
             "content_margin": [14, 14, 0, 0],
-            "layer0.texture": "Theme - Brackets/textures/checkbox14_border.png",
-            "layer0.tint": "var(label_dark)",
+            "layer0.texture": "Theme - Brackets/textures/checkbox14_background.png",
+            "layer0.tint": "#1d1d1d",
             "layer0.opacity": 1.0,
-            "layer1.texture": "Theme - Brackets/textures/checkbox14_checkmark.png",
-            "layer1.tint": "var(label_dark)",
-            "layer1.opacity": 0.0,
-            "layer2.opacity": 0.0
+            "layer1.texture": "Theme - Brackets/textures/checkbox14_background.png",
+            "layer1.tint": "white",
+            "layer1.opacity": {"target": 0.0, "speed": 4.0, "interpolation": "smoothstep"},
+            "layer2.texture": "Theme - Brackets/textures/checkbox14_border.png",
+            "layer2.tint": "#999999",
+            "layer2.opacity": 1.0,
+            "layer3.texture": "Theme - Brackets/textures/checkbox14_checkmark.png",
+            "layer3.tint": "white",
+            "layer3.opacity": 0.0
         },
         {
             "class": "checkbox_box_control",
             "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
-            "layer0.tint": "var(label_light)",
-            "layer1.tint": "var(label_light)"
+            "layer0.tint": "#ededed",
+            "layer1.tint": "#656565",
+            "layer2.tint": "#858585",
+            "layer3.tint": "black"
         },
         {
             "class": "checkbox_box_control",
             "parents": [{"class": "checkbox_control", "attributes": ["checked"]}],
-            "layer1.opacity": 1.0,
-            "layer2.opacity": 0.0
+            "layer3.opacity": 1.0
+        },
+        {
+            "class": "checkbox_box_control",
+            "parents": [{"class": "checkbox_control", "attributes": ["!checked"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["hover"],
+            "layer1.opacity": {"target": 0.058, "speed": 4.0, "interpolation": "smoothstep"} // #2a2a2a / #e5e5e5
         },
         {
             "class": "checkbox_box_control",
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "layer1.texture": "Theme - Brackets/textures/checkbox14_checked.png",
-            "layer1.tint": "var(accent_dimmed_dark)"
+            "layer3.texture": "Theme - Brackets/textures/checkbox14_checked.png",
+            "layer3.tint": "var(accent_dimmed_dark)"
         },
         {
             "class": "checkbox_box_control",
-            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
-            "layer1.tint": "var(accent_dimmed_light)"
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer3.tint": "var(accent_dimmed_light)"
         },
 //============================================[ Labels ]============================================
         {
