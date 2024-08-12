@@ -3679,6 +3679,10 @@
             "layer0.opacity": 0.167 // #f5f5f5
         },
         {
+            "class": "icon_button_group",
+            "spacing": 0
+        },
+        {
             "class": "icon_button_control",
             "min_size": [35, 28],
             "layer0.tint": "var(button_background_dark)",
@@ -3701,35 +3705,6 @@
             "layer0.tint": "var(button_background_light)",
             "layer1.tint": "var(button_border_shadow_light)",
             "layer2.tint": "var(button_border_light)"
-        },
-        {
-            "class": "icon_button_control",
-            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "min_size": [35, 32],
-            "layer0.tint": "color(var(winui) saturation(2%) lightness(24%))",
-            "layer0.opacity": {"target": 0.8, "speed": 8.0, "interpolation": "smoothstep"},
-            "layer1.opacity": 0.0,
-            "layer2.tint": "color(var(winui) saturation(2%) lightness(26%))",
-            "layer2.opacity": 1.0
-        },
-        {
-            "class": "icon_button_control",
-            "parents": [{"class": "window", "attributes": ["file_light"]}],
-            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "layer0.tint": "#fefefe",
-            "layer2.tint": "#d3d3d4"
-        },
-        {
-            "class": "icon_button_control",
-            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "attributes": ["hover"],
-            "layer0.opacity": {"target": 1.0, "speed": 8.0, "interpolation": "smoothstep"}
-        },
-        {
-            "class": "icon_button_control",
-            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "attributes": ["pressed"],
-            "layer0.opacity": {"target": 0.5, "speed": 8.0, "interpolation": "smoothstep"},
         },
         {
             "class": "icon_button_control",
@@ -3766,6 +3741,101 @@
             "layer1.tint": "var(button_border_shadow_selected_light)"
         },
         {
+            "class": "icon_button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "min_size": [33, 32],
+            "layer0.tint": "#1d1d1d",
+            "layer0.opacity": 1.0,
+            "layer0.inner_margin": 4,
+            "layer1.texture": "Theme - Brackets/textures/control_border_center.png",
+            "layer1.tint": "#303030",
+            "layer1.opacity": 1.0,
+            "layer1.inner_margin": 4,
+            "layer2.texture": "Theme - Brackets/textures/control_selected_left.png",
+            "layer2.tint": "white",
+            "layer2.opacity": {"target": 0.0, "speed": 8.0, "interpolation": "smoothstep"},
+            "layer2.draw_center": true,
+            "layer2.inner_margin": 4,
+            "layer3.texture": "Theme - Brackets/textures/control_selected_border.png",
+            "layer3.tint": "var(--accent)",
+            "layer3.opacity": {"target": 0.0, "speed": 8.0, "interpolation": "smoothstep"},
+            "layer3.inner_margin": [20, 4, 4, 6]
+        },
+        {
+            "class": "icon_button_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#eeeeee",
+            "layer1.tint": "#e5e5e5",
+            "layer2.texture": "Theme - Brackets/textures/control_selected_light_left.png",
+            "layer3.texture": "Theme - Brackets/textures/control_selected_light_border_left.png"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["selected"],
+            "layer2.opacity": {"target": 0.15, "speed": 8.0, "interpolation": "smoothstep"},
+            "layer3.opacity": {"target": 1.0, "speed": 8.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "icon_button_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["selected"],
+            "layer2.opacity": {"target": 1.0, "speed": 8.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["left"],
+            "min_size": [33, 32],
+            "layer0.texture": "Theme - Brackets/textures/control_background_left.png",
+            "layer1.texture": "Theme - Brackets/textures/control_border_left.png",
+            "layer2.texture": "Theme - Brackets/textures/control_selected_left.png"
+        },
+        {
+            "class": "icon_button_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["left"],
+            "layer2.texture": "Theme - Brackets/textures/control_selected_light_left.png",
+            "layer3.texture": "Theme - Brackets/textures/control_selected_light_border_left.png"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["right"],
+            "min_size": [34, 32],
+            "layer0.texture": "Theme - Brackets/textures/control_background_right.png",
+            "layer1.texture": "Theme - Brackets/textures/control_border_right.png",
+            "layer2.texture": "Theme - Brackets/textures/control_selected.png"
+        },
+        {
+            "class": "icon_button_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["right"],
+            "layer2.texture": "Theme - Brackets/textures/control_selected_light.png",
+            "layer3.texture": "Theme - Brackets/textures/control_selected_light_border.png"
+        },
+        {
+            "class": "icon_button_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["left", "right"],
+            "min_size": [34, 32],
+            "layer0.texture": "Theme - Brackets/textures/control_background.png",
+            "layer1.texture": "Theme - Brackets/textures/control_border.png",
+            "layer2.texture": "Theme - Brackets/textures/control_selected.png"
+        },
+        {
+            "class": "icon_button_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["left", "right"],
+            "layer2.texture": "Theme - Brackets/textures/control_selected_light.png",
+            "layer3.texture": "Theme - Brackets/textures/control_selected_light_border.png"
+        },
+        {
             "class": "icon_regex",
             "content_margin": [14, 11],
             "layer0.texture": "Theme - Brackets/textures/icon_regex.png",
@@ -3786,6 +3856,12 @@
             "class": "icon_regex",
             "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.tint": "var(icon_selected_light)"
+        },
+        {
+            "class": "icon_regex",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#191919"
         },
         {
             "class": "icon_case",
@@ -3810,6 +3886,12 @@
             "layer0.tint": "var(icon_selected_light)"
         },
         {
+            "class": "icon_case",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#191919"
+        },
+        {
             "class": "icon_whole_word",
             "content_margin": [14, 11],
             "layer0.texture": "Theme - Default/common/icon_whole_word.png",
@@ -3830,6 +3912,12 @@
             "class": "icon_whole_word",
             "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.tint": "var(icon_selected_light)"
+        },
+        {
+            "class": "icon_whole_word",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#191919"
         },
         {
             "class": "icon_wrap",
@@ -3854,6 +3942,12 @@
             "layer0.tint": "var(icon_selected_light)"
         },
         {
+            "class": "icon_wrap",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#191919"
+        },
+        {
             "class": "icon_in_selection",
             "content_margin": [14, 11],
             "layer0.texture": "Theme - Default/common/icon_in_selection.png",
@@ -3874,6 +3968,12 @@
             "class": "icon_in_selection",
             "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.tint": "var(icon_selected_light)"
+        },
+        {
+            "class": "icon_in_selection",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#191919"
         },
         {
             "class": "icon_highlight",
@@ -3898,6 +3998,12 @@
             "layer0.tint": "var(icon_selected_light)"
         },
         {
+            "class": "icon_highlight",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#191919"
+        },
+        {
             "class": "icon_preserve_case",
             "content_margin": [14, 11],
             "layer0.texture": "Theme - Default/common/icon_preserve_case.png",
@@ -3918,6 +4024,12 @@
             "class": "icon_preserve_case",
             "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.tint": "var(icon_selected_light)"
+        },
+        {
+            "class": "icon_preserve_case",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#191919"
         },
         {
             "class": "icon_context",
@@ -3942,6 +4054,12 @@
             "layer0.tint": "var(icon_selected_light)"
         },
         {
+            "class": "icon_context",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#191919"
+        },
+        {
             "class": "icon_use_buffer",
             "content_margin": [14, 11],
             "layer0.texture": "Theme - Default/common/icon_use_buffer.png",
@@ -3964,6 +4082,12 @@
             "layer0.tint": "var(icon_selected_light)"
         },
         {
+            "class": "icon_use_buffer",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#191919"
+        },
+        {
             "class": "icon_use_gitignore",
             "content_margin": [14, 11],
             "layer0.texture": "Theme - Default/common/icon_use_gitignore.png",
@@ -3984,6 +4108,12 @@
             "class": "icon_use_gitignore",
             "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.tint": "var(icon_selected_light)"
+        },
+        {
+            "class": "icon_use_gitignore",
+            "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "icon_button_control", "attributes": ["selected"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#191919"
         },
 //==========================================[ Checkboxes ]==========================================
         {
