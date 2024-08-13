@@ -4164,6 +4164,34 @@
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "layer3.tint": "var(accent_dimmed_light)"
         },
+//========================================[ Radio Buttons ]=========================================
+        {
+            "class": "radio_button_list_control",
+            "spacing": 4
+        },
+        {
+            "class": "checkbox_box_control",
+            "parents": [{"class": "radio_button_list_control"}, {"class": "checkbox_control"}],
+            "layer0.texture": "Theme - Brackets/textures/radio_button_background.png",
+            "layer1.texture": "Theme - Brackets/textures/radio_button_background.png",
+            "layer2.texture": "Theme - Brackets/textures/radio_button_border.png",
+            "layer3.texture": "Theme - Brackets/textures/radio_button_on.png",
+        },
+        {
+            "class": "checkbox_box_control",
+            "parents": [{"class": "radio_button_list_control"}, {"class": "checkbox_control", "attributes": ["checked"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer2.texture": "Theme - Brackets/textures/radio_button_background.png",
+            "layer2.tint": "var(accent_dimmed_dark)",
+            "layer3.tint": "black"
+        },
+        {
+            "class": "checkbox_box_control",
+            "parents": [{"class": "title_bar", "attributes": ["file_light"]}, {"class": "radio_button_list_control"}, {"class": "checkbox_control", "attributes": ["checked"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer2.tint": "var(accent_dimmed_light)",
+            "layer3.tint": "white"
+        },
 //============================================[ Labels ]============================================
         {
             "class": "label_control",

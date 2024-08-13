@@ -64,6 +64,15 @@ rem inkscape --export-type=png --export-dpi=288 --export-filename=checkbox14_fil
 rem inkscape --export-type=png --export-dpi=96 --export-filename=checkbox18_border.png checkbox18_border.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=checkbox18_border@2x.png checkbox18_border.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=checkbox18_border@3x.png checkbox18_border.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=radio_button_background.png radio_button_background.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=radio_button_background@2x.png radio_button_background.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=radio_button_background@3x.png radio_button_background.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=radio_button_border.png radio_button_border.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=radio_button_border@2x.png radio_button_border.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=radio_button_border@3x.png radio_button_border.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=radio_button_on.png radio_button_on.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=radio_button_on@2x.png radio_button_on.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=radio_button_on@3x.png radio_button_on.svg
 rem inkscape --export-type=png --export-dpi=96 --export-filename=toggle_background.png toggle_background.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=toggle_background@2x.png toggle_background.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=toggle_background@3x.png toggle_background.svg
