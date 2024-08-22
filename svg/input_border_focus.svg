@@ -4,5 +4,5 @@
             <rect fill="white" x="0" y="14" width="16" height="2"/>
         </mask>
     </defs>
-    <rect mask="url(#mask)" stroke="white" fill="white" x="0.5" y="0.5" width="15" height="15" rx="4.5"/>
+    <rect mask="url(#mask)" stroke="white" fill="white" x="0.5" y="0.5" width="15" height="15" rx="3.5"/>
 </svg>
