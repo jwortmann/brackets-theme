@@ -2765,6 +2765,19 @@
             "layer0.tint": "var(progressbar_light)"
         },
         {
+            "class": "progress_bar_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.texture": "Theme - Brackets/textures/progress_bar.png",
+            "layer0.inner_margin": [2, 0, 2, 8],
+            "layer0.tint": "#9a9a9a"
+        },
+        {
+            "class": "progress_bar_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.tint": "#868686"
+        },
+        {
             "class": "progress_gauge_control",
             "layer0.texture": "Theme - Default/common/scroll.png",
             "layer0.inner_margin": [3, 3],
@@ -2776,6 +2789,18 @@
             "class": "progress_gauge_control",
             "parents": [{"class": "window", "attributes": ["file_light"]}],
             "layer0.tint": "var(progressbar_active_light)"
+        },
+        {
+            "class": "progress_gauge_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer0.texture": "Theme - Brackets/textures/progress_gauge.png",
+            "layer0.inner_margin": [2, 0, 2, 8],
+            "layer0.tint": "var(accent_dimmed_dark)"
+        },
+        {
+            "class": "progress_gauge_control",
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "layer0.tint": "var(accent_dimmed_light)"
         },
 //=========================================[ Scroll Bars ]==========================================
         {

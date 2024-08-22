@@ -202,6 +202,12 @@ rem inkscape --export-type=png --export-dpi=288 --export-filename=tooltip_border
 rem inkscape --export-type=png --export-dpi=96 --export-filename=tooltip_shadow.png tooltip_shadow.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=tooltip_shadow@2x.png tooltip_shadow.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=tooltip_shadow@3x.png tooltip_shadow.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=progress_bar.png progress_bar.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=progress_bar@2x.png progress_bar.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=progress_bar@3x.png progress_bar.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=progress_gauge.png progress_gauge.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=progress_gauge@2x.png progress_gauge.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=progress_gauge@3x.png progress_gauge.svg
 rem inkscape --export-type=png --export-dpi=96 --export-filename=scroll.png scroll.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=scroll@2x.png scroll.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=scroll@3x.png scroll.svg
