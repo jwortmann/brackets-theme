@@ -1240,6 +1240,12 @@
         },
         {
             "class": "tab_control",
+            "settings": {"inactive_tab_transparency": true, "file_tab_style": ["rounded", "square"], "themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["!selected", "!hover", "file_light"],
+            "layer0.tint": "black"
+        },
+        {
+            "class": "tab_control",
             "settings": {"inactive_tab_transparency": true, "file_tab_style": "square"},
             "attributes": ["!selected"],
             "layer0.texture": "Theme - Brackets/textures/tab_square_shadow.png",
@@ -1403,6 +1409,12 @@
             "settings": {"inactive_tab_transparency": true},
             "parents": [{"class": "tab_control", "attributes": ["!selected", "!hover", "file_light"]}],
             "layer0.tint": "white"
+        },
+        {
+            "class": "tab_close_button",
+            "settings": {"inactive_tab_transparency": true, "themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "tab_control", "attributes": ["file_light"]}],
+            "layer0.tint": "black"
         },
         {
             "class": "tab_close_button",
