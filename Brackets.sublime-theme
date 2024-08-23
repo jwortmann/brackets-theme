@@ -3495,7 +3495,24 @@
             "layer3.inner_margin": 4,
             "layer3.draw_center": false,
             "layer3.tint": "var(accent_dimmed_dark)",
-            "layer3.opacity": 0.0,
+            "layer3.opacity": 0.0
+        },
+        {
+            "class": "text_line_control",
+            "parents": [{"class": "window", "attributes": ["file_medium"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "color_scheme_tint": "#2d2d2d"
+        },
+        {
+            "class": "text_line_control",
+            "parents": [{"class": "window", "attributes": ["file_medium_dark"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "color_scheme_tint": "#2d2d2d"
+        },
+        {
+            "class": "text_line_control",
+            "parents": [{"class": "window", "attributes": ["file_dark"]}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "color_scheme_tint": "#2d2d2d"
         },
         {
