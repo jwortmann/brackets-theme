@@ -769,6 +769,7 @@
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "attributes": ["file_light"],
             "layer0.tint": "var(winui_light)",
+            "layer1.opacity": 0.3,
             "layer2.opacity": 0.5
         },
         {
@@ -1092,6 +1093,12 @@
             "settings": {"tab_shadows": true},
             "layer0.opacity": {"target": 1.0, "speed": 5.0, "interpolation": "smoothstep"},
             "layer3.opacity": {"target": 1.0, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui", "tab_shadows": true},
+            "attributes": ["file_light"],
+            "layer0.opacity": {"target": 0.5, "speed": 5.0, "interpolation": "smoothstep"}
         },
         {
             "class": "tab_control",
