@@ -10,9 +10,6 @@ rem inkscape --export-type=png --export-dpi=288 --export-filename=autocomplete_d
 rem inkscape --export-type=png --export-dpi=96 --export-filename=background_2px.png background_2px.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=background_2px@2x.png background_2px.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=background_2px@3x.png background_2px.svg
-rem inkscape --export-type=png --export-dpi=96 --export-filename=background_4px.png background_4px.svg
-rem inkscape --export-type=png --export-dpi=192 --export-filename=background_4px@2x.png background_4px.svg
-rem inkscape --export-type=png --export-dpi=288 --export-filename=background_4px@3x.png background_4px.svg
 rem inkscape --export-type=png --export-dpi=96 --export-filename=background_4px_padding.png background_4px_padding.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=background_4px_padding@2x.png background_4px_padding.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=background_4px_padding@3x.png background_4px_padding.svg
@@ -22,9 +19,6 @@ rem inkscape --export-type=png --export-dpi=288 --export-filename=background_8px
 rem inkscape --export-type=png --export-dpi=96 --export-filename=border_2px.png border_2px.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=border_2px@2x.png border_2px.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=border_2px@3x.png border_2px.svg
-rem inkscape --export-type=png --export-dpi=96 --export-filename=border_4px.png border_4px.svg
-rem inkscape --export-type=png --export-dpi=192 --export-filename=border_4px@2x.png border_4px.svg
-rem inkscape --export-type=png --export-dpi=288 --export-filename=border_4px@3x.png border_4px.svg
 rem inkscape --export-type=png --export-dpi=96 --export-filename=border_8px.png border_8px.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=border_8px@2x.png border_8px.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=border_8px@3x.png border_8px.svg

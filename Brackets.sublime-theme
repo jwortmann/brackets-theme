@@ -1642,7 +1642,7 @@
         },
         {
             "class": "mini_quick_panel_row",
-            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
+            "layer0.texture": "Theme - Brackets/textures/control_background.png",
             "layer0.inner_margin": 4,
             "layer0.tint": "transparent",
             "layer0.opacity": 1.0
@@ -1682,7 +1682,7 @@
         },
         {
             "class": "quick_panel_row",
-            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
+            "layer0.texture": "Theme - Brackets/textures/control_background.png",
             "layer0.inner_margin": 4,
             "layer0.tint": "transparent",
             "layer0.opacity": 1.0
@@ -2062,11 +2062,11 @@
             "class": "popup_control auto_complete_popup",
             "content_margin": 1,
             "layer0.opacity": 0.0,
-            "layer1.texture": "Theme - Brackets/textures/background_4px.png",
+            "layer1.texture": "Theme - Brackets/textures/control_background.png",
             "layer1.inner_margin": 4,
             "layer1.opacity": 1.0,
             "layer1.tint": "var(autocomplete_background_dark)",
-            "layer3.texture": "Theme - Brackets/textures/border_4px.png",
+            "layer3.texture": "Theme - Brackets/textures/control_border.png",
             "layer3.inner_margin": 4,
             "layer3.opacity": 1.0,
             "layer3.tint": "var(autocomplete_border_dark)"
@@ -2137,7 +2137,7 @@
             "class": "table_row",
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "attributes": ["selected"],
-            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
+            "layer0.texture": "Theme - Brackets/textures/control_background.png",
             "layer0.tint": "white",
             "layer0.opacity": 0.08,
             "layer0.inner_margin": 7
@@ -3460,11 +3460,11 @@
 //============================================[ Inputs ]============================================
         {
             "class": "text_line_control",
-            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
+            "layer0.texture": "Theme - Brackets/textures/control_background.png",
             "layer0.inner_margin": 4,
             "layer0.tint": "var(input_background_dark)",
             "layer0.opacity": 1.0,
-            "layer1.texture": "Theme - Brackets/textures/border_4px.png",
+            "layer1.texture": "Theme - Brackets/textures/control_border.png",
             "layer1.inner_margin": 4,
             "layer1.draw_center": false,
             "layer1.tint": "var(input_border_dark)",
@@ -3782,9 +3782,9 @@
         {
             "class": "icon_button_control",
             "attributes": ["left", "right"],
-            "layer0.texture": "Theme - Brackets/textures/background_4px.png",
+            "layer0.texture": "Theme - Brackets/textures/control_background.png",
             "layer1.texture": "Theme - Brackets/textures/button_border2.png",
-            "layer2.texture": "Theme - Brackets/textures/border_4px.png"
+            "layer2.texture": "Theme - Brackets/textures/control_border.png"
         },
         {
             "class": "icon_button_control",
