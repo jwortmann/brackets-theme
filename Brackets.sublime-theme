@@ -3562,8 +3562,11 @@
             "class": "text_line_control",
             "parents": [{"class": "overlay_control"}],
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer2.texture": "Theme - Brackets/textures/search.png",
+            "layer2.inner_margin": [0, 23, 26, 0],
             "layer3.opacity": 1.0,
-            "color_scheme_tint": "#1f1f1f"
+            "color_scheme_tint": "#1f1f1f",
+            "content_margin": [4, 4, 26, 4]
         },
         {
             "class": "text_line_control",

@@ -136,6 +136,9 @@ rem inkscape --export-type=png --export-dpi=288 --export-filename=input_border_f
 rem inkscape --export-type=png --export-dpi=96 --export-filename=console_input_border_bottom.png console_input_border_bottom.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=console_input_border_bottom@2x.png console_input_border_bottom.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=console_input_border_bottom@3x.png console_input_border_bottom.svg
+rem inkscape --export-type=png --export-area=0:-8:27:16 --export-dpi=96 --export-filename=search.png search.svg
+rem inkscape --export-type=png --export-area=0:-8:27:16 --export-dpi=192 --export-filename=search@2x.png search.svg
+rem inkscape --export-type=png --export-area=0:-8:27:16 --export-dpi=288 --export-filename=search@3x.png search.svg
 rem inkscape --export-type=png --export-dpi=96 --export-filename=close.png close.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=close@2x.png close.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=close@3x.png close.svg
