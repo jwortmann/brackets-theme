@@ -1596,6 +1596,18 @@
             "layer2.tint": "var(overlay_border_light)"
         },
         {
+            "class": "overlay_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer1.tint": "#2b2b2b"
+        },
+        {
+            "class": "overlay_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "layer1.tint": "#f3f3f3",
+            "layer2.tint": "#868686"
+        },
+        {
             "class": "quick_panel",
             "row_padding": [8, 4, 10, 4],
             "dark_content": true
@@ -1645,7 +1657,8 @@
             "layer0.texture": "Theme - Brackets/textures/control_background.png",
             "layer0.inner_margin": 4,
             "layer0.tint": "transparent",
-            "layer0.opacity": 1.0
+            "layer0.opacity": 1.0,
+            "layer1.opacity": 0.0
         },
         {
             "class": "mini_quick_panel_row",
@@ -1681,11 +1694,36 @@
             "layer0.tint": "color(var(panel_selected_background_light) lightness(+ 4%))" // #f2f9fd
         },
         {
+            "class": "mini_quick_panel_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["selected"],
+            "layer0.tint": "var(panel_hover_background_dark)",
+            "layer1.texture": "Theme - Brackets/textures/overlay_row_selected_border.png",
+            "layer1.tint": "var(accent_dimmed_dark)",
+            "layer1.opacity": 1.0,
+            "layer1.inner_margin": [4, 9, 0, 9]
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "attributes": ["selected"],
+            "layer0.tint": "#ddd",
+            "layer1.tint": "var(accent_dimmed_light)"
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["!selected", "hover"],
+            "layer0.opacity": 0.0
+        },
+        {
             "class": "quick_panel_row",
             "layer0.texture": "Theme - Brackets/textures/control_background.png",
             "layer0.inner_margin": 4,
             "layer0.tint": "transparent",
-            "layer0.opacity": 1.0
+            "layer0.opacity": 1.0,
+            "layer1.opacity": 0.0
         },
         {
             "class": "quick_panel_row",
@@ -1725,6 +1763,43 @@
             "parents": [{"class": "window", "attributes": ["file_light"]}],
             "attributes": ["selected", "hover"],
             "layer0.tint": "color(var(panel_selected_background_light) lightness(+ 4%))" // #f2f9fd
+        },
+        {
+            "class": "quick_panel_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["selected"],
+            "layer0.tint": "var(panel_hover_background_dark)",
+            "layer1.texture": "Theme - Brackets/textures/overlay_row_selected_border.png",
+            "layer1.tint": "var(accent_dimmed_dark)",
+            "layer1.opacity": 1.0,
+            "layer1.inner_margin": [4, 9, 0, 9]
+        },
+        {
+            "class": "quick_panel_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "attributes": ["selected"],
+            "layer0.tint": "#ddd",
+            "layer1.tint": "var(accent_dimmed_light)"
+        },
+        {
+            "class": "quick_panel_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "switch_project_window"}],
+            "layer1.opacity": 0.0
+        },
+        {
+            "class": "quick_panel_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "switch_project_window", "attributes": ["file_light"]}],
+            "attributes": ["selected"],
+            "layer0.tint": "#ccc"
+        },
+        {
+            "class": "quick_panel_row",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "attributes": ["!selected", "hover"],
+            "layer0.opacity": 0.0
         },
         {
             "class": "quick_panel_entry",
@@ -1803,6 +1878,17 @@
             "selected_fg": "var(quickpanel_hint_selected_light)"
         },
         {
+            "class": "quick_panel_label key_binding",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "selected_fg": "color(var(quickpanel_hint_dark) lightness(+ 20%))"
+        },
+        {
+            "class": "quick_panel_label key_binding",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "selected_fg": "color(var(quickpanel_hint_light) lightness(- 20%))"
+        },
+        {
             "class": "quick_panel_label hint",
             "fg": "var(quickpanel_hint_dark)",
             "selected_fg": "var(quickpanel_hint_selected_dark)",
@@ -1815,6 +1901,17 @@
             "parents": [{"class": "window", "attributes": ["file_light"]}],
             "fg": "var(quickpanel_hint_light)",
             "selected_fg": "var(quickpanel_hint_selected_light)"
+        },
+        {
+            "class": "quick_panel_label hint",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "selected_fg": "color(var(quickpanel_hint_dark) lightness(+ 20%))"
+        },
+        {
+            "class": "quick_panel_label hint",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "parents": [{"class": "window", "attributes": ["file_light"]}],
+            "selected_fg": "color(var(quickpanel_hint_light) lightness(- 20%))"
         },
         {
             "class": "quick_panel_detail_label",

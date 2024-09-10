@@ -184,6 +184,9 @@ rem inkscape --export-type=png --export-dpi=288 --export-filename=overlay_border
 rem inkscape --export-type=png --export-dpi=96 --export-filename=overlay_shadow.png overlay_shadow.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=overlay_shadow@2x.png overlay_shadow.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=overlay_shadow@3x.png overlay_shadow.svg
+rem inkscape --export-type=png --export-dpi=96 --export-filename=overlay_row_selected_border.png overlay_row_selected_border.svg
+rem inkscape --export-type=png --export-dpi=192 --export-filename=overlay_row_selected_border@2x.png overlay_row_selected_border.svg
+rem inkscape --export-type=png --export-dpi=288 --export-filename=overlay_row_selected_border@3x.png overlay_row_selected_border.svg
 rem inkscape --export-type=png --export-dpi=96 --export-filename=popup_background.png popup_background.svg
 rem inkscape --export-type=png --export-dpi=192 --export-filename=popup_background@2x.png popup_background.svg
 rem inkscape --export-type=png --export-dpi=288 --export-filename=popup_background@3x.png popup_background.svg
