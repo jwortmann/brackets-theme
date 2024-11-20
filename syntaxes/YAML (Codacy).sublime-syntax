@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: YAML (Codacy)
+scope: source.yaml.codacy
+hidden: true
+hidden_file_extensions:
+  - .codacy.yaml
+  - .codacy.yml
+
+contexts:
+  main:
+    - include: scope:source.yaml
+      apply_prototype: true
