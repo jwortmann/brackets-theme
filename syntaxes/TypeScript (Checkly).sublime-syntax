@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: TypeScript (Checkly)
+scope: source.ts.checkly
+hidden: true
+hidden_file_extensions:
+  - checkly.config.ts
+
+contexts:
+  main:
+    - include: scope:source.ts
+      apply_prototype: true
