@@ -1,6 +1,20 @@
 Brackets Theme Changelog
 ========================
 
+v1.10.0 (2024-11-23)
+--------------------
+
+  * Added styling for checkboxes.
+
+  * Fixed color for tab highlight indicator of new tabs.
+
+  * Improvements and fixes for the "winui" theme variant.
+
+  * Updated and added new file icons for the sidebar.
+
+  * Removed the obsolete monochrome file icons for the sidebar.
+
+
 v1.9.1 (2024-08-03)
 -------------------
 
