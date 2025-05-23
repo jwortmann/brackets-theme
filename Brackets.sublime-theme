@@ -2753,6 +2753,11 @@
         },
         {
             "class": "panel_grid_control",
+            "parents": [{"class": "panel_control output_panel io_panel"}],
+            "inside_spacing": 4
+        },
+        {
+            "class": "panel_grid_control",
             "parents": [{"class": "panel_control switch_project_panel"}],
             "outside_vspacing": 2,
             "outside_hspacing": 1
@@ -3665,6 +3670,23 @@
         {
             "class": "text_line_control",
             "parents": [{"class": "panel_control console_panel"}],
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer2.texture": "Theme - Brackets/textures/console_input_border_bottom.png",
+            "layer2.inner_margin": [8, 4],
+            "content_margin": [10, 7, 8, 3]
+        },
+        {
+            "class": "text_line_control",
+            "parents": [{"class": "panel_control output_panel io_panel"}],
+            "layer0.texture": "Theme - Brackets/textures/console_input_background.png",
+            "layer0.inner_margin": [8, 4],
+            "layer1.texture": "Theme - Brackets/textures/console_input_border.png",
+            "layer1.inner_margin": [8, 4],
+            "content_margin": [8, 5, 8, 3]
+        },
+        {
+            "class": "text_line_control",
+            "parents": [{"class": "panel_control output_panel io_panel"}],
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "layer2.texture": "Theme - Brackets/textures/console_input_border_bottom.png",
             "layer2.inner_margin": [8, 4],
