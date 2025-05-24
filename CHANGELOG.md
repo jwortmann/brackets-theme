@@ -1,6 +1,14 @@
 Brackets Theme Changelog
 ========================
 
+v1.11.0 (2025-05-24)
+--------------------
+
+  * Added support for the new "sidebar_on_right" setting.
+
+  * Added a new file icon for Zsh.
+
+
 v1.10.0 (2024-11-23)
 --------------------
 
