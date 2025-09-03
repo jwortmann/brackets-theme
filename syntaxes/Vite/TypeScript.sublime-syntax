@@ -1,12 +1,12 @@
 %YAML 1.2
 ---
-name: XML
-scope: text.xml.svg
+name: TypeScript
+scope: source.ts.vite
 hidden: true
 hidden_file_extensions:
-  - svg
+  - vite.config.ts
 
 contexts:
   main:
-    - include: scope:text.xml
+    - include: scope:source.ts
       apply_prototype: true

@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: Markdown
+scope: text.html.markdown.license
+hidden: true
+hidden_file_extensions:
+  - LICENSE.md
+
+contexts:
+  main:
+    - include: scope:text.html.markdown
+      apply_prototype: true

@@ -1,0 +1,16 @@
+%YAML 1.2
+---
+name: Binary
+scope: binary.access
+hidden: true
+hidden_file_extensions:
+  - accdb
+  - accde
+  - accdr
+  - accdt
+  - mdb
+
+contexts:
+  main:
+    - include: scope:binary.plain
+      apply_prototype: true

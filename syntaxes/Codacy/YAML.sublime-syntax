@@ -1,10 +1,11 @@
 %YAML 1.2
 ---
 name: YAML
-scope: source.yaml.cff
+scope: source.yaml.codacy
 hidden: true
 hidden_file_extensions:
-  - CITATION.cff
+  - .codacy.yaml
+  - .codacy.yml
 
 contexts:
   main:

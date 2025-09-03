@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-name: C++ (Header)
+name: C++
 scope: source.c++.header
 hidden: true
 hidden_file_extensions:

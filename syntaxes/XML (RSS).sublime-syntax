@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-name: XML (RSS)
+name: XML
 scope: text.xml.rss
 hidden: true
 hidden_file_extensions:

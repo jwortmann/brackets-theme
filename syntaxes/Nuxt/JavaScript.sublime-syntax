@@ -1,12 +1,12 @@
 %YAML 1.2
 ---
-name: XML
-scope: text.xml.svg
+name: JavaScript
+scope: source.js.nuxtjs
 hidden: true
 hidden_file_extensions:
-  - svg
+  - nuxt.config.js
 
 contexts:
   main:
-    - include: scope:text.xml
+    - include: scope:source.js
       apply_prototype: true

@@ -1,0 +1,22 @@
+%YAML 1.2
+---
+name: Binary
+scope: binary.image
+hidden: true
+hidden_file_extensions:
+  - avif
+  - emf
+  - jp2
+  - pnm
+  - ppm
+  - qoi
+  - tga
+  - tif
+  - tiff
+  - xbm
+  - xpm
+
+contexts:
+  main:
+    - include: scope:binary.plain
+      apply_prototype: true

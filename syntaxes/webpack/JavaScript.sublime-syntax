@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: JavaScript
+scope: source.js.webpack
+hidden: true
+hidden_file_extensions:
+  - webpack.config.js
+  - webpack.config.babel.js
+
+contexts:
+  main:
+    - include: scope:source.js
+      apply_prototype: true

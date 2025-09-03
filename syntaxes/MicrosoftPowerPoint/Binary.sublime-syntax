@@ -1,0 +1,20 @@
+%YAML 1.2
+---
+name: Binary
+scope: binary.powerpoint
+hidden: true
+hidden_file_extensions:
+  - ppt
+  - pptm
+  - pptx
+  - pps
+  - ppsm
+  - ppsx
+  - pot
+  - potm
+  - potx
+
+contexts:
+  main:
+    - include: scope:binary.plain
+      apply_prototype: true

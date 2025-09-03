@@ -1,0 +1,22 @@
+%YAML 1.2
+---
+name: Binary
+scope: binary.excel
+hidden: true
+hidden_file_extensions:
+  - xla
+  - xlam
+  - xll
+  - xlm
+  - xls
+  - xlsb
+  - xlsm
+  - xlsx
+  - xlt
+  - xltm
+  - xltx
+
+contexts:
+  main:
+    - include: scope:binary.plain
+      apply_prototype: true

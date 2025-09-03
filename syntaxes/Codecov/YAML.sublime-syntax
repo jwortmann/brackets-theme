@@ -1,10 +1,11 @@
 %YAML 1.2
 ---
 name: YAML
-scope: source.yaml.cff
+scope: source.yaml.codecov
 hidden: true
 hidden_file_extensions:
-  - CITATION.cff
+  - codecov.yml
+  - .codecov.yml
 
 contexts:
   main:

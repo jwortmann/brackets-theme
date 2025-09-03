@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: JSON
+scope: source.json.webpack
+hidden: true
+hidden_file_extensions:
+  - tsconfig-for-webpack-config.json
+
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true

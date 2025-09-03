@@ -1,12 +1,13 @@
 %YAML 1.2
 ---
-name: XML
-scope: text.xml.svg
+name: Plain Text
+scope: text.plain.visualstudio
 hidden: true
 hidden_file_extensions:
-  - svg
+  - idl
+  - sln
 
 contexts:
   main:
-    - include: scope:text.xml
+    - include: scope:text.plain
       apply_prototype: true

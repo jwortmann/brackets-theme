@@ -1,12 +1,14 @@
 %YAML 1.2
 ---
-name: XML
-scope: text.xml.svg
+name: Plain Text
+scope: text.plain.cad
 hidden: true
 hidden_file_extensions:
-  - svg
+  - cad
+  - stl
+  - step
 
 contexts:
   main:
-    - include: scope:text.xml
+    - include: scope:text.plain
       apply_prototype: true

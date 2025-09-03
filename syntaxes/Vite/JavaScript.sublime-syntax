@@ -1,12 +1,12 @@
 %YAML 1.2
 ---
-name: XML
-scope: text.xml.svg
+name: JavaScript
+scope: source.js.vite
 hidden: true
 hidden_file_extensions:
-  - svg
+  - vite.config.js
 
 contexts:
   main:
-    - include: scope:text.xml
+    - include: scope:source.js
       apply_prototype: true

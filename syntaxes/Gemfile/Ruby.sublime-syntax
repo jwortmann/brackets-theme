@@ -1,12 +1,12 @@
 %YAML 1.2
 ---
-name: XML
-scope: text.xml.svg
+name: Ruby
+scope: source.ruby.gemfile
 hidden: true
 hidden_file_extensions:
-  - svg
+  - Gemfile
 
 contexts:
   main:
-    - include: scope:text.xml
+    - include: scope:source.ruby
       apply_prototype: true

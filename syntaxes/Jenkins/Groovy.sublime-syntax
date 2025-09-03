@@ -1,12 +1,12 @@
 %YAML 1.2
 ---
-name: XML
-scope: text.xml.svg
+name: Groovy
+scope: source.groovy.jenkins
 hidden: true
 hidden_file_extensions:
-  - svg
+  - Jenkinsfile
 
 contexts:
   main:
-    - include: scope:text.xml
+    - include: scope:source.groovy
       apply_prototype: true

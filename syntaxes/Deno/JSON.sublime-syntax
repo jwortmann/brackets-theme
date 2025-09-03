@@ -1,12 +1,13 @@
 %YAML 1.2
 ---
-name: XML
-scope: text.xml.svg
+name: JSON
+scope: source.json.deno
 hidden: true
 hidden_file_extensions:
-  - svg
+  - deno.json
+  - deno.jsonc
 
 contexts:
   main:
-    - include: scope:text.xml
+    - include: scope:source.json
       apply_prototype: true

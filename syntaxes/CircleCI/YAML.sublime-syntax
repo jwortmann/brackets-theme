@@ -1,12 +1,12 @@
 %YAML 1.2
 ---
-name: XML
-scope: text.xml.svg
+name: YAML
+scope: source.yaml.circleci
 hidden: true
 hidden_file_extensions:
-  - svg
+  - circle.yml
 
 contexts:
   main:
-    - include: scope:text.xml
+    - include: scope:source.yaml
       apply_prototype: true

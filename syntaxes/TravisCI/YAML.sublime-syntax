@@ -1,12 +1,12 @@
 %YAML 1.2
 ---
-name: XML
-scope: text.xml.svg
+name: YAML
+scope: source.yaml.travisci
 hidden: true
 hidden_file_extensions:
-  - svg
+  - .travis.yml
 
 contexts:
   main:
-    - include: scope:text.xml
+    - include: scope:source.yaml
       apply_prototype: true

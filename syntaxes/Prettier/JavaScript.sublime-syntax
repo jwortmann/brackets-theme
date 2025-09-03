@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+name: JavaScript
+scope: source.js.prettier
+hidden: true
+hidden_file_extensions:
+  - prettier.config.js
+  - prettier.config.mjs
+  - prettier.config.cjs
+  - .prettierrc.js
+  - .prettierrc.mjs
+  - .prettierrc.cjs
+
+contexts:
+  main:
+    - include: scope:source.js
+      apply_prototype: true

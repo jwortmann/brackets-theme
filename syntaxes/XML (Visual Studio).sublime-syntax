@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-name: XML (Visual Studio)
+name: XML
 scope: text.xml.visualstudio
 hidden: true
 hidden_file_extensions:
