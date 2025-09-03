@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: JSON (Renovate)
+scope: source.json.renovate
+hidden: true
+hidden_file_extensions:
+  - renovate.json
+
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true
