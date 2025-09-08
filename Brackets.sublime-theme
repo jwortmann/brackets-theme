@@ -2600,6 +2600,11 @@
             "selected_match_fg": "var(autocomplete_label_match_light)"
         },
         {
+            "class": "auto_complete_label",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "selected_match_fg": "var(--accent)"
+        },
+        {
             "class": "auto_complete_label auto_complete_hint",
             "font.italic": true,
             "font.size": "0.9rem",
