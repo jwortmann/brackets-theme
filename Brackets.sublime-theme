@@ -1859,6 +1859,11 @@
             "selected_match_fg": "var(quickpanel_label_selected_light)"
         },
         {
+            "class": "quick_panel_label",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "selected_match_fg": "var(--accent)"
+        },
+        {
             "class": "quick_panel_path_label",
             "fg": "var(quickpanel_path_label_dark)",
             "match_fg": "var(quickpanel_path_label_dark)",
