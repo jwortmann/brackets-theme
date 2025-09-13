@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: YAML
+scope: source.yaml.coderabbit
+hidden: true
+hidden_file_extensions:
+  - .coderabbit.yaml
+
+contexts:
+  main:
+    - include: scope:source.yaml
+      apply_prototype: true
