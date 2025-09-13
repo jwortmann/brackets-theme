@@ -1,0 +1,14 @@
+%YAML 1.2
+---
+name: JavaScript
+scope: source.js.craco
+hidden: true
+hidden_file_extensions:
+  - craco.config.js
+  - craco.config.cjs
+  - .cracorc.js
+
+contexts:
+  main:
+    - include: scope:source.js
+      apply_prototype: true
