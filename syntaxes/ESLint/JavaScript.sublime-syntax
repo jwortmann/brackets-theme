@@ -5,6 +5,7 @@ scope: source.js.eslint
 hidden: true
 hidden_file_extensions:
   - eslint.config.js
+  - eslint.config.mjs
   - .eslintrc.js
   - .eslintrc.cjs
 

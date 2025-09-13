@@ -4,6 +4,7 @@ name: YAML
 scope: source.yaml.pnpm
 hidden: true
 hidden_file_extensions:
+  - pnpm-lock.yaml
   - pnpm-workspace.yaml
 
 contexts:

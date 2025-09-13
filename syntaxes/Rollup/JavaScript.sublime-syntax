@@ -5,6 +5,7 @@ scope: source.js.rollup
 hidden: true
 hidden_file_extensions:
   - rollup.config.js
+  - rollup.config.mjs
 
 contexts:
   main:
