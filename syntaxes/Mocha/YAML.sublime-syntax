@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: YAML
+scope: source.yaml.mocha
+hidden: true
+hidden_file_extensions:
+  - .mocharc.yaml
+  - .mocharc.yml
+
+contexts:
+  main:
+    - include: scope:source.yaml
+      apply_prototype: true

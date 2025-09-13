@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: JSON
+scope: source.json.mocha
+hidden: true
+hidden_file_extensions:
+  - .mocharc.json
+  - .mocharc.jsonc
+
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true

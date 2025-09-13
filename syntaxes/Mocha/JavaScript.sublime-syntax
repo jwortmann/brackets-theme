@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: JavaScript
+scope: source.js.mocha
+hidden: true
+hidden_file_extensions:
+  - .mocharc.js
+  - .mocharc.cjs
+
+contexts:
+  main:
+    - include: scope:source.js
+      apply_prototype: true
