@@ -1,6 +1,18 @@
 Brackets Theme Changelog
 ========================
 
+v1.12.0 (2025-09-14)
+--------------------
+
+  * Fixed opening wrong syntax specific settings file for filenames with special
+    file icon.
+
+  * Added various new file icons for the sidebar.
+
+  * The "winui" theme variant now uses the color scheme's accent color to highlight
+    matched characters in the command palette and in the auto-complete popup.
+
+
 v1.11.0 (2025-05-24)
 --------------------
 
