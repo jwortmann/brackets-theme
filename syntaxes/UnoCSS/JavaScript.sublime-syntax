@@ -1,0 +1,15 @@
+%YAML 1.2
+---
+name: JavaScript
+scope: source.js.unocss
+hidden: true
+hidden_file_extensions:
+  - uno.config.js
+  - uno.config.mjs
+  - unocss.config.js
+  - unocss.config.mjs
+
+contexts:
+  main:
+    - include: scope:source.js
+      apply_prototype: true
