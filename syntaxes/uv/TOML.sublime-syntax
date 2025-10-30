@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: TOML
+scope: source.toml.uv
+hidden: true
+hidden_file_extensions:
+  - uv.toml
+  - uv.lock
+
+contexts:
+  main:
+    - include: scope:source.toml
+      apply_prototype: true
