@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: TOML
+scope: source.toml.ty
+hidden: true
+hidden_file_extensions:
+  - ty.toml
+
+contexts:
+  main:
+    - include: scope:source.toml
+      apply_prototype: true
