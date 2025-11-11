@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: TOML
+scope: source.toml.zensical
+hidden: true
+hidden_file_extensions:
+  - zensical.toml
+
+contexts:
+  main:
+    - include: scope:source.toml
+      apply_prototype: true
