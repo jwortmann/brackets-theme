@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: TOML
+scope: source.toml.ruff
+hidden: true
+hidden_file_extensions:
+  - ruff.toml
+  - .ruff.toml
+
+contexts:
+  main:
+    - include: scope:source.toml
+      apply_prototype: true
