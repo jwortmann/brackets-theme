@@ -2145,7 +2145,7 @@
             "content_margin": 3,
             "layer0.texture": "Theme - Brackets/textures/popup_background.png",
             "layer0.opacity": 1.0,
-            "layer0.tint": "color(var(--background) blend(var(--foreground) 94%))",
+            "layer0.tint": "color(var(--background) blend(white 95%))",
             "layer0.inner_margin": 8,
             "layer1.texture": "Theme - Brackets/textures/popup_border.png",
             "layer1.opacity": 1.0,
@@ -2163,7 +2163,7 @@
             "class": "popup_control html_popup",
             "parents": [{"class": "title_bar", "attributes": ["file_light"]}],
             "settings": {"popup_style": ["rounded", "square", ""]},
-            "layer0.tint": "color(var(--background) blend(var(--foreground) 93.5%))",
+            "layer0.tint": "color(var(--background) blend(black 95%))",
             "layer1.tint": "var(tooltip_border_light)"
         },
         {
