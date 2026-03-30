@@ -291,7 +291,7 @@
             "class": "sidebar_tree",
             "settings": {"overlay_scroll_bars": false},
             "parents": [{"class": "scroll_area_control", "attributes": ["scrollable"]}],
-            "row_padding": [10, 4, 3, 4],
+            "row_padding": [10, 4, 3, 4]
         },
         {
             "class": "sidebar_tree",
@@ -830,18 +830,18 @@
         {
             "class": "tabset_control",
             "settings": {"file_tab_style": "angled"},
-            "tab_overlap": 17,
+            "tab_overlap": 17
         },
         {
             "class": "tabset_control",
             "settings": {"file_tab_style": "wave"},
-            "tab_overlap": 25,
+            "tab_overlap": 25
         },
         {
             "class": "tab_connector",
             "layer0.texture": "",
             "layer0.opacity": 1.0,
-            "tint_index": 0,
+            "tint_index": 0
         },
         {
             "class": "tab_connector",
@@ -1110,7 +1110,7 @@
         {
             "class": "tab_control",
             "attributes": ["selected"],
-            "tint_modifier": "transparent",
+            "tint_modifier": "transparent"
         },
         {
             "class": "tab_control",
@@ -1381,12 +1381,12 @@
         {
             "class": "tab_control",
             "attributes": ["added", "!dirty"],
-            "layer2.tint": "var(--greenish)",
+            "layer2.tint": "var(--greenish)"
         },
         {
             "class": "tab_control",
             "attributes": ["deleted"],
-            "layer2.tint": "var(--redish)",
+            "layer2.tint": "var(--redish)"
         },
         {
             "class": "tab_label",
@@ -1472,14 +1472,14 @@
             "settings": ["!highlight_modified_tabs"],
             "parents": [{"class": "tab_control", "attributes": ["deleted"]}],
             "layer0.opacity": {"target": 0.8, "speed": 5.0, "interpolation": "smoothstep"},
-            "layer0.tint": "var(--redish)",
+            "layer0.tint": "var(--redish)"
         },
         {
             "class": "tab_close_button",
             "settings": ["!highlight_modified_tabs"],
             "parents": [{"class": "tab_control", "attributes": ["!selected", "deleted"]}],
             "layer0.opacity": {"target": 0.6, "speed": 5.0, "interpolation": "smoothstep"},
-            "layer0.tint": "var(--redish)",
+            "layer0.tint": "var(--redish)"
         },
         {
             "class": "tab_close_button",
@@ -2232,7 +2232,7 @@
         {
             "class": "table_row",
             "layer0.opacity": 1.0,
-            "layer0.tint": "transparent",
+            "layer0.tint": "transparent"
         },
         {
             "class": "table_row",
@@ -2891,7 +2891,7 @@
         {
             "class": "dialog",
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "layer0.tint": "#202020",
+            "layer0.tint": "#202020"
         },
         {
             "class": "dialog",
@@ -2902,7 +2902,7 @@
             "class": "dialog",
             "attributes": ["file_light"],
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
-            "layer0.tint": "#f3f3f3",
+            "layer0.tint": "#f3f3f3"
         },
         {
             "class": "progress_bar_control",
@@ -3516,7 +3516,7 @@
             "class": "puck_control",
             "settings": ["overlay_scroll_bars"],
             "parents": [{"class": "sidebar_container"}],
-            "layer0.opacity": 1.0,
+            "layer0.opacity": 1.0
         },
         {
             "class": "puck_control",
@@ -3529,7 +3529,7 @@
             "class": "puck_control",
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "parents": [{"class": "window", "attributes": ["file_light"]}, {"class": "sidebar_container"}],
-            "layer0.tint": "var(scrollbar_puck_light2)",
+            "layer0.tint": "var(scrollbar_puck_light2)"
         },
         {
             "class": "scroll_corner_control",
@@ -3881,7 +3881,7 @@
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "attributes": ["disabled"],
             "layer0.opacity": 0.049, // #2a2a2a
-            "layer2.opacity": 0.0,
+            "layer2.opacity": 0.0
         },
         {
             "class": "button_control",
