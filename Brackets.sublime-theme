@@ -799,12 +799,16 @@
             "attributes": ["file_light"],
             "layer0.tint": "var(winui_light)",
             "layer1.opacity": 0.3,
-            "layer2.opacity": 0.5
+            "layer2.opacity": 1.0
         },
         {
             "class": "tabset_control",
             "settings": {"tab_shadows": false},
-            "layer1.opacity": 0.0,
+            "layer1.opacity": 0.0
+        },
+        {
+            "class": "tabset_control",
+            "settings": {"tab_shadows": false, "theme_variant": ""},
             "layer2.opacity": 0.0
         },
         {
@@ -890,6 +894,11 @@
         },
         {
             "class": "tab_control",
+            "settings": {"themed_title_bar": true, "theme_variant": "winui"},
+            "layer3.opacity": {"target": 1.0, "speed": 5.0, "interpolation": "smoothstep"}
+        },
+        {
+            "class": "tab_control",
             "settings": {"file_tab_style": "rounded"},
             "layer0.texture": "Theme - Brackets/textures/tab_rounded_shadow.png",
             "layer0.inner_margin": [12, 0],
@@ -962,11 +971,11 @@
             "settings": {"file_tab_style": "square"},
             "layer0.texture": "Theme - Brackets/textures/tab_square_shadow.png",
             "layer0.inner_margin": [12, 0],
-            "layer1.texture": "Theme - Brackets/textures/tab_square2.png",
+            "layer1.texture": "Theme - Brackets/textures/tab_square_tall.png",
             "layer1.inner_margin": [12, 0],
             "layer2.texture": "Theme - Brackets/textures/tab_square_highlight2.png",
             "layer2.inner_margin": [12, 0],
-            "layer3.texture": "Theme - Brackets/textures/tab_square_border2.png",
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border.png",
             "layer3.inner_margin": [12, 0],
             "content_margin": [18, 4, 14, 5]
         },
@@ -975,6 +984,7 @@
             "settings": {"file_tab_style": "square", "tab_shadows": true},
             "layer1.texture": "Theme - Brackets/textures/tab_square.png",
             "layer2.texture": "Theme - Brackets/textures/tab_square_highlight.png",
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border.png",
             "content_margin": [16, 6, 14, 3]
         },
         {
@@ -985,9 +995,68 @@
         },
         {
             "class": "tab_control",
-            "settings": {"file_tab_style": "square"},
+            "settings": {"file_tab_style": "square", "tab_shadows": true},
             "attributes": ["selected"],
-            "layer3.texture": "Theme - Brackets/textures/tab_square_border.png"
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_selected.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "highlight_modified_tabs": true, "tab_shadows": true},
+            "attributes": ["added"],
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_highlight.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "highlight_modified_tabs": true, "tab_shadows": true},
+            "attributes": ["dirty"],
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_highlight.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "highlight_modified_tabs": true, "tab_shadows": true},
+            "attributes": ["added", "selected"],
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_highlight_selected.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "highlight_modified_tabs": true, "tab_shadows": true},
+            "attributes": ["dirty", "selected"],
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_highlight_selected.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "theme_variant": "winui", "tab_shadows": false},
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_tall.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "theme_variant": "winui", "tab_shadows": false},
+            "attributes": ["selected"],
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_selected_tall.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "highlight_modified_tabs": true, "theme_variant": "winui", "tab_shadows": false},
+            "attributes": ["added"],
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_highlight_tall.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "highlight_modified_tabs": true, "theme_variant": "winui", "tab_shadows": false},
+            "attributes": ["dirty"],
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_highlight_tall.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "highlight_modified_tabs": true, "theme_variant": "winui", "tab_shadows": false},
+            "attributes": ["added", "selected"],
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_highlight_selected_tall.png"
+        },
+        {
+            "class": "tab_control",
+            "settings": {"file_tab_style": "square", "highlight_modified_tabs": true, "theme_variant": "winui", "tab_shadows": false},
+            "attributes": ["dirty", "selected"],
+            "layer3.texture": "Theme - Brackets/textures/tab_square_border_highlight_selected_tall.png"
         },
         {
             "class": "tab_control",
