@@ -1,6 +1,15 @@
 Brackets Theme Changelog
 ========================
 
+v1.13.0 (2026-04-02)
+--------------------
+
+  * Tabs in the "winui" theme variant are now still drawn with a border/outline if
+    "tab_shadows" are disabled.
+
+  * Added various new file icons for the sidebar.
+
+
 v1.12.0 (2025-09-14)
 --------------------
 
