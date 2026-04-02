@@ -17,11 +17,6 @@
               ],
               "markdownDescription": "Controls the style for the kind icons which are shown in the autocompletion popup and the \"Goto Symbol\" panels.\n\nSetting from: *Theme - Brackets*"
             },
-            "kind_letters": {
-              "type": "boolean",
-              "deprecationMessage": "This setting is deprecated!\nUse \"kind_icons_style\": \"letters\" instead.",
-              "markdownDescription": "Setting from: *Theme - Brackets*"
-            },
             "sidebar_status_colors": {
               "type": "boolean",
               "default": false,
@@ -33,11 +28,6 @@
               "enum": ["octicons", "codicons", "letters", "disabled"],
               "markdownDescription": "Controls the style for the git status icons for files and folders in the sidebar.\n\nSetting from: *Theme - Brackets*"
             },
-            "hide_sidebar_status_icons": {
-              "type": "boolean",
-              "deprecationMessage": "This setting is deprecated!\nUse \"git_status_icons\": \"disabled\" instead.",
-              "markdownDescription": "Setting from: *Theme - Brackets*"
-            },
             "tab_shadows": {
               "type": "boolean",
               "default": true,
@@ -47,11 +37,6 @@
               "type": "boolean",
               "default": false,
               "markdownDescription": "Makes inactive tabs transparent, similar to how they are displayed in the Default and Adaptive themes.\n\nSetting from: *Theme - Brackets*"
-            },
-            "blend_inactive_tabs": {
-              "type": "boolean",
-              "deprecationMessage": "This setting is deprecated!\nUse \"inactive_tab_transparency\" instead.",
-              "markdownDescription": "Setting from: *Theme - Brackets*"
             },
             "tooltip_style": {
               "type": "string",
@@ -92,7 +77,7 @@
               "type": "string",
               "default": "winui",
               "enum": ["winui"],
-              "markdownDescription": "Provides an alternative style for the title bar, the side bar, and a few other UI elements (experimental).\n\nSetting from: *Theme - Brackets*"
+              "markdownDescription": "Provides an alternative style for the title bar, the side bar, and a few other UI elements.\n\nSetting from: *Theme - Brackets*"
             }
           }
         }
