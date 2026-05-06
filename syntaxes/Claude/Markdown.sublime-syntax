@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: Markdown
+scope: text.html.markdown.claude
+hidden: true
+hidden_file_extensions:
+  - CLAUDE.md
+  - CLAUDE.local.md
+
+contexts:
+  main:
+    - include: scope:text.html.markdown
+      apply_prototype: true
