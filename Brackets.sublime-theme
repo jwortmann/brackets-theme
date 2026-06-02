@@ -2092,7 +2092,7 @@
         {
             "class": "fold_button_control",
             "settings": {"fold_buttons_style": "square"},
-            "layer0.texture": "Theme - Brackets/animations/fold_closed_square.png",
+            "layer0.texture": "Theme - Brackets/animations/fold_closed_square.png"
         },
         {
             "class": "fold_button_control",
@@ -2809,7 +2809,7 @@
         },
         {
             "class": "panel_control switch_project_panel",
-            "parents": [{"class": "switch_project_window", "attributes": ["file_light"],}],
+            "parents": [{"class": "switch_project_window", "attributes": ["file_light"]}],
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "layer0.tint": "color(var(winui) saturation(13.5%) lightness(93%))"
         },
@@ -3579,7 +3579,7 @@
         {
             "class": "puck_control",
             "parents": [{"class": "sidebar_container", "attributes": ["hover"]}],
-            "layer0.opacity": {"target": 1.0, "speed": 10.0, "interpolation": "smoothstep"},
+            "layer0.opacity": {"target": 1.0, "speed": 10.0, "interpolation": "smoothstep"}
         },
         {
             "class": "puck_control",
@@ -3837,7 +3837,7 @@
             "class": "dropdown_button_control",
             "settings": {"themed_title_bar": true, "theme_variant": "winui"},
             "attributes": ["hover"],
-            "layer0.opacity": {"target": 0.7, "speed": 1.0, "interpolation": "smoothstep"},
+            "layer0.opacity": {"target": 0.7, "speed": 1.0, "interpolation": "smoothstep"}
         },
 //===========================================[ Buttons ]============================================
         {
@@ -4456,7 +4456,7 @@
             "layer0.texture": "Theme - Brackets/textures/radio_button_background.png",
             "layer1.texture": "Theme - Brackets/textures/radio_button_background.png",
             "layer2.texture": "Theme - Brackets/textures/radio_button_border.png",
-            "layer3.texture": "Theme - Brackets/textures/radio_button_on.png",
+            "layer3.texture": "Theme - Brackets/textures/radio_button_on.png"
         },
         {
             "class": "checkbox_box_control",
