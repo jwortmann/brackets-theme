@@ -5,6 +5,7 @@ scope: text.plain.vtk
 hidden: true
 hidden_file_extensions:
   - vtk
+  - vtkhdf
 
 contexts:
   main:
