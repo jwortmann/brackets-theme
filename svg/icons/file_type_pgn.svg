@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <defs>
+        <filter id="shadow">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="0.5"/>
+            <feOffset dy="0.5"/>
+            <feBlend in="SourceGraphic" in2="blurOut"/>
+        </filter>
+    </defs>
+    <g fill="#c0a683" filter="url(#shadow)">
+        <rect fill="#7a583d" x="2" y="2" width="12" height="12"/>
+        <polygon points="1.5,1.5 14.5,1.5 14.5,14.5 1.5,14.5" fill="none" stroke="#7a583d" stroke-linejoin="bevel"/>
+        <rect x="2" y="2" width="3" height="3"/>
+        <rect x="8" y="2" width="3" height="3"/>
+        <rect x="5" y="5" width="3" height="3"/>
+        <rect x="11" y="5" width="3" height="3"/>
+        <rect x="2" y="8" width="3" height="3"/>
+        <rect x="8" y="8" width="3" height="3"/>
+        <rect x="5" y="11" width="3" height="3"/>
+        <rect x="11" y="11" width="3" height="3"/>
+    </g>
+</svg>

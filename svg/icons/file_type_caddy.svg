@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <defs>
+        <filter id="shadow">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="0.5"/>
+            <feOffset dy="0.5"/>
+            <feBlend in="SourceGraphic" in2="blurOut"/>
+        </filter>
+    </defs>
+    <polygon fill="#4d70d5" filter="url(#shadow)" points="2,5 2,8 5,8 5,11 2,11 2,14 5,14 5,11 8,11 8,14 11,14 11,11 14,11 14,8 11,8 11,5 8,5 8,2 5,2 5,5"/>
+</svg>

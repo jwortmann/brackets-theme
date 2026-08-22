@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <defs>
+        <filter id="shadow">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="0.5"/>
+            <feOffset dy="0.5"/>
+            <feBlend in="SourceGraphic" in2="blurOut"/>
+        </filter>
+    </defs>
+    <g filter="url(#shadow)">
+        <circle fill="#cb3c33" cx="4.25" cy="11.25" r="3.25"/>
+        <circle fill="#389826" cx="11.75" cy="11.25" r="3.25"/>
+        <circle fill="#9558b2" cx="8" cy="4.75" r="3.25"/>
+    </g>
+</svg>
