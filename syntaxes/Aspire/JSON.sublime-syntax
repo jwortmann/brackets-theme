@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: JSON
+scope: source.json.aspire
+hidden: true
+hidden_file_extensions:
+  - aspire.config.json
+
+contexts:
+  main:
+    - include: scope:source.json
+      apply_prototype: true
