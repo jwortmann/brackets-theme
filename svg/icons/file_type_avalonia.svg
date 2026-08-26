@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <defs>
+        <filter id="shadow">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="0.5"/>
+            <feOffset dy="0.5"/>
+            <feBlend in="SourceGraphic" in2="blurOut"/>
+        </filter>
+    </defs>
+    <path fill="white" filter="url(#shadow)" d="M8 1a7 7 0 0 1 7 7v5.25A1.75 1.75 0 0 1 13.25 15H8A7 7 0 1 1 8 1"/>
+    <path fill="#007df9" d="M8 3.043a4.96 4.96 0 0 0-4.74 3.502 1.458 1.458 0 0 1 0 2.912 4.96 4.96 0 0 0 4.605 3.5q1.35-.03 2.178-.582v.582h2.914V8a4.96 4.96 0 0 0-4.77-4.955l-.093-.002zm0 2.625a2.333 2.333 0 0 1 0 4.664 2.333 2.333 0 0 1 0-4.664M3.188 6.978a1.021 1.021 0 0 0 0 2.043 1.021 1.021 0 0 0 0-2.043"/>
+</svg>
