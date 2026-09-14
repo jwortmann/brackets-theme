@@ -2,7 +2,7 @@
 <plist version="1.0">
   <dict>
     <key>scope</key>
-    <string>source.ember, text.html.ember</string>
+    <string>source.gjs, source.gts, source.ember, text.html.ember</string>
     <key>settings</key>
     <dict>
       <key>icon</key>
