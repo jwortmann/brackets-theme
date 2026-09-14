@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+  <dict>
+    <key>scope</key>
+    <string>source.gjs, source.gts</string>
+    <key>settings</key>
+    <dict>
+      <key>icon</key>
+      <string>file_type_glimmer</string>
+    </dict>
+  </dict>
+</plist>

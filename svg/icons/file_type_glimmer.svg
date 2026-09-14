@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <defs>
+        <filter id="shadow">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="0.5"/>
+            <feOffset dy="0.5"/>
+            <feBlend in="SourceGraphic" in2="blurOut"/>
+        </filter>
+    </defs>
+    <circle filter="url(#shadow)" cx="8" cy="7.5" r="7.5" fill="#f7835a"/>
+    <g fill="white">
+        <circle cx="6.784" cy="3.091" r=".659"/>
+        <circle cx="9.655" cy="12.144" r=".659"/>
+        <circle cx="3.62" cy="9.214" r=".659"/>
+        <g transform="translate(.5)scale(.0293)">
+            <rect width="135.117" height="45" x="70.707" y="217.686" rx="22.5" transform="rotate(-44.873 70.707 217.686)"/>
+            <rect width="90.503" height="45" x="352.194" y="345.123" rx="22.5" transform="rotate(-44.873 352.194 345.123)"/>
+            <rect width="341.86" height="45" x="176" y="419.329" rx="22.5" transform="rotate(-44.873 176 419.329)"/>
+            <rect width="135.117" height="45" x="111" y="380.329" rx="22.5" transform="rotate(-44.873 111 380.329)"/>
+            <rect width="223.939" height="45" x="225.054" y="267.996" rx="22.5" transform="rotate(-44.873 225.054 267.996)"/>
+            <rect width="270.434" height="45" x="125" y="264.329" rx="22.5" transform="rotate(-44.873 125 264.329)"/>
+        </g>
+    </g>
+</svg>
