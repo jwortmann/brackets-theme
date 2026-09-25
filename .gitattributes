@@ -1,4 +1,6 @@
 /icons_test export-ignore
 /img export-ignore
+/scripts export-ignore
 /svg export-ignore
 *.bat -linguist-detectable
+*.jl -linguist-detectable
