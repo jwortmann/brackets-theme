@@ -468,6 +468,7 @@
         "sublime-mousemap": "file_type_sublime",
         "sublime-project": "file_type_sublime",
         "sublime-settings": "file_type_sublime",
+        "sublime-syntax": "file_type_sublime",
         "sublime-theme": "file_type_sublime",
         "sublime-workspace": "file_type_sublime",
         "substance": "file_type_penrose",
