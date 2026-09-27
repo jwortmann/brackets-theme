@@ -1,6 +1,21 @@
 Brackets Theme Changelog
 ========================
 
+v1.14.0 (2026-09-27)
+--------------------
+
+  * On Sublime Text build 4206 or newer the package now includes a file icon theme
+    for the file icons in the sidebar. The file icon theme is enabled by default
+    when the main theme is active, but it can also be used in combination with
+    other themes. For details see the description on GitHub:
+    https://github.com/jwortmann/brackets-theme#file-icons
+
+  * Changed the kind icons for the "keyword", "type" and "namespace" symbol kinds
+    if the "kind_icons_style" setting is set to "gitlab".
+
+  * Added various new file icons for the sidebar.
+
+
 v1.13.0 (2026-04-02)
 --------------------
 
