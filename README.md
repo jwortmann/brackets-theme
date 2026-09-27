@@ -34,7 +34,7 @@ __Custom settings:__
 | "kind_icons_style" | "octicons" | Controls the style for the kind icons which are shown in the autocompletion popup and the "Goto Symbol" panels. Options:<ul><li>"octicons" (from GitHub)</li><li>"gitlab" (from GitLab)</li><li>"codicons" (from VS Code)</li><li>"letters" (similar to the built-in themes)</li></ul> |
 | "git_status_icons" | "octicons" | Controls the style for the git status icons for files and folders in the sidebar. Options:<ul><li>"octicons"</li><li>"codicons"</li><li>"letters"</li><li>"disabled"</li> |
 | "sidebar_status_colors" | false | Highlight filenames in the sidebar for files with Git status "new" or "modified" in green and orange. Regardless of this setting, files with status "ignored" are always dimmed. |
-| "popup_style" | "rounded" | Controls the style for hover popups. Options are "plain", "rounded" and "square". When set to "rounded" or "square", popups will be drawn with a border. |
+| "popup_style" | "rounded" | Controls the style for hover popups. Options are "plain", "rounded" and "square". When set to "rounded" or "square", popups are drawn with a border. |
 | "tooltip_style" | "dark" | Controls the style for tooltips. Options are "dark" and "light". |
 | "scroll_bar_style" | "auto" | Controls the style for scroll bars. Options are "brackets", "sublime", "thin" and "auto". The "auto" option uses "sublime" when overlay scroll bars are enabled, and "brackets" when disabled. |
 | "fold_buttons_style" | "triangle" | Controls the style for the buttons shown in the gutter to fold regions of text. Options are "triangle" and "square". |
@@ -75,8 +75,8 @@ The file icon theme can also be used on its own with the following configuration
 }
 ```
 
-However, note that the file icons might appear stretched in combination with other themes that assume a different aspect ratio for the file icon images; for instance this happens with the built-in *Default* or *Adaptive* themes.
-As a workaround, this can be fixed by applying the following customization rule to that theme (*UI: Customize Theme* from the command palette):
+However, note that the file icons might appear stretched in combination with some other themes that assume a different aspect ratio for the file icon images; for instance, this happens with the built-in *Default* and *Adaptive* themes.
+As a workaround, you can apply the following customization rule to that theme to fix the aspect ratio (*UI: Customize Theme* from the command palette):
 
 ```json
 {
