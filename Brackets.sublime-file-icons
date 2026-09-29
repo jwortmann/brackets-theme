@@ -523,6 +523,7 @@
         "vim": "file_type_vim",
         "vite.config.js": "file_type_vite",
         "vite.config.ts": "file_type_vite",
+        "vitest.config.js": "file_type_vitest",
         "vitest.config.ts": "file_type_vitest",
         "vsproj": "file_type_visualstudio",
         "vtk": "file_type_vtk",
