@@ -67,18 +67,19 @@ __Relevant standard settings:__
 ![File Icons](img/file_icons.png)
 
 This package provides a custom file icon theme for the sidebar, which gets automatically applied when the active main theme is set to *Brackets*.
-The file icon theme can also be used on its own with the following configuration in *Preferences.sublime-settings*:
+On Sublime Text build 4206 or newer, the file icon theme can also be used on its own with the following setting:
 
-```json
+```jsonc
+// Preferences.sublime-settings
 {
     "file_icon_theme": ["Brackets.sublime-file-icons"],
 }
 ```
 
-However, note that the file icons might appear stretched in combination with some other themes that assume a different aspect ratio for the file icon images; for instance, this happens with the built-in *Default* and *Adaptive* themes.
+Note that the file icons might appear stretched in combination with some other themes that assume a different aspect ratio for the file icon images; for instance, this happens with the built-in *Default* and *Adaptive* themes.
 As a workaround, you can apply the following customization rule to that theme to fix the aspect ratio (*UI: Customize Theme* from the command palette):
 
-```json
+```jsonc
 {
     "rules": [
         {
