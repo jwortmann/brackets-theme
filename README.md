@@ -76,14 +76,16 @@ On Sublime Text build 4206 or newer, the file icon theme can also be used on its
 }
 ```
 
-Note that the file icons might appear stretched in combination with some other themes that assume a different aspect ratio for the file icon images; for instance, this happens with the built-in *Default* and *Adaptive* themes.
-As a workaround, you can apply the following customization rule to that theme to fix the aspect ratio (*UI: Customize Theme* from the command palette):
+Note that the file icons might appear dimmed or stretched in combination with some other themes that assume a different aspect ratio for the file icon images; for instance, this happens with the built-in *Default* and *Adaptive* themes.
+As a workaround, you can apply the following customization rule to that theme (*UI: Customize Theme* from the command palette):
 
 ```jsonc
 {
     "rules": [
         {
             "class": "icon_file_type",
+            "layer0.tint": "white",
+            "layer0.opacity": 1.0,
             "content_margin": 8
         },
     ]
