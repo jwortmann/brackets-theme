@@ -2,5 +2,6 @@
 /img export-ignore
 /scripts export-ignore
 /svg export-ignore
+*.sublime-file-icons linguist-language=jsonc
 *.bat -linguist-detectable
 *.jl -linguist-detectable
