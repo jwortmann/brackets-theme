@@ -228,6 +228,7 @@
         "hack": "file_type_hack",
         "haml": "file_type_haml",
         "handlebars": "file_type_handlebars",
+        "hcl": "file_type_hcl",
         "hdf": "file_type_hdf",
         "hdf4": "file_type_hdf",
         "hdf5": "file_type_hdf",
