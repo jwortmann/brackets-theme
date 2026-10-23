@@ -301,6 +301,7 @@
         "luau": "file_type_luau",
         "m": "file_type_matlab",
         "m3u": "file_type_playlist",
+        "m3u8": "file_type_playlist",
         "m4a": "file_type_audio",
         "m4v": "file_type_video",
         "mak": "file_type_makefile",
