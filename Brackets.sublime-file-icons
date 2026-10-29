@@ -468,6 +468,7 @@
         "sql": "file_type_sql",
         "sqlproj": "file_type_visualstudio",
         "ss": "file_type_lisp",
+        "statac.yaml": "file_type_statac",
         "step": "file_type_cad",
         "stl": "file_type_cad",
         "style": "file_type_penrose",
