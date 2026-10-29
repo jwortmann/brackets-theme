@@ -590,6 +590,7 @@
         "zensical.toml": "file_type_zensical",
         "zig": "file_type_zig",
         "zip": "file_type_archive",
+        "zola.toml": "file_type_zola",
         "zsh": "file_type_zsh",
     }
 }
